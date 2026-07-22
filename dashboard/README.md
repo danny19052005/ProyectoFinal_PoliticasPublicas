@@ -1,25 +1,32 @@
-# Carpeta de Dashboard
+# Dashboard Académico (HTML, CSS, JavaScript)
 
 ## Propósito
 
-Esta carpeta contiene el código y los recursos necesarios para construir y ejecutar el dashboard de visualización del proyecto. Incluye componentes de frontend, configuraciones y archivos de estilo para presentar interactivamente los resultados del análisis.
+Este dashboard comunica de forma visual el problema público, la metodología, la estructura planificada del Plan Metropolitano, los actores, la arquitectura multiagéntica, las fuentes y el estado de la evidencia del proyecto.
 
-## Tipos de Archivos
+## Archivos incluidos
 
-- **Archivos JavaScript/TypeScript (.js, .ts, .jsx, .tsx)**: Componentes del dashboard
-- **Archivos CSS/SCSS**: Estilos y temas visuales
-- **Archivos de configuración**: webpack.config.js, package.json, tsconfig.json
-- **Archivos HTML**: Plantillas base
-- **JSON de configuración**: Datos de configuración del dashboard
+- `index.html`: estructura completa del dashboard y secciones de contenido.
+- `styles.css`: diseño visual, layout responsivo y estilos de accesibilidad.
+- `script.js`: barras dinámicas de estructura, filtro de fuentes, navegación suave y año automático del pie de página.
+- `vercel.json`: configuración de despliegue estático con URLs limpias.
 
-## Documentación Requerida
+## Cómo probar localmente
 
-Todos los componentes, configuraciones y recursos incorporados en el dashboard deben estar correctamente documentados. Se recomienda incluir:
+1. Abrir `dashboard/index.html` en el navegador.
+2. Verificar navegación superior, barras dinámicas y filtro de fuentes.
 
-- **Descripción de componentes**: Qué hace cada componente
-- **Dependencias**: Librerías y paquetes requeridos
-- **Instrucciones de instalación**: Cómo instalar y configurar el dashboard
-- **Variables de entorno**: Qué configuraciones son necesarias
-- **Notas de desarrollo**: Cambios recientes o consideraciones importantes
+No se requieren dependencias, instalación ni build.
 
-Esto asegura que el dashboard pueda reproducirse y mantenerse correctamente.
+## Despliegue en Vercel
+
+1. Importar el repositorio en Vercel.
+2. Seleccionar `dashboard` como **Root Directory**.
+3. Mantener configuración de sitio estático.
+4. Desplegar.
+
+No se requiere instalar paquetes ni ejecutar comandos de compilación.
+
+## Nota metodológica
+
+Los datos pendientes deben mantenerse como "En revisión" o "Pendiente" y no deben presentarse como resultados confirmados de implementación.
