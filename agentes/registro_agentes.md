@@ -39,6 +39,8 @@ Este registro contribuye a demostrar que el proyecto fue desarrollado de forma o
 | 2026-07-21 | Agente Especialista en Políticas Públicas con apoyo del Subagente Verificador de Fuentes | Revisión sustantiva preliminar de las fuentes F02-F06 | Clasificación de pertinencia, alcance territorial, utilidad metodológica y limitaciones | Diferenciar fuentes normativas, estadísticas, de seguimiento, percepción y emergencias | Aceptada | Pendiente de contraste final del estudiante con las fuentes originales |
 | 2026-07-22 | Agente Especialista en Políticas Públicas con revisión del Agente de Datos y los subagentes verificador y crítico | Análisis documental profundo de la evidencia de implementación contenida en F02 | Matriz de evidencia, clasificación de actividades, productos, coordinación, cobertura, indicadores y limitaciones | Distinguir planificación, ejecución, productos y resultados; no inferir incumplimiento por ausencia de información | Aceptada | Pendiente de revisión del estudiante y contraste final con el portal original |
 | 2026-07-22 | Agente Especialista en Políticas Públicas con revisión del Subagente Verificador y del Subagente Revisor Crítico | Análisis institucional y normativo de la Resolución ADMQ 008-2024 | Identificación de fundamentos jurídicos, responsabilidades, disposiciones de implementación, coordinación y mecanismos de seguimiento | Distinguir obligación normativa de evidencia de cumplimiento efectivo | Aceptada | Pendiente de contraste del estudiante con el PDF original |
+| 2026-07-22 | Agente de Datos y Metodología con revisión del Subagente Verificador de Fuentes y del Subagente Revisor Crítico | Análisis estadístico y contextual del portal Justicia y crimen del INEC | Identificación de productos estadísticos, periodos, niveles territoriales, conceptos y limitaciones para el análisis de Quito | Evitar presentar datos nacionales como datos del Distrito Metropolitano de Quito y diferenciar registros administrativos, encuestas y emergencias | Aceptada | Pendiente de revisión del estudiante y descarga de bases específicas cuando corresponda |
+| 2026-07-22 | Agente de Datos y Metodología con revisión del Subagente Verificador de Fuentes y del Subagente Revisor Crítico | Análisis histórico y metodológico de la Encuesta de Victimización y Percepción de Inseguridad 2011 | Identificación de conceptos, variables, diseño metodológico, alcance territorial, utilidad histórica y limitaciones | La fuente corresponde a 2011 y no representa la percepción actual de inseguridad en Quito | Aceptada únicamente como antecedente histórico o metodológico | Pendiente de revisión del estudiante y contraste con documentación y microdatos originales |
 
 **Aclaración:** Esta validación visual confirma cantidades y estructura planificada del Plan, pero no constituye evidencia de ejecución, cobertura, cumplimiento de metas o resultados alcanzados. El documento es un Plan de PLANIFICACIÓN ESTRATÉGICA, no un informe de implementación.
 
@@ -47,6 +49,10 @@ Este registro contribuye a demostrar que el proyecto fue desarrollado de forma o
 **Aclaración:** El análisis de F02 permite identificar evidencia documental de seguimiento, pero no demuestra por sí solo impacto causal ni permite atribuir todos los cambios observados a la política.
 
 **Aclaración:** La existencia de una disposición normativa confirma una obligación o competencia formal, pero no demuestra automáticamente que haya sido ejecutada, financiada o cumplida.
+
+**Aclaración:** Las estadísticas de justicia y crimen pueden describir contexto o resultados observados, pero no demuestran por sí solas implementación municipal ni impacto causal de una política.
+
+**Aclaración:** Los resultados de una encuesta de 2011 no deben presentarse como evidencia actual ni atribuirse a una política implementada posteriormente.
 
 ## Notas finales
 
