@@ -1,0 +1,147 @@
+Código de la fuente: F04
+Nombre de la fuente: Justicia y crimen
+Institución: No disponible en metadatos
+URL original: https://www.ecuadorencifras.gob.ec/justicia-y-crimen/
+Archivo original utilizado: C:\Users\monse\OneDrive\Desktop\ProyectoFinal_PoliticasPublicas\documentos\fuentes_raw\F04_justicia_y_crimen.html
+Tipo de contenido: text/html
+Estado de validación técnica: Archivo técnicamente válido
+Advertencia: Este texto preparado facilita la revisión documental y debe contrastarse con la fuente original antes del análisis académico.
+
+==================================================
+TEXTO PREPARADO
+==================================================
+Justicia y crimen |
+MENU
+MENU
+Estadísticas por tema
+Estadísticas Sociodemográficas y Sociales
+Encuesta Nacional sobre Desnutrición Infantil
+Población y migración
+Pobreza
+Trabajo
+Educación
+Vacunación – COVID 19
+Salud
+Ingreso y consumo
+Protección social
+Asentamientos humanos y vivienda
+Justicia y crimen
+Condiciones de vida y problemas sociales
+Uso del tiempo
+Registro Estadístico Base de Población del Ecuador - REBPE
+Estadísticas Económicas
+Estadísticas Macroeconómicas
+Cuentas económicas
+Estadísticas de las empresas
+Estadísticas sectoriales
+Finanzas públicas, fiscales y del sector público
+Comercio internacional y balanza de pagos
+Precios
+Ciencia tecnología e innovación
+Investor Relations Ecuador
+Ambiente y Otras Estadísticas
+Ambiente y Agropecuario
+Género y grupos especiales de la población
+Sociedad de la información - TIC
+Eventos extremos y desastres
+Anuarios Estadísticos
+Calidad de los Servicios Públicos
+Estadísticas por fuente
+Encuestas
+Hogares
+Encuesta Nacional Multipropósito de Hogares
+Trabajo Infantil
+ENSANUT
+Ingresos y Gastos
+Alquileres
+Victimización y Percepción de Inseguridad
+Uso del Tiempo
+Empleo, Desempleo y Subempleo
+Condiciones de Vida
+Violencia de Género
+Salud, Bienestar del Adulto Mayor
+Condiciones de Vida Población GLBTI
+Estratificación del Nivel Socioeconómico
+Ciencia, Tecnología e Innovación - ACTI
+Índice de Remuneraciones
+Índice de Industria Manufacturera
+ESPAC
+Empresas y Establecimientos Económicos
+Comercio Interno
+Manufactura y Minería
+Hoteles, Restaurantes y Servicios
+Exhaustiva
+Empresarial
+Edificaciones
+Índice de Precios al Consumidor
+Índice de Precios de la Construcción
+Índice Nacional de Precios Productor
+Unidades de Producción Agropecuaria
+Censos
+Censo de Población y Vivienda
+Censo Nacional Económico
+Censo Nacional Agropecuario
+Censo de Información Ambiental Económica en GAD Provinciales
+Estadísticas de Síntesis
+Cuenta Satélite de Educación
+Cuenta Satélite de Salud
+Cuenta Satélite del Trabajo No Remunerado
+Índice de Brechas de la Intermediación
+Registros Administrativos
+Entradas y Salidas Internacionales
+Matrimonios y Divorcios
+Nacidos Vivos y Defunciones Fetales
+Defunciones Generales
+Recursos y Actividades de Salud
+Camas y Egresos Hospitalarios
+Directorio de Empresas y Establecimientos
+Índice de Actividad Registrada
+Transporte
+Estadísticas de Información Ambiental Económica en GAD Municipales
+Registro de Empleo en la Seguridad Social
+Registro Estadístico Base de Población del Ecuador - REBPE
+Geografía Estadística
+Banco de Datos
+Datos Históricos
+Archivo Nacional de Datos y Metadatos (ANDA)
+Banco de Datos Abiertos
+Consultas Especializadas
+Transformación Digital INEC 4.0
+Visualizador de Estadísticas Empresariales
+Visualizador de Estadísticas Productivas
+Redatam
+Sistema Integrado de Clasificaciones y Nomenclaturas (SIN)
+Requerimiento de Información
+Comunicamos
+Noticias
+Seminarios Web
+Contacto
+.
+NOTA:
+Las estadísticas que a continuación ponemos a su disposición son generadas por otras instituciones que pertenecen al Sistema Estadístico Nacional. Haga clic en el enlace de la parte inferior para acceder a la información completa.
+Operación estadística
+Objetivo
+Institución productora
+Enlace
+Estadísticas de producción judicial
+Disponer de estadísticas actualizadas sobre las causas ingresadas, resueltas y en trámite, con la finalidad de contar con tasas que reflejen la situación actual del estado de las causas.
+Consejo de la Judicatura – CJ
+Clic aquí
+Denuncias de delitos de mayor incidencia
+Conocer la desagregación de tipos de delitos, que contiene el Código Integral Penal.
+Comisión Estadística de Seguridad Ciudadana y Justicia
+Clic aquí
+Estadísticas de defensa pública
+Contar con un instrumento metodológico que provea lineamientos básicos para la documentación de operaciones estadísticas basadas en registros administrativos sobre defensa pública bajo criterios estandarizados y armonizados sobre su estructura, presentación y contenido, que permita disponer de información estadística oportuna, veraz, integra, confiable, necesaria para los niveles estratégico y operativos para la toma de decisiones, formulación de políticas institucionales, generación del conocimiento y atención a los requerimientos de información de usuarios externos e internos.
+Defensoría Pública – DP
+Clic aquí
+Estadísticas de siniestros de tránsito
+Proveer información estadística sobre siniestros de tránsito y víctimas en sitio a nivel nacional.
+Agencia Nacional de Tránsito
+Clic aquí
+Censo Penitenciario
+Obtener información estadística sobre la población privada de libertad a nivel nacional que contribuya a la construcción de políticas públicas del Estado y a su vez mejore la atención tanto en rehabilitación social como en reinserción de las personas privadas de libertad PPL.
+INEC
+Clic aquí
+Esta obra está bajo una
+Licencia Creative Commons Atribución 4.0 Internacional

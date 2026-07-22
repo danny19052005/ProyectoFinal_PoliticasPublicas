@@ -1,0 +1,430 @@
+Ecuador - Encuesta de Victimización y Percepción de Inseguridad 2011
+Catálogo de Metadatos Estadísticos
+Archivo Nacional de Datos y Metadatos Estadísticos
+Encuestas-Censos-Registros
+Registros Administrativos
+Ambientales-Agropecuarias
+Económicas
+Sociodemográficas
+Web INEC
+Ingresar
+Ingresar
+Página principal
+/
+Catálogo Central de Datos
+/
+SOCDEMO
+/
+ECU-INEC-DIES-ENVIPI-2011-V1.6
+Encuesta de Victimización y Percepción de Inseguridad 2011
+Ecuador
+,
+2011
+Obtener microdatos
+ID de Referencia
+ECU-INEC-DIES-ENVIPI-2011-v1.6
+Productor(es)
+Instituto Nacional de Estadística y Censos (INEC)
+Colección(es)
+ESTADISTICAS SOCIODEMOGRAFICAS
+Metadatos
+DDI / XML
+JSON
+Creado el
+Feb 12, 2019
+Última modificación
+Feb 12, 2019
+Visitas a la página
+1882032
+Descargas
+3226218
+Descripción del estudio
+Descripción de los datos
+Descargas
+Obtener microdatos
+Identificación
+Alcance
+Cobertura
+Productores y Patrocinadores
+Muestreo
+Instrumento de la encuesta
+Recoleción de Datos
+Procesamiento de datos
+Política de Acceso a los microdatos
+Descargo de responsabilidad y Derechos de autor
+Contactos
+Producción de Metadatos
+Identificación
+Número ID de la Encuesta
+ECU-INEC-DIES-ENVIPI-2011-v1.6
+Título
+Encuesta de Victimización y Percepción de Inseguridad 2011
+Abreviatura o Acrónimo
+ENVIPI 2011
+Título traducido
+Survey of Victimization and Perception of Insecurity
+País
+Nombre
+Código de país
+Ecuador
+ECU
+Tipo de estudio
+Other Household Survey [hh/oth]
+Antecedentes
+Las primeras encuestas de victimización, según referencias bibliográficas, se desarrollaron en los años sesenta del siglo pasado con la finalidad de complementar la información proveniente de los registros administrativos de las instituciones policiales y judiciales, cuyos registros dan cuenta únicamente de los delitos denunciados quedando afuera los no denunciados conocidos internacionalmente como “cifra negra u oculta del delito”.
+Durante los años setenta e inicios de los ochenta, se desarrollaron encuestas nacionales de victimización en países como Finlandia (en alianza con Gallup Finland en 1970), Holanda (1974), Australia (1975), Suecia (1978-79), Israel (1979) y Reino Unido (1981). En particular, Estados Unidos realizó un aporte sobresaliente en esta área con la Encuesta Nacional sobre Delito en Estados Unidos (1972). A nivel internacional se implementa la Encuesta de las Naciones Unidas sobre tendencias delictivas y la operación de los sistemas de justicia penal, también conocida como Encuesta sobre Tendencias Delictivas (CTS por sus siglas en inglés), que recolecta datos sobre delito a nivel mundial. Posteriormente el Instituto Interregional de las Naciones Unidas para Investigaciones sobre la Delincuencia y la Justicia (UNICRI) junto con la Oficina de las Naciones Unidas contra la Droga y el Delito (ONUDD) desarrollaron la Encuesta Internacional a Víctimas del Delito (ICVS) en 1987, con el objetivo de maximizar la comparabilidad de los datos, dadas las diferencias en las definiciones de los tipos delictivos en cada uno de los países. El desarrollo de distintos instrumentos de medición y registro de los hechos delictivos no solo representan una forma de retratar los procesos de victimización a nivel nacional e internacional, sino también una herramienta para la toma de decisiones políticas públicas y jurídicas por parte de los Estados en su propósito de reducir los índices de criminalidad e inseguridad de sus ciudadanos. Así, la “cifra negra u oculta” resulta importante para la comprensión de las tendencias delictivas de cualquier sociedad contemporánea como complemento de las estadísticas emitidas por los órganos de policía y los sistemas de justicia que captan particularmente los hechos denunciados.
+En el Ecuador se inicia la investigación en encuestas de victimización en el Municipio del Distrito Metropolitano de Quito (MDMQ),ejecutada por FLACSO en el año 2003,luego se realiza una segunda ronda en el 2004 (SPECTRUN) y una tercera en el 2008 (CIMACYT); finalmente, se realiza una encuesta nacional en el mismo año por encargo del Ministerio de Gobierno. Estas encuestas se realizaron con base metodológica en la ENICRIV, aunque no guarden estricta comparabilidad con ella en algunos de sus componentes.
+Dentro del Plan Nacional de Seguridad Ciudadana, a través de la Comisión Interinstitucional de Estadísticas de Seguridad y Justicia Ciudadana creada el 10 de mayo del 2010, el Ministerio del Interior propone realizar la primera encuesta Nacional de Victimización y Percepción de la Inseguridad 2011, para solventar la carencia básica que arrastraba el país en materia seguridad y con la finalidad de proporcionar información confiable, permanente, oportuna y precisa de los hechos delictivos que permitan dar un paso cualitativo en la interpretación de los fenómenos y que además permitan respaldar la toma de decisiones de política pública para la prevención y control de delitos y comportamientos que afecten la seguridad de los ciudadanos ecuatorianos; el Instituto Nacional de Estadística y Censos INEC, ente Rector de las Estadísticas en el país en convenio con el Ministerio del Interior, realiza la primera Encuesta Nacional de Victimización y Percepción de Inseguridad en el territorio nacional (24 provincias, 177 ciudades de 2000 y más habitantes del sector urbano). La unidad de investigación fue el hogar y dentro de éste las personas de 16 años y más, seleccionadas aleatoriamente.
+La Encuesta de Victimización y Percepción de Inseguridad ENVIPI 2011, constituye un primer esfuerzo que busca irse perfeccionando y consolidando con el paso del tiempo, a efecto de contar con un instrumento que permita obtener información confiable y oportuna del fenómeno delictivo y estar en posibilidad de realizar análisis tanto cualitativos como cuantitativos, que muestren su verdadera magnitud, a fin de definir mecanismos y acciones que contribuyan al mejoramiento de la política pública vinculada a esta problemática y su tratamiento, lo cual permitirá mejorar los niveles de seguridad y convivencia.
+Resumen / Abstract
+El Instituto Nacional de Estadística y Censos (INEC) , dentro del marco de la Comisión Interinstitucional de Estadística de Seguridad Ciudadana, realizó la Encuesta de Victimización y Percepción de Inseguridad 2011, como respuesta a la necesidad imperante de contar con información e indicadores certeros de un sector tan sensible y prioritario para los intereses nacionales como es la seguridad ciudadana, a partir de esta información se busca comprender lo que siente y piensa la ciudadanía con respecto a la inseguridad, el porcentaje de personas víctimas que no denuncian el delito, características y circunstancias del delito, las perspectivas sobre el desempeño de las instituciones encargadas de velar por la seguridad de las personas y el nivel de confianza en las mismas, con el propósito de contribuir a la toma de decisiones y la generación políticas públicas en éste ámbito.
+Objetivo General:
+Proveer información sobre los niveles de victimización y percepción de la inseguridad que tiene las personas y los hogares a nivel nacional, provincial y de ciudades capitales provinciales; y, establecer la percepción ciudadana sobre las instituciones que se encargan de garantizar la seguridad de la población.
+Objetivos Específicos:
+Estimar cifras de delitos comunes a las personas y los hogares
+Estimar cifras y razones de no denuncia de hechos de violencia
+Determinar el grado de confianza que tiene la ciudadanía en las instituciones involucradas en el Sistema de Seguridad Ciudadana (Policía Nacional, Ministerio Público, Sistema Judicial y Gobierno Nacional).
+Conocer los factores que están incidiendo en la victimización y en la percepción de inseguridad ciudadana
+Definir mecanismos y acciones que contribuyan al mejoramiento de la seguridad de la población.
+Analizar expectativas respecto de planes y acciones a ser emprendidas por las instituciones y la población en seguridad ciudadana.
+Alcance:
+La Encuesta de Victimización y Percepción de Inseguridad 2011, investigó delitos que fueron seleccionados de acuerdo a los siguientes criterios:
+Delitos de mayor connotación comunes en la mayoría de provincias del Ecuador
+Delitos con mayor número de casos registrados en la Policía Nacional y la Fiscalía General del Estado.
+Delitos que por sus características propias, tienen un fuerte impacto negativo en el hogar.
+Así como la percepción de las personas frente a los temas de convivencia ciudadana y confianza institucional.
+La información recogida estaba dirigida a personas de 16 años y más en cada una de las viviendas seleccionadas.
+Tipo de datos
+Encuestapor muestreo (ssd)
+Unidad de Análisis
+La Unidad de análisis: El hogar y la persona de 16 años y más que sea residente habitual del hogar seleccionado en las viviendas de la muestra, en el área urbana del Ecuador Continental e Insular, para los indicadores a nivel de hogar el informante será el jefe de hogar y mientras que para los indicadores de personas el informante será la persona de 16 años y más seleccionada aleatoriamente del hogar.
+Residente habitual.- Son todas las personas que habitan la vivienda la mayor parte del tiempo en forma permanente, por un período de seis meses o más. Estas personas pueden encontrarse en el momento de la encuesta temporalmente ausentes por razones de enfermedad, trabajo o vacaciones; es decir, se deben incluir las personas residentes habituales si se encuentran ausentes, siempre que su ausencia no sea superior a seis meses y no tienen residencia permanente en otra parte. También se incluyen los huéspedes y personas sin parentesco con el jefe del hogar o familiares de éste, que residen o piensan residir habitualmente por un período de seis meses o más.
+Vivienda: recinto de alojamiento estructuralmente separado y con entrada independiente; construido, edificado, transformado o dispuesto para ser habitado por una persona o grupos de personas, siempre que al momento de la investigación no esté utilizada con finalidad distinta. También se consideran como viviendas, espacios móviles (barcazas, coches, etc.) y locales improvisados para vivir, que se hallen habitados en el momento de la entrevista.
+La vivienda puede ser una casa, un departamento, un cuarto, un grupo de cuartos, una choza, una cabaña o cualquier refugio ocupado o disponible, para ser utilizado como lugar de alojamiento.
+Hogar: Es la unidad social conformada por una persona o grupo de personas que se asocian para compartir básicamente el alojamiento y la alimentación. Es decir, que hogar es el conjunto de personas que residen habitualmente en la misma vivienda o en parte de ella (viven bajo el mismo techo), que están unidas o no por lazos de parentesco, y que cocinan en común para todos sus miembros (comen de la misma olla).
+Alcance
+Notas
+Los temas que se incluyeron en el formulario de la Encuesta de Victimización y de Percepción de Inseguridad (ENVIPI 2011) son los que se detalla a continuación:
+CARÁTULA
+A. Ubicación Geográfica y Muestral
+B. Seguimiento a visitas
+C. Resultado Final de la encuesta
+D. Encuesta Efectiva
+E. Identificación y ubicación de la vivienda
+F. Número de Hogares
+G. Datos del Informante
+H. Personal Responsable.
+MÓDULOS DEL FORMULARIO
+A. MÓDULO DEL HOGAR
+Residentes en la vivienda
+Miembros del hogar y características sociodemográficas
+Víctimas del delito
+Informante seleccionado
+Características Generales
+Percepción de la Inseguridad Pública
+Automotores del hogar
+Víctima de delitos
+B. MÓDULO DE DELITOS
+Delitos de automotores (robo total)
+Delitos de automotores (robo parcial)
+Robo a la vivienda
+Delitos
+Robo a personas
+Estafa/fraude
+Intimidación/amenaza
+Heridas/lesiones
+Secuestro
+Otros delitos
+C. MÓDULO DEL ÚLTIMO DELITO
+Características generales
+Robo de objetos
+Estafa/fraude
+Intimidación/amenaza
+Lesiones/heridas
+Secuestro
+Cobertura
+Cobertura geográfica
+Los dominios de estudio lo componen
+Provincial urbano: 24 provincias del Ecuador (24 dominios)
+Cantonal urbano ciudades de 2000 y más habitantes (177 ciudades)
+Se exceptúa de la investigación el área rural, por cuanto el fenómeno delictivo no se consideró representativo para este sector.
+Unidad Geográfica
+Se consideró que el nivel geográfico para el cual los datos tienen representatividad es:
+Provincial urbano (24 dominios)
+Cantonal urbano, ciudades de 2000 y más habitantes (177 ciudades)
+Niveles agregados de estimación como es nacional urbano y por regiones.
+Universo
+Está compuesto por el hogar y la persona de 16 años y más, residentes habituales de los hogares que habitan en los dominios de investigación.
+Productores y Patrocinadores
+Investigadores primarios
+Nombre
+Afiliación
+Instituto Nacional de Estadística y Censos (INEC)
+Secretaría Nacional de Planificación y Desarrollo (SENPLADES)
+Organización financiadora / Patrocinador
+Nombre
+Abreviatura / Sigla
+Rol
+Ministerio del Interior
+MDI
+Financiamiento total de la Operación Estadística
+Muestreo
+Procedimiento de muestreo
+El marco muestral que se utilizó es el construido a partir de la información cartográfica y demográfica que se obtuvo en el VII Censo de Población y VI de Vivienda del 2010.
+Tipo de diseño
+El diseño muestral utilizado se define como probabilístico, tri-etápico, seleccionando de manera aleatoria tanto las Unidades Primarias de Muestreo (UPM), las viviendas como la persona a ser encuestada.
+Primera etapa: Selección de sectores censales.
+Selección de las unidades primarias de muestreo (UPM). Las UPM fueron seleccionadas de forma aleatoria con afijación proporcional al tamaño de las ciudades. Para la ubicación de las UPM en el campo se debe hacer uso de la cartografía del Censo Nacional de Población y Vivienda 2010. Esta selección se hizo en oficina.
+Segunda etapa: Selección de viviendas, esta etapa correspondió a la selección de 24 viviendas particulares ocupadas, dentro de los sectores seleccionados, ésta selección se la realizó del marco de viviendas, esta selección también se la realizó en oficina, las viviendas seleccionadas constituyeron las Unidades Secundarias de Muestreo (USM).
+Selección de las unidades secundarias de muestreo (USM) viviendas. Se hizo una selección aleatoria de las unidades de las viviendas con probabilidad igual para todas las viviendas, dentro del respectivo sector.
+En las USM seleccionadas se tomaron todos los hogares y se enlistaron a todas las personas pertenecientes al grupo objetivo, de cada uno de los hogares.
+Tercera etapa: Selección de la persona a encuestar.
+El procedimiento comenzó con el registro de las personas en el cuestionario, se debió registrar todas las personas con 16 años de edad o más, residentes habituales del hogar; en orden de parentesco y posteriormente hacer la selección.
+Selección de las unidades finales de muestreo (UFM), personas. Para contestar la encuesta se seleccionó aleatoriamente una persona de 16 años de edad o más; entre los residentes habituales del hogar. Esta selección se realizó con una distribución uniforme con el fin de dar la misma probabilidad de selección a cada una de las personas del hogar. Para tal fin se utilizaron tablas modificadas de Kish que combinan el último dígito del número de serie del cuestionario correspondiente al hogar y el número de residentes permanentes del hogar.
+Cabe mencionar, que al existir rechazo por parte de la persona seleccionada se procedió a seleccionar una nueva persona con la misma metodología de la tabla de Kish.
+El tamaño total de la muestra es de 5.002 sectores censales en el área urbana, que agrupa 120.048 viviendas.
+Nivel de Confianza de la muestra: Se considera un nivel de confianza del 95%
+Margen de error de la muestra.- Se considera un error porcentual de entre el 10 y el 20%.
+Ponderación
+El factor de expansión es el multiplicador que se aplica a cada individuo en la muestra con el fin de expandir la muestra hacia la población. El factor de expansión básico para un hogar es igual a la inversa de su probabilidad de selección. Este factor de expansión se debe calcular por separado por cada sector muestral, además debe ser ajustado debido a la no respuesta, ya sea por rechazos, por ausencias, etc.
+Instrumento de la encuesta
+Cuestionarios
+En la encuesta de victimización y percepción de la inseguridad (ENVIPI) 2011 se utilizó un cuestionario impreso elaborado según los requerimientos de las instituciones miembros de la Comisión Interinstitucional de Estadísticas de Seguridad Ciudadana, basado en las recomendaciones dadas en el Manual de encuestas de victimización de las Naciones Unidas lo que permite mayor comparabilidad internacional de los datos, así mismo se utilizó cuestionarios de experiencias nacionales como es el formulario aplicado en la Encuesta Nacional de Victimización y Percepción de la inseguridad realizada por la empresa CIMACYT en el 2008.
+Características del cuestionario:
+Impreso en papel: Contenía preguntas con espacios en blancos para ser llenados a mano las respuestas correspondientes.
+Tipo: de entrevista directa aplicado en hogares
+Dirigido: por cuanto el entrevistador guiaba al entrevistado en el diligenciamiento de las preguntas.
+Semi- estructurado: Por cuanto contiene preguntas abiertas y cerradas (respuestas precodificadas).
+Organización y preparación de la recolección
+El proceso de recolección de datos comprende 2 etapas: 1.- Etapa preparatoria o previa a la recolección, y 2.- Recolección de la información.
+1.- La organización preparatoria o previa a la recolección
+La fase de Pre levantamiento tuvo lugar desde el 25 de abril de 2011, misma que incluyó la preparación del Cronograma de Actividades, el cálculo de RR.HH y material necesario, la elaboración del Presupuesto, Firma del Convenio, Elaboración de Lineamientos Técnicos y la aprobación de los mismos.
+Diseño muestral
+La determinación de la muestra y la selección de viviendas por parte de diseño muestral fue elaborado a partir del 25 de mayo de 2011.
+Una vez seleccionados los sectores censales y viviendas de la muestra, la Administración Central del INEC genera y envía a cada una sus Direcciones Zonales los formularios de muestra y cobertura (MyC). Los formularios contienen información relativa a la ubicación geográfica de las viviendas seleccionadas para la respectiva investigación, incluyen información de la provincia, cantón, parroquia, zona, sector censal y manzana de la vivienda seleccionada. De manera subsiguiente, las Direcciones Zonales preparan el material cartográfico, eso es: los formularios Ca04 utilizado en el área urbana, el mismo que contiene el listado de viviendas, población en cabeceras cantonales, parroquiales y localidades amanzanadas.
+1.3. Diseño de instrumentos de recolección de la información
+Este proceso inició el 2 de mayo de 2011 con la elaboración y ajuste del cuestionario según los requerimientos de las instituciones miembros de la Comisión Interinstitucional de Estadísticas de Seguridad Ciudadana, a continuación se elaboraron los manuales para los encuestadores, crítico-codificadores y digitadores, para finalmente construir el Plan de Validación e Inconsistencias y el Sistema de Ingreso de Datos.
+1.4. Adquisiciones
+Se realizó a partir del 8 de agosto de 2011, en esta fase se adquirieron todos los bienes y servicios necesarios para el operativo de campo, tales como suministros de vestimenta, suministro de oficina, suministros de impresión, servicios de imprenta para la elaboración de los manuales y formularios.
+1.5. Prueba Experimental
+Se realizó una prueba piloto de la ENVIPI, la cual fue llevada a cabo el 27 de julio de 2011. Esta prueba tuvo como finalidad probar la redacción de las preguntas del cuestionario, conocer si no existen errores en flujos y saltos, establecer tiempos de duración del diligenciamiento para establecer las cargas de trabajo.
+1.6. Selección, Capacitación y Contratación del Personal
+Los procesos de convocatoria del personal técnico y operativo necesario para el levantamiento de la información encuestadores, supervisores de campo, críticos codificadores y digitadores. se realizó mediante convocatoria pública abierta y fueron seleccionados en dos fases: Una primera selección la realizó el Departamento de Recursos Humanos del INEC tomando en consideración el cumplimiento de los requerimientos exigidos dentro de la convocatoria. La selección definitiva de supervisores, encuestadores, críticos, codificadores y digitadores se realizó mediante evaluaciones de rendimiento en los cursos de capacitación que se dictaron antes del operativo de campo.
+Luego de la selección y la capacitación al personal de campo sobre el manejo de los instrumentos para el levantamiento de la información se procedió a la conformación de equipos de trabajo, para esto, el INEC cuenta con cuatro Regionales a Nivel Nacional, las mismas que tienen a su cargo cierto número de Provincias, las cuales se detallan a continuación:
+Regional Norte, Pichincha, Esmeraldas, Carchi, Imbabura, Sucumbíos, Santo Domingo, Napo y Orellana.
+Regional Litoral, Guayas, Manabí, Santa Elena, Los Ríos, El Oro y Galápagos.
+Regional Centro, Tungurahua, Cotopaxi, Pastaza, Bolívar y Chimborazo.
+Regional Sur, Azuay, Cañar, Loja, Morona Santiago, y Zamora Chinchipe.
+A cada Dirección regional se asignó un número de sectores tomando en consideración la muestra realizada para el levantamiento con la finalidad de que realicen su programación para el levantamiento de información y puedan cumplir con el objetivo planteado.
+DINOR: 1290
+DILIT: 2501
+DICEN. 600
+DISUR: 611
+TOTAL: 5002 Sectores.
+2.- Recolección de la información.
+El levantamiento de información tuvo lugar del 22 de septiembre al 21 de diciembre de 2011, en el cual participó el siguiente personal: 318 encuestadores, y 106 supervisores técnicos de campo, a nivel nacional agrupados en 106 equipos, conformados de 3 encuestadores cada uno y liderados por un Supervisor Técnico de Campo, quienes respondían directamente al Responsable Regional o a su Asistente. Cada equipo disponía de un vehículo, además de los contratados para la supervisión regional.
+La distribución de los equipos se hizo en base al número de viviendas seleccionadas en cada una de las Direcciones Regionales así: 81 encuestadores, con 27 supervisores en la DINOR; 159 encuestadores, con 53 supervisores en la DILIT; 39 encuestadores, con 13 supervisores en la DICEN; y, 39 encuestadores, con 13 supervisores en la DISUR.
+CARGAS DE TRABAJO
+El operativo de campo fue programado por los Responsables Regionales y su asistente. La carga de trabajo diaria por Encuestador fue de 6 formularios por día, es decir que cada equipo realizó un sector, 24 viviendas por día, Con el propósito de garantizar el trabajo en equipo, la supervisión y la revisión insitu, se decidió que los dos equipos trabajen simultáneamente en un mismo sector. Esta metodología aplicada permitió levantar la información con mayor rapidez y sobre todo en los lugares de mayor peligrosidad en donde se fortaleció la cooperación y ayuda entre equipos y además hubo el acompañamiento y protección de la Policía Nacional.
+En todas las Regionales, para la distribución de cargas de trabajo de los equipos en las distintas jornadas se tomó en cuenta los siguientes aspectos: distancia desde sede a las diferentes ciudades, sectores a visitar por estrato y por extensión en ciudades capitales de provincia y condiciones de ubicación de los informantes. La percepción de los compañeros de campo es que fue una carga adecuada que pudo cumplirse diariamente en los tiempos establecido.
+La toma de la información de acuerdo a lo programado, tuvo una duración de 3 meses; 6 jornadas de 15 días; 12 en campo y uno en oficina con 2 días de descanso.
+En cada una de las Regionales se cumplió el cronograma establecido, para cada una de las seis jornadas de campo sin inconvenientes, la permanencia de los grupos de trabajo durante 12 días en los sectores ayudó para la búsqueda de los informantes tanto calificados como los seleccionados para la recolección de la información.
+Recoleción de Datos
+Fechas de recolección de datos
+Inicio
+Fin
+Ciclo / Ronda
+2011-07-21
+2011-07-21
+Prueba Piloto
+2011-08-30
+2011-09-04
+Capacitación
+2011-09-22
+2011-12-21
+Recolección de la información
+Períodos de referencia
+Fecha de inicio
+Fecha final
+Ciclo
+2010-09-01
+2011-08-31
+Anual
+Modo de recopilación de datos
+Face-to-face [f2f]
+Recolectores de datos/Encuestadores
+Nombre
+Afiliación
+Abreviatura / Sigla
+Dirección Zonal Norte
+Instituto Nacional de Estadística y censos (INEC)
+DINOR
+Dirección Zonal Litoral
+Instituto Nacional de Estadística y censos (INEC)
+DILIT
+Dirección Zonal Centro
+Instituto Nacional de Estadística y censos (INEC)
+DICEN
+Dirección Zonal Sur
+Instituto Nacional de Estadística y censos (INEC)
+DISUR
+Supervisión
+El proceso de supervisión tiene como finalidad coordinar el desarrollo de las actividades que se deben cumplir durante el operativo de campo para el logro de los objetivos fijados. Para la realización de la presente investigación se plantearon tres tipos de supervisión: Nacional, Regional y de los equipos de campo.
+SUPERVISION NACIONAL:
+La tarea de los Supervisores Nacionales, se enmarcó básicamente en la optimización del desempeño de cada uno de los miembros de los equipos contratados en las Direcciones Regionales Norte, Litoral , Centro y Sur, cuidando que las personas cumplan estrictamente sus roles para que la investigación arroje resultados oportunos y de calidad. Las funciones de los responsables nacionales fueron las siguientes:
+Observar que se encuentren bien planificados y organizados los equipos, observar el llenado de los formularios y calidad de la información.
+Solucionar algunas inquietudes de los encuestadores y supervisores durante la ejecución del trabajo.
+Coordinar con la supervisión Regional, a fin de que los equipos estén supervisados para garantizar la calidad de la información.
+Coordinar que la metodología planteada sea aplicada estrictamente y en su totalidad por parte de todos los responsables de las diferentes etapas de la investigación.
+Se contrató 4 supervisores nacionales
+SUPERVISIÓN REGIONAL
+Los Supervisores Regionales, fueron los responsables de lograr que todos los integrantes de los Equipos de Trabajo que forman parte del proyecto en las Regionales, cumplan a cabalidad las tareas a ellos encomendadas. Para este cometido emplearon los mecanismos y herramientas de control definidos por el Equipo Técnico de la Administración Central.
+La Supervisión Regional se efectuó en las etapas del Operativo de Campo; Crítica-Codificación y Digitación de la información, a fin de garantizar la obtención de una base de datos los más depurada y real posible.
+El número de supervisores Regionales del operativo de campo fue de 5 para la Dirección Regional del Litoral, 3 para la Norte y uno para cada una de las Direcciones Regionales del Centro y Sur. La Supervisión regional fue de 38 días para cada supervisor, durante las seis jornadas de trabajo. Cada supervisor tenía a su cargo, en promedio 10 equipos, es decir a 30 encuestadores, esto fue posible dado que se realizó la Encuesta solo en el área urbana.
+Además se programó la supervisión, de 15 días por parte de los Directores Regionales; y, por 38 días del Responsable Regional, cumpliendo con las siguientes funciones:
+Observar que los equipos estén trabajando de acuerdo a lo planificado dentro del período establecido y los sectores seleccionados.
+Observar el llenado de la información en los formularios, flujos y forma de realizar las preguntas.
+Verificación de los reemplazos
+Ubicación correcta de las viviendas seleccionadas
+Revisión de los formularios diligenciados
+Reuniones con los equipos para aclarar en lo que se encuentra errores
+Dar disposiciones inmediatas a problemas encontrados en el campo.
+SUPERVISIÓN DE EQUIPOS DE CAMPO
+El supervisor Técnico del Equipo de campo fue el encargado del control directo del trabajo que desarrollaron los encuestadores durante el operativo de campo, para que se lleve a cabo con la metodología y los parámetros establecidos, con el fin de lograr información de alta calidad. El Supervisor fue el responsable de entregar los materiales auxiliares, formularios y carpetas, asegurándose que éstas cuenten con todos los materiales necesarios para la ubicación y diligenciamiento de las viviendas seleccionadas, así como asignar las cargas de trabajo a cada encuestador. Dentro de sus funciones estaban:
+Realizar conjuntamente con el encuestador un reconocimiento del sector asignado y de la ubicación exacta de las viviendas seleccionadas en la muestra
+Observación permanente del trabajo de los Encuestadores.
+Recepción y revisión de formularios diligenciados por los Encuestadores con el fin de realizar una pre- crítica en el mismo, verificando que exista información completa, coherente y sin omisiones que garantizará la calidad de la información levantada.
+Re-entrevistas para control de calidad
+Verificación y control de los casos en que se realicen reemplazos.
+Verificación y control de cobertura.
+El número de personas que participaron, como encuestadores, en este Operativo decampo, fue de 318, agrupados en 106 equipos, conformados de 3 encuestadores cada uno y liderados por un Supervisor Técnico de Campo, quienes respondían directamente al Responsable Regional o a su Asistente. A ellos informaba sobre la problemática que se presentaba en el desempeño de los Encuestadores y en el avance del operativo de campo. Además, solicitaba al responsable Regional los recursos necesarios para el buen funcionamiento de los procesos de control y del trabajo.
+Notas de Recolección de Datos
+Para contestar la encuesta se seleccionó aleatoriamente una persona de 16 años de edad o más; entre los residentes habituales del hogar. Esta selección se realizó con una distribución uniforme con el fin de dar la misma probabilidad de selección a cada una de las personas del hogar. Para tal fin se utilizó las tablas modificadas de KISH que combinan el último dígito del número de serie del formulario correspondiente al hogar y el número de residentes permanentes del hogar.
+Este procedimiento de selección consiste en identificar el número de personas elegibles en el hogar y el último digito del formulario; ubicar en la tabla la casilla que corresponde a la intersección de la fila que contiene el número de personas elegibles del hogar, con la columna que corresponde al último dígito del formulario la misma que nos permitirá conocer al informante al que debemos realizar la encuesta.
+Entre las principales novedades encontradas en la recolección de la información, fue encontrar hogares con personas de edad avanzada que salieron seleccionados que no entendían las preguntas, tenían deficiencias tanto visuales y auditivas por esta razón no estaban en capacidad de responder, para fines investigativos se considera un informante no idóneo, razón por la que se tuvo que reemplazar a la vivienda y de esta manera cumplir con la cobertura de la muestra.
+Para obtener una información confiable de las personas de 16 años y más que salieron seleccionadas en la Encuesta de Victimización y Percepción de Inseguridad 2011; se programaron visitas antes de las 07H00 o pasadas las 19H00, debido a la dificultad de ubicar a los informantes, o a la falta de apertura o colaboración por parte de los mismos.
+Los informantes directos o seleccionados de KISH son personas que trabajan, por lo que algunos encuestadores tuvieron que hacer varias visitas a la vivienda o incluso ubicar a los informantes directos en sus lugares de trabajo siempre que lo permitían. Cuando se daban los rechazos del seleccionado KISH se ubicaba al reemplazo y generalmente este sí colaboraba. Las jornadas de trabajo tuvieron que extenderse en algunos sectores hasta las 22h00. Por último el trabajar fines de semana en sectores de ciudades pequeñas es beneficioso porque se puede ubicar al informante y en otras ciudades más grandes dificulta la ubicación de los informantes.
+El tiempo de duración de la entrevista era de aproximadamente 55 minutos, tiempo que variaba en función del nivel cultural, escolaridad, edad de las personas así como del número de miembros del hogar.
+Procesamiento de datos
+Procesamiento de datos
+En esta fase se consideraron las siguientes operaciones que forman parte del procesamiento:
+Archivo de la información
+Una vez concluída cada una de las jornadas de trabajo se conformó un archivo físico con el fin de ordenar el material diligenciado. Este archivo se realiza respetando la división política administrativa del Ecuador, esto es nivel de provincias urbanas y de ciudades seleccionadas, esta fase se constituye en el insumo indispensable para la realización de los controles de cobertura tanto en el levantamiento como en el procesamiento.
+Crítica-Codificación de la información:
+En esta fase se verifica la consistencia de los datos contenidos en cada uno de los capítulos del formulario para asegurar la calidad y confiabilidad. Los responsables zonales de la fase de crítica-codificación tienen la obligación de garantizar que se cumplan todas las actividades que se encuentran detalladas en el respectivo Manual de Crítica, en el que además está señalado el análisis que se deberá realizar, entre la carátula del formulario y el formulario de Muestra y Cobertura MyC, así como la asignación de los códigos para preguntas abiertas de acuerdo con instrucciones establecidas utilizando instrumentos habilitantes diseñados para el cumplimiento de esta actividad como: La División Política Administrativa y el Listado de códigos de países, antes de que el formulario diligenciado pase a la fase de digitación
+Esta actividad se realizó con 46 personas contratadas, 42 para crítico-codificadores, distribuidos de la siguiente manera: 21 en la DILIT, 11 en la DINOR, 5 en la DISUR y 5 en la DICEN; mientras que los 4 restantes desempeñaron las funciones de Supervisor de Equipo Técnico ( crítico-codificador ) , uno por regional y fueron los encargados en primera instancia de armar el archivo del material que llegaba de campo, luego de lo cual y en base a las cargas de trabajo levantadas, hacían el análisis de cobertura, para posteriormente asignar la carga de trabajo a cada uno de los crítico-codificadores para que realicen su actividad y finalmente entregaban este material al encargado de la digitación.
+La carga de trabajo prevista para esta actividad fue de 3 sectores, es decir 72 formularios diarios por persona.
+Digitación:
+La digitación de los datos se realizó en cada una de las direcciones Regionales y de forma casi paralela a la toma de información, la capacitación y las directrices estuvieron a cargo del responsable de la plataforma tecnológica de cada regional.
+La digitación inició su trabajo el 10 de Octubre con 18 días de diferencia respecto al operativo de campo y 8 días con respecto a la crítica-codificación. Nunca se dio la falta de material para la fase de digitación.
+En cada Dirección Regional hubo un responsable de la Digitación quien fue el encargado de conformar el archivo físico del material entregado por el jefe de crítica, el mismo que entregó la carga de trabajo a cada uno de los/as digitadores/ras y posteriormente con el material digitado, realizaba el control de cobertura, y retornaba al archivo físico los formularios.
+La carga de trabajo para esta etapa, estaba en un promedio de 3 a 4 sectores diarios en un inicio, después de la implementación del nuevo sistema de ingreso de datos y tomando en consideración que los digitadores se fueron familiarizando con el sistema se asignó una carga de 6 y 7 Sectores por día, a nivel nacional el número de digitadores fueron : Regional Norte 6, Regional del Litoral 11, Regional Centro 2 Regional del Sur2. En cada una de las Direcciones Regionales el responsable de la digitación debió coordinar sus actividades con el Responsable regional de digitación, con la finalidad de mantener los controles de calidad de la información emanadas por el responsable nacional de procesamiento y dar soluciones a nivel nacional
+Validación y depuración de la información
+Una vez que la información ha sido digitalizada, las Direcciones Zonales envían sus archivos de datos (bases de datos) hacia la Administración Central, en donde se integran en una sola base de datos los archivos enviados. La base de datos integrada es sometida a procesos de validación automática (verificación de consistencia de la información). Si el sistema reporta novedades, se emiten informes a la Dirección Zonal responsable para que se realicen las correspondientes correcciones. Una vez realizadas las validaciones en todas las zonales, se procede a la fase de tabulación. Con la finalidad de asegurar la cobertura, esto es que todos los formularios diligenciados en campo hayan sido digitados, se hará una confrontación entre el archivo digital y los formularios físicos. Esta actividad será realizada tanto por el Responsable Regional de Crítica y Codificación y Digitación en coordinación con el Equipo Técnico Nacional
+Tabulación de la información
+Consiste en la generación de resultados que responden a los objetivos de la operación estadística. Los tabulados se presentan en forma de cuadros, tablas y gráficos y se realizaran a través de un paquete estadístico denominado Statistical Package for Social Sciencies (SPSS).
+Generación de bases de datos
+Posterior al análisis de consistencia (garantizar la calidad de la información
+recolectada, mediante la revisión sistemática de cada una de
+las respuestas tanto de manera individual como en su relación
+con otras. Para efectuarla se toman como base las pautas de
+consistencia definidas por las mallas de validación. Las mismas se clasifican como
+errores o como advertencias; los errores, que reflejan
+relaciones incoherentes por definición, serán objeto de
+corrección siempre; las advertencias, que reflejan
+incoherencias aparentes en una relación, serán corregidas o
+aceptadas dependiendo del resultado de la evaluación realizada
+por el personal de campo); es decir concluida tanto el operativo de campo como el análisis de consistencia, se procedió a la construcción de la Base de Datos Nacional, con la unificación de las Bases entregadas por las Direcciones Regionales al Responsable Nacional de Procesamiento.
+En el departamento de Diseño Muestral, de la Dirección de Producción de Estadísticas Sociodemográficas, se construyeron los Factores de Expansión, basados en la información proporcionada por cada Dirección Regional. A fin de reducir al máximo las posibles inconsistencias que se presentaron en el diligenciamiento del cuestionario de la Encuesta de Victimización y Percepción de Inseguridad, se elaboró y entregó al área de Informática el Plan de Inconsistencias, el mismo que controlará que la información receptada pase por un filtro que permita detectar datos erróneos o inconsistentes, para controlar que la información sea depurada y tenga los parámetros de calidad que el INEC garantiza en sus Bases de datos.
+Para el procesamiento de la información se utilizó el programa estadístico SPSS, con el cual a través de la programación de sintaxis se obtuvo los resultados de la ENVIPI 2011 tomando en consideración el plan de tabulados propuesto y aprobado inicialmente por la Comisión Interinstitucional de Seguridad Ciudadana.
+Política de Acceso a los microdatos
+Personal autorizado para el acceso a datos
+Nombre
+Afiliación
+URL
+Correo electrónico
+Instituto Nacional de Estadística y Censos
+Secretaría Nacional de Planificación y Desarrollo
+http://www.ecuadorencifras.gob.ec
+planta_central@inec.gob.ec
+Confidencialidad
+¿Se requiere firmar una declaración de confidencialidad?
+Texto de la Declaración de Confidencialidad
+yes
+Ley de Estadística
+Art. 21.- Los datos individuales que se obtengan para efecto de estadística y censos son de carácter reservado; en consecuencia, no podrán darse a conocer informaciones individuales de ninguna especie, ni podrán ser utilizados para otros fines como de tributación o conscripción, investigaciones judiciales y, en general, para cualquier objeto distinto del propiamente estadístico o censal.
+Condiciones de acceso
+El Instituto Nacional de Estadística y Censos considera a la información estadística producida con recursos del presupuesto nacional como un bien público y como tal debe estar al alcance de los usuarios de un modo amplio. El Instituto Nacional de Estadística y Censos establecerá los criterios específicos y los mecanismos para el acceso a la información de los usuarios, identificando claramente el criterio de bien público de los criterios de recuperación de costos por los servicios producidos, en apoyo al sostenimiento del financiamiento de sus actividades, para lo cual se emitirán los protocolos correspondientes de acceso a la información.
+Líneas de Acción:
+Protocolos de acceso a la información:
+Será de libre acceso, la información generada con financiamiento de recursos del presupuesto nacional en su totalidad o parte, que esté procesada, revisada y que se encuentre disponible para su difusión, ya sea mediante indicadores de síntesis, tabulados o bases de datos primarias armonizadas y adecuadas para su difusión manteniendo en reserva la identificación de los informantes.
+Será de libre acceso la información generada con financiamiento de instituciones públicas, privadas o internacionales, si es que no existen indicaciones explícitas en sentido contrario.
+La información estadística será difundida de modo desagregado a nivel temático y geográfico, mediante valores relativos y absolutos, incluyendo la información histórica disponible.
+Será de libre acceso a los usuarios las metodologías e información complementaria que explique las potencialidades y limitaciones de los datos obtenidos, tales como memorias de procesos, evaluaciones de calidad de operaciones estadísticas, entre otros.
+Las publicaciones impresas de difusión rápida a través de folletos, afiches, trípticos, etc. serán gratuitos.
+El acceso a la consulta de publicaciones en la Biblioteca de la institución será gratuita.
+Todos los servicios estadísticos que impliquen consumo de horas-hombre, tales como procesamiento de datos para atender solicitudes específicas, elaboración de bases de datos a la medida del usuario, preparación de informes, gráficos y análisis, entre otros, tendrán un costo proporcional al tamaño del servicio.
+Todas las publicaciones impresas (libros, boletines, informes) o en medios electrónicos (CD Rom, diskette) que contengan resultados de investigaciones estadísticas tendrán un costo.
+Todos los servicios de fotocopiado o impresiones de computadora, tendrán un costo relativo al tamaño del servicio.
+Los servicios de preparación de diseños de muestra y base cartográfica tendrán un costo proporcional al tamaño del servicio.
+A partir del año 2013 la información es gratuita.
+Requisitos de Citas
+Instituto Nacional de Estadística y Censos, Victimización y Percepción 2011, del conjunto de datos de uso público, suministrado por el Instituto Nacional de Estadística y Censos del Ecuador.
+http://www.ecuadorencifras.gob.ec/home/
+Descargo de responsabilidad y Derechos de autor
+Descargo de responsabilidad
+El usuario de los datos reconoce que el colector original de los datos, el distribuidor autorizado de los datos, y la agencia de financiación pertinentes no tienen ninguna responsabilidad por el uso de los datos o de las interpretaciones o inferencias basadas en dichos usos.
+Derechos de Autor
+(c) 2011 Instituto Nacional de Estadística y Censos INEC
+Contactos
+Contactos
+Nombre
+Afiliación
+Correo electrónico
+URL
+Instituto Nacional de Estadística y Censos
+Secretaría Nacional de Planificación y Desarrollo
+planta_central@inec.gob.ec inec@inec.gob.ec
+http://www.ecuadorencifras.gob.ec
+Cordinación General Técnica de Producción Estadística
+Instituto Nacional de Estadística y Censos
+planta_central@inec.gob.ec inec@inec.gob.ec
+http://www.ecuadorencifras.gob.ec
+Dirección de Estadísticas Sociodemográficas
+Instituto Nacional de Estadística y Censos
+planta_central@inec.gob.ec inec@inec.gob.ec
+http://www.ecuadorencifras.gob.ec
+Producción de Metadatos
+ID del documento DDI
+ECU-INEC-DIES-ENVIPI-2011-v1.6
+Productores
+Nombre
+Abreviatura/Sigla
+Afiliación
+Rol
+Instituto Nacional de Estadística y Censos
+INEC
+Secretaría Nacional de Planificación y Desarrollo (SENPLADES)
+Documentación de la Operación Estadística
+Norma Hidalgo
+NH
+Instituto Nacional de Estadística y Censos
+Documentadores de la Operación Estadística
+Pilar Carrillo
+PC
+Instituto Nacional de Estadística y Censos
+Revisora de la documentación de la Operación Estadística
+Jenny CUshicóndor
+JC
+Instituto Nacional de Estadística y Censos
+Revisora de metadatos
+Andres Albán
+AA
+Instituto Nacional de Estadística y Censos
+Aprobación para publicación de metadatos.
+Fecha de Producción de Metadatos
+2017-01-17
+Volver al catálogo
+Catálogo de Metadatos Estadísticos
+©
+Catálogo de Metadatos Estadísticos, All Rights Reserved.

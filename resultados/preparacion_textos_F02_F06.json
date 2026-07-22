@@ -1,0 +1,70 @@
+{
+  "fecha_procesamiento": "2026-07-22T00:41:20",
+  "herramienta_utilizada": "src/preparar_textos_fuentes_F02_F06.py",
+  "total_fuentes_procesadas": 5,
+  "total_fuentes_exitosas": 5,
+  "total_fuentes_con_error": 0,
+  "resultados_por_fuente": [
+    {
+      "codigo_fuente": "F02",
+      "archivo_original": "C:\\Users\\monse\\OneDrive\\Desktop\\ProyectoFinal_PoliticasPublicas\\documentos\\fuentes_raw\\F02_seguimiento_al_plan_metropolitano_de_seguridad_y_convivencia_ciudadana_2023-2027.html",
+      "archivo_texto_generado": "C:\\Users\\monse\\OneDrive\\Desktop\\ProyectoFinal_PoliticasPublicas\\resultados\\fuentes_texto\\F02_texto_preparado.txt",
+      "tipo_contenido": "text/html",
+      "caracteres_extraidos": 2610,
+      "total_paginas": null,
+      "paginas_con_texto": null,
+      "paginas_sin_texto": null,
+      "estado_procesamiento": "exitosa",
+      "mensaje_error": null
+    },
+    {
+      "codigo_fuente": "F03",
+      "archivo_original": "C:\\Users\\monse\\OneDrive\\Desktop\\ProyectoFinal_PoliticasPublicas\\documentos\\fuentes_raw\\F03_resolución_admq_008-2024.pdf",
+      "archivo_texto_generado": "C:\\Users\\monse\\OneDrive\\Desktop\\ProyectoFinal_PoliticasPublicas\\resultados\\fuentes_texto\\F03_texto_preparado.txt",
+      "tipo_contenido": "application/pdf",
+      "caracteres_extraidos": 10686,
+      "total_paginas": 4,
+      "paginas_con_texto": 4,
+      "paginas_sin_texto": 0,
+      "estado_procesamiento": "exitosa",
+      "mensaje_error": null
+    },
+    {
+      "codigo_fuente": "F04",
+      "archivo_original": "C:\\Users\\monse\\OneDrive\\Desktop\\ProyectoFinal_PoliticasPublicas\\documentos\\fuentes_raw\\F04_justicia_y_crimen.html",
+      "archivo_texto_generado": "C:\\Users\\monse\\OneDrive\\Desktop\\ProyectoFinal_PoliticasPublicas\\resultados\\fuentes_texto\\F04_texto_preparado.txt",
+      "tipo_contenido": "text/html",
+      "caracteres_extraidos": 4838,
+      "total_paginas": null,
+      "paginas_con_texto": null,
+      "paginas_sin_texto": null,
+      "estado_procesamiento": "exitosa",
+      "mensaje_error": null
+    },
+    {
+      "codigo_fuente": "F05",
+      "archivo_original": "C:\\Users\\monse\\OneDrive\\Desktop\\ProyectoFinal_PoliticasPublicas\\documentos\\fuentes_raw\\F05_encuesta_de_victimización_y_percepción_de_inseguridad_2011.html",
+      "archivo_texto_generado": "C:\\Users\\monse\\OneDrive\\Desktop\\ProyectoFinal_PoliticasPublicas\\resultados\\fuentes_texto\\F05_texto_preparado.txt",
+      "tipo_contenido": "text/html",
+      "caracteres_extraidos": 44741,
+      "total_paginas": null,
+      "paginas_con_texto": null,
+      "paginas_sin_texto": null,
+      "estado_procesamiento": "exitosa",
+      "mensaje_error": null
+    },
+    {
+      "codigo_fuente": "F06",
+      "archivo_original": "C:\\Users\\monse\\OneDrive\\Desktop\\ProyectoFinal_PoliticasPublicas\\documentos\\fuentes_raw\\F06_estadísticas_de_emergencias_coordinadas_en_2024.html",
+      "archivo_texto_generado": "C:\\Users\\monse\\OneDrive\\Desktop\\ProyectoFinal_PoliticasPublicas\\resultados\\fuentes_texto\\F06_texto_preparado.txt",
+      "tipo_contenido": "text/html",
+      "caracteres_extraidos": 8686,
+      "total_paginas": null,
+      "paginas_con_texto": null,
+      "paginas_sin_texto": null,
+      "estado_procesamiento": "exitosa",
+      "mensaje_error": null
+    }
+  ],
+  "advertencia_metodologica": "La preparación de textos facilita la revisión documental, pero no sustituye la lectura de la fuente original. Toda cifra, fecha, definición, ámbito territorial y afirmación institucional deberá contrastarse antes de utilizarse en el análisis académico"
+}

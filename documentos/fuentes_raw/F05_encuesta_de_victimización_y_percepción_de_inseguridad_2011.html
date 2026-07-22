@@ -1,0 +1,1415 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Ecuador - Encuesta de Victimización y Percepción de Inseguridad 2011</title>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+
+<link rel="stylesheet" href="https://anda.inec.gob.ec/anda5/themes/nada52/css/style.css?v2023">
+<link rel="stylesheet" href="https://anda.inec.gob.ec/anda5/themes/nada52/css/custom.css?v2021">
+<link rel="stylesheet" href="https://anda.inec.gob.ec/anda5/themes/nada52/css/home.css?v03212019">
+<link rel="stylesheet" href="https://anda.inec.gob.ec/anda5/themes/nada52/css/variables.css?v07042021">
+<link rel="stylesheet" href="https://anda.inec.gob.ec/anda5/themes/nada52/css/facets.css?v062021">
+<link rel="stylesheet" href="https://anda.inec.gob.ec/anda5/themes/nada52/css/catalog-tab.css?v07052021">
+<link rel="stylesheet" href="https://anda.inec.gob.ec/anda5/themes/nada52/css/catalog-card.css?v10102021-1">
+<link rel="stylesheet" href="https://anda.inec.gob.ec/anda5/themes/nada52/css/filter-action-bar.css?v14052021-3">
+
+    <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+    var CI = {'base_url': 'https://anda.inec.gob.ec/anda5/index.php'};
+
+    if (top.frames.length!=0) {
+        top.location=self.document.location;
+    }
+
+    $(document).ready(function()  {
+        /*global ajax error handler */
+        $( document ).ajaxError(function(event, jqxhr, settings, exception) {
+            if(jqxhr.status==401){
+                window.location=CI.base_url+'/auth/login/?destination=catalog/';
+            }
+            else if (jqxhr.status>=500){
+                alert(jqxhr.responseText);
+            }
+        });
+
+    }); //end-document-ready
+
+</script>
+
+
+<script type="text/javascript" src="https://anda.inec.gob.ec/anda5/javascript/linkify.min.js?v=072026"></script><script type="text/javascript" src="https://anda.inec.gob.ec/anda5/javascript/linkify-jquery.min.js?v=072026"></script><script type="text/javascript" src="https://anda.inec.gob.ec/anda5/javascript/pym.v1.min.js?v=072026"></script><script type="application/ld+json">
+    {
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "name": "Encuesta de Victimizaci\u00f3n y Percepci\u00f3n de Inseguridad 2011 - Ecuador",
+    "description": "Resumen\r\n---------------------------\r\n\r\nEl Instituto Nacional de Estad\u00edstica y Censos  (INEC) , dentro del marco de la Comisi\u00f3n Interinstitucional de Estad\u00edstica de Seguridad Ciudadana, realiz\u00f3 la Encuesta de Victimizaci\u00f3n y Percepci\u00f3n de Inseguridad 2011, como  respuesta a la necesidad imperante de contar con informaci\u00f3n e indicadores certeros de un sector tan sensible y prioritario para los intereses nacionales como es la seguridad ciudadana,  a partir de esta informaci\u00f3n se busca comprender lo que siente y piensa la ciudadan\u00eda con respecto a la inseguridad, el porcentaje de personas v\u00edctimas que no denuncian el delito, caracter\u00edsticas y circunstancias del delito, las perspectivas sobre el desempe\u00f1o  de las instituciones encargadas de velar por la seguridad de las personas  y el nivel de confianza en las mismas, con el prop\u00f3sito de contribuir a la toma de decisiones y la generaci\u00f3n pol\u00edticas p\u00fablicas en \u00e9ste \u00e1mbito.\n\nObjetivo General:\n\nProveer informaci\u00f3n sobre  los niveles de victimizaci\u00f3n y percepci\u00f3n de la inseguridad que tiene las personas y los  hogares a nivel  nacional,  provincial y de ciudades capitales provinciales; y, establecer la percepci\u00f3n ciudadana sobre las instituciones  que se encargan de garantizar la seguridad de la poblaci\u00f3n.\n\nObjetivos Espec\u00edficos:\n\n- Estimar cifras de delitos comunes a las personas y los hogares\n- Estimar cifras y razones de no denuncia de hechos de violencia\n- Determinar el grado de confianza que tiene la ciudadan\u00eda en las instituciones involucradas en el Sistema de Seguridad Ciudadana (Polic\u00eda Nacional, Ministerio P\u00fablico, Sistema Judicial y Gobierno Nacional).\n- Conocer los factores que est\u00e1n incidiendo en la victimizaci\u00f3n y en la percepci\u00f3n de inseguridad  ciudadana\n- Definir mecanismos y acciones que contribuyan al mejoramiento de la seguridad de  la poblaci\u00f3n.\n- Analizar expectativas respecto de planes y acciones a ser emprendidas por las instituciones y la  poblaci\u00f3n   en seguridad ciudadana.\n\nAlcance:\nLa Encuesta de Victimizaci\u00f3n y Percepci\u00f3n de Inseguridad 2011, investig\u00f3 delitos que fueron seleccionados de acuerdo  a los siguientes criterios:\n- Delitos de mayor connotaci\u00f3n comunes en la mayor\u00eda de provincias del Ecuador\n- Delitos con mayor n\u00famero de casos registrados en la Polic\u00eda Nacional y la Fiscal\u00eda General del Estado.\n- Delitos que por sus caracter\u00edsticas propias, tienen un fuerte impacto negativo en el hogar.\nAs\u00ed como la percepci\u00f3n de las personas frente a los temas de convivencia ciudadana y confianza institucional.\nLa informaci\u00f3n recogida estaba dirigida a  personas de 16 a\u00f1os y m\u00e1s en cada una de las viviendas seleccionadas.\r\n\r\nGeographic coverage\r\n---------------------------\r\n\r\nLos dominios de estudio lo componen \nProvincial urbano: 24 provincias del Ecuador  (24 dominios)\nCantonal urbano ciudades de 2000 y m\u00e1s habitantes (177 ciudades)\n\nSe except\u00faa de la investigaci\u00f3n el \u00e1rea  rural,  por cuanto el fen\u00f3meno delictivo no se consider\u00f3 representativo para este sector.\r\n\r\nAnalysis unit\r\n---------------------------\r\n\r\nLa Unidad de an\u00e1lisis: El hogar y la persona de 16 a\u00f1os y m\u00e1s que sea residente habitual del hogar seleccionado en las viviendas de la muestra, en el \u00e1rea urbana del Ecuador Continental e Insular,  para los indicadores a nivel de hogar el informante ser\u00e1 el jefe de hogar y mientras que para los indicadores de personas el informante ser\u00e1 la persona de 16 a\u00f1os y m\u00e1s  seleccionada aleatoriamente del hogar.  \n \nResidente habitual.-  Son todas las personas que habitan la vivienda la mayor parte del tiempo en forma permanente, por un per\u00edodo de seis meses o m\u00e1s.  Estas personas pueden encontrarse en el momento de la encuesta temporalmente ausentes por razones de enfermedad, trabajo o vacaciones; es decir, se deben incluir las personas residentes habituales si se encuentran ausentes, siempre que su ausencia no sea superior a seis meses y no tienen residencia permanente en otra parte. Tambi\u00e9n se incluyen los hu\u00e9spedes y personas sin parentesco con el jefe del hogar o familiares de \u00e9ste, que residen o piensan residir habitualmente por un per\u00edodo de seis meses o m\u00e1s.\n\nVivienda: recinto de alojamiento estructuralmente separado y con entrada independiente; construido, edificado, transformado o dispuesto para ser habitado por una persona o grupos de personas, siempre que al momento de la investigaci\u00f3n no est\u00e9 utilizada con finalidad distinta. Tambi\u00e9n se consideran como viviendas, espacios m\u00f3viles  (barcazas, coches, etc.)  y locales improvisados para vivir, que se hallen habitados en el momento de la entrevista.\n\nLa vivienda puede ser una casa, un departamento, un cuarto, un grupo de cuartos, una choza, una caba\u00f1a o cualquier refugio ocupado o disponible, para ser utilizado como lugar de alojamiento.\n\nHogar: Es la unidad social conformada por una persona o grupo de personas que se asocian para compartir b\u00e1sicamente el alojamiento y la alimentaci\u00f3n. Es decir, que hogar es el conjunto de personas que residen habitualmente en la misma vivienda o en parte de ella  (viven bajo el mismo techo), que est\u00e1n unidas o no por lazos de parentesco, y que cocinan en com\u00fan para todos sus miembros  (comen de la misma olla).\r\n\r\nUniverso de estudio\r\n---------------------------\r\n\r\nEst\u00e1 compuesto por el hogar y la  persona de 16 a\u00f1os y m\u00e1s, residentes habituales de los hogares que habitan en los dominios de investigaci\u00f3n.\r\n\r\nKind of data\r\n---------------------------\r\n\r\nEncuestapor muestreo (ssd)\r\n\r\nSampling procedure\r\n---------------------------\r\n\r\nEl marco muestral que se utiliz\u00f3 es el construido a partir de la informaci\u00f3n cartogr\u00e1fica y demogr\u00e1fica que se obtuvo en el VII Censo de Poblaci\u00f3n y VI de Vivienda del 2010.\n\nTipo de dise\u00f1o\n\nEl dise\u00f1o muestral utilizado se define como probabil\u00edstico, tri-et\u00e1pico, seleccionando de manera aleatoria tanto las Unidades Primarias de Muestreo (UPM),  las viviendas como  la persona a ser encuestada.\n\nPrimera etapa: Selecci\u00f3n de sectores censales.\n\nSelecci\u00f3n de las unidades primarias de muestreo (UPM). Las UPM fueron seleccionadas de forma aleatoria con afijaci\u00f3n proporcional al tama\u00f1o de las ciudades. Para la ubicaci\u00f3n de las UPM en el campo se debe hacer  uso de la cartograf\u00eda del Censo Nacional de Poblaci\u00f3n y Vivienda 2010.  Esta selecci\u00f3n se hizo en oficina.\n \nSegunda etapa: Selecci\u00f3n de viviendas, esta etapa correspondi\u00f3  a la selecci\u00f3n de 24 viviendas particulares ocupadas, dentro de los sectores seleccionados,  \u00e9sta selecci\u00f3n se la realiz\u00f3 del marco de viviendas, esta selecci\u00f3n tambi\u00e9n se la realiz\u00f3 en oficina, las viviendas seleccionadas constituyeron las Unidades Secundarias de Muestreo (USM).\n\nSelecci\u00f3n de las unidades secundarias de muestreo (USM) viviendas. Se hizo una selecci\u00f3n aleatoria de las unidades de las viviendas con probabilidad igual para todas las viviendas, dentro del respectivo sector. \n\nEn las USM seleccionadas se tomaron todos los hogares y se enlistaron a todas las personas pertenecientes al grupo objetivo, de cada uno de los hogares.\n\nTercera etapa: Selecci\u00f3n de la persona a encuestar.\n\nEl procedimiento comenz\u00f3 con el registro de las personas en el cuestionario, se debi\u00f3 registrar todas las personas con 16 a\u00f1os de edad  o m\u00e1s, residentes habituales del hogar; en orden de parentesco y posteriormente hacer la selecci\u00f3n.\n\nSelecci\u00f3n de las unidades finales de muestreo (UFM), personas. Para contestar la encuesta se  seleccion\u00f3  aleatoriamente  una persona de 16 a\u00f1os de edad o m\u00e1s; entre los residentes habituales del hogar.  Esta selecci\u00f3n se realiz\u00f3 con una distribuci\u00f3n uniforme con el fin de dar la misma probabilidad de selecci\u00f3n a cada una de las personas del hogar. Para tal fin se utilizaron tablas modificadas de Kish que combinan el \u00faltimo d\u00edgito del n\u00famero de serie del cuestionario correspondiente al hogar y el n\u00famero de residentes permanentes del hogar. \n\nCabe mencionar, que al existir rechazo por parte de la persona seleccionada se procedi\u00f3 a seleccionar una nueva persona con la misma metodolog\u00eda de la  tabla de Kish.\n\nEl tama\u00f1o total de la muestra es de 5.002 sectores censales en el \u00e1rea urbana, que agrupa 120.048 viviendas.\n\nNivel de Confianza de la muestra: Se considera un nivel de confianza del 95%\n\nMargen de error de la muestra.- Se considera un error porcentual de entre el 10 y el 20%.\r\n\r\nMode of data collection\r\n---------------------------\r\n\r\nFace-to-face [f2f]\r\n\r\nResearch instrument\r\n---------------------------\r\n\r\nEn  la encuesta de victimizaci\u00f3n y percepci\u00f3n de la inseguridad (ENVIPI) 2011 se utiliz\u00f3  un cuestionario impreso  elaborado seg\u00fan los requerimientos de las instituciones miembros de la Comisi\u00f3n Interinstitucional de Estad\u00edsticas de Seguridad Ciudadana, basado en las recomendaciones dadas en el Manual de encuestas de victimizaci\u00f3n de las Naciones Unidas lo que permite mayor comparabilidad internacional de los datos, as\u00ed mismo se utiliz\u00f3 cuestionarios de experiencias nacionales como es  el formulario aplicado en la Encuesta Nacional de Victimizaci\u00f3n y Percepci\u00f3n de la inseguridad  realizada por la empresa CIMACYT en el 2008.\n\nCaracter\u00edsticas del cuestionario:\n\n- Impreso en papel: Conten\u00eda preguntas con espacios en blancos para ser llenados a mano las respuestas correspondientes.\n- Tipo: de entrevista directa aplicado en  hogares\n- Dirigido:   por cuanto el entrevistador guiaba al entrevistado en el diligenciamiento de las    preguntas.\n- Semi- estructurado: Por cuanto contiene preguntas  abiertas y cerradas (respuestas  precodificadas).\r\n\r\nCleaning operations\r\n---------------------------\r\n\r\nEn esta fase se consideraron las siguientes  operaciones que forman parte del procesamiento:\n\n- Archivo de la informaci\u00f3n\n\nUna vez conclu\u00edda cada una de las jornadas de trabajo se conform\u00f3 un archivo f\u00edsico con el fin de ordenar el material diligenciado. Este archivo se realiza respetando la divisi\u00f3n pol\u00edtica administrativa del Ecuador, esto es  nivel de provincias urbanas y de ciudades seleccionadas, esta fase se constituye en el insumo indispensable para la realizaci\u00f3n de los controles de cobertura tanto en el levantamiento como en el procesamiento.\n\n- Cr\u00edtica-Codificaci\u00f3n de la informaci\u00f3n:\n\nEn esta fase se verifica la consistencia de los datos contenidos en cada uno de los cap\u00edtulos del formulario para asegurar la calidad y confiabilidad. Los responsables zonales de la fase de cr\u00edtica-codificaci\u00f3n tienen la obligaci\u00f3n de garantizar que se cumplan todas las actividades que se encuentran detalladas en el respectivo Manual de Cr\u00edtica, en el que adem\u00e1s est\u00e1 se\u00f1alado el an\u00e1lisis que se deber\u00e1 realizar, entre la car\u00e1tula del formulario y el formulario de Muestra y Cobertura MyC, as\u00ed como la asignaci\u00f3n de los c\u00f3digos para preguntas abiertas  de acuerdo con instrucciones establecidas utilizando instrumentos habilitantes  dise\u00f1ados para el cumplimiento de esta actividad como: La Divisi\u00f3n Pol\u00edtica Administrativa y el  Listado de c\u00f3digos de pa\u00edses,  antes de que el formulario diligenciado pase a la fase de digitaci\u00f3n\n\nEsta actividad se realiz\u00f3 con 46 personas contratadas, 42 para cr\u00edtico-codificadores, distribuidos de la siguiente manera: 21 en la DILIT, 11 en la DINOR, 5 en la DISUR y 5 en la DICEN; mientras que los 4 restantes desempe\u00f1aron las funciones de Supervisor de Equipo T\u00e9cnico  ( cr\u00edtico-codificador ) , uno por regional y fueron los encargados en primera instancia de armar el archivo del material que llegaba de campo, luego de lo cual y en base a las cargas de trabajo levantadas,  hac\u00edan  el an\u00e1lisis de cobertura, para posteriormente asignar la carga de trabajo a cada uno de los cr\u00edtico-codificadores para que realicen su actividad y finalmente entregaban este material al encargado de la digitaci\u00f3n.\nLa carga de trabajo  prevista para esta actividad fue de  3 sectores,  es decir 72 formularios diarios por persona.\n\n- Digitaci\u00f3n:\n\nLa digitaci\u00f3n de los datos se realiz\u00f3 en cada una de las direcciones Regionales y de forma casi paralela a la toma de informaci\u00f3n, la capacitaci\u00f3n y las directrices estuvieron a cargo del responsable de la plataforma tecnol\u00f3gica de cada regional.\nLa digitaci\u00f3n inici\u00f3 su trabajo el 10 de Octubre con 18 d\u00edas de diferencia respecto al operativo de campo y 8 d\u00edas con respecto a la cr\u00edtica-codificaci\u00f3n.  Nunca se dio la falta de material para la fase de digitaci\u00f3n.\nEn cada Direcci\u00f3n Regional hubo un responsable de la Digitaci\u00f3n quien fue el encargado de conformar el archivo f\u00edsico del material entregado por el jefe de cr\u00edtica, el mismo que entreg\u00f3 la carga de trabajo a cada uno de los/as digitadores/ras y posteriormente con el material digitado, realizaba el control de cobertura, y retornaba al archivo f\u00edsico los formularios.\n\nLa carga de trabajo para esta etapa, estaba en un promedio de 3 a 4 sectores diarios en un inicio,  despu\u00e9s de la implementaci\u00f3n del nuevo sistema de ingreso de datos y tomando en consideraci\u00f3n que los digitadores se fueron familiarizando con el sistema se asign\u00f3 una carga de  6 y 7 Sectores por d\u00eda, a nivel nacional el n\u00famero de digitadores fueron : Regional Norte 6, Regional del Litoral 11, Regional Centro 2 Regional del Sur2. En cada una de las Direcciones Regionales el responsable de la digitaci\u00f3n debi\u00f3 coordinar sus actividades con el Responsable regional de digitaci\u00f3n, con la finalidad de mantener los controles de calidad de la informaci\u00f3n emanadas por el responsable nacional de procesamiento y dar soluciones a nivel nacional\n\n- Validaci\u00f3n y depuraci\u00f3n  de la informaci\u00f3n\n\n Una vez que la informaci\u00f3n ha sido digitalizada, las Direcciones Zonales env\u00edan sus archivos de datos (bases de datos) hacia la Administraci\u00f3n Central, en donde se integran en una sola base de datos los archivos enviados. La base de datos integrada es sometida a procesos de validaci\u00f3n autom\u00e1tica (verificaci\u00f3n de consistencia de la informaci\u00f3n). Si el sistema reporta novedades, se emiten informes a la Direcci\u00f3n Zonal responsable para que se realicen las correspondientes correcciones. Una vez realizadas las validaciones en todas las zonales, se procede a la fase de tabulaci\u00f3n. Con la finalidad  de asegurar la cobertura, esto es que todos los formularios diligenciados en campo hayan sido digitados, se har\u00e1 una confrontaci\u00f3n  entre el archivo digital y los formularios f\u00edsicos. Esta actividad ser\u00e1 realizada tanto por el  Responsable  Regional de Cr\u00edtica y Codificaci\u00f3n y Digitaci\u00f3n  en coordinaci\u00f3n con el  Equipo T\u00e9cnico  Nacional\n \n- Tabulaci\u00f3n de la informaci\u00f3n\n\nConsiste en la generaci\u00f3n de resultados que responden a los objetivos de la operaci\u00f3n estad\u00edstica. Los tabulados se presentan en forma de cuadros, tablas y gr\u00e1ficos y se realizaran a trav\u00e9s de un paquete estad\u00edstico denominado Statistical Package for Social Sciencies (SPSS).\n\n- Generaci\u00f3n de bases de datos\n\n Posterior al an\u00e1lisis de consistencia (garantizar la calidad de la informaci\u00f3n\nrecolectada, mediante la revisi\u00f3n sistem\u00e1tica de cada una de\nlas respuestas tanto de manera individual como en su relaci\u00f3n\ncon otras. Para efectuarla se toman como base las pautas de\nconsistencia definidas por las mallas de validaci\u00f3n. Las mismas se clasifican como\nerrores o como advertencias; los errores, que reflejan\nrelaciones incoherentes por definici\u00f3n, ser\u00e1n objeto de\ncorrecci\u00f3n siempre; las advertencias, que reflejan\nincoherencias aparentes en una relaci\u00f3n, ser\u00e1n corregidas o\naceptadas dependiendo del resultado de la evaluaci\u00f3n realizada\npor el personal de campo); es decir concluida tanto el operativo de campo como el an\u00e1lisis de consistencia, se procedi\u00f3  a la construcci\u00f3n de la Base de Datos Nacional, con la unificaci\u00f3n de las Bases entregadas por las Direcciones Regionales al Responsable Nacional de Procesamiento.  \n En el departamento de Dise\u00f1o Muestral, de la Direcci\u00f3n de Producci\u00f3n de Estad\u00edsticas Sociodemogr\u00e1ficas, se construyeron  los Factores de Expansi\u00f3n,  basados en la informaci\u00f3n proporcionada por cada Direcci\u00f3n Regional.  A fin de reducir al m\u00e1ximo las posibles inconsistencias que se presentaron en el diligenciamiento del cuestionario de la Encuesta de Victimizaci\u00f3n y Percepci\u00f3n de Inseguridad, se elabor\u00f3 y entreg\u00f3 al  \u00e1rea de Inform\u00e1tica el Plan de Inconsistencias, el mismo que  controlar\u00e1 que la informaci\u00f3n receptada pase por un filtro que permita detectar  datos err\u00f3neos o inconsistentes, para controlar que la informaci\u00f3n sea depurada y tenga los par\u00e1metros de calidad que el INEC  garantiza  en sus Bases de datos. \nPara el procesamiento de la informaci\u00f3n se utiliz\u00f3 el programa estad\u00edstico SPSS, con el cual a trav\u00e9s de la programaci\u00f3n de sintaxis se obtuvo los resultados de la ENVIPI 2011 tomando en consideraci\u00f3n el plan de tabulados propuesto y aprobado inicialmente por la Comisi\u00f3n Interinstitucional de Seguridad Ciudadana.",
+    "url": "https://anda.inec.gob.ec/anda5/index.php/catalog/673",
+    "sameAs": "https://anda.inec.gob.ec/anda5/index.php/catalog/study/ECU-INEC-DIES-ENVIPI-2011-v1.6",
+    "identifier": "ECU-INEC-DIES-ENVIPI-2011-v1.6",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "https://anda.inec.gob.ec/anda5/"
+    },
+    "temporalCoverage": "2011",
+    "dateCreated": "2019-02-12T06:06:57-05:00",
+    "dateModified": "2019-02-12T07:10:15-05:00",
+    "spatialCoverage": {
+        "@type": "Place",
+        "name": "Ecuador"
+    },
+    "creator": [
+        {
+            "@type": "Organization",
+            "name": "Instituto Nacional de Estad\u00edstica y Censos (INEC)"
+        }
+    ],
+    "producer": [
+        {
+            "@type": "Organization",
+            "name": ""
+        }
+    ]
+}</script>
+</head>
+
+<body>
+
+    <!-- site header -->
+    <style>
+.site-header .navbar-light .no-logo .navbar-brand--sitename {border:0px!important;margin-left:0px}
+.site-header .navbar-light .no-logo .nada-site-title {font-size:18px;}
+</style>
+<header class="site-header">
+     
+        
+ 
+    <div class="container">
+ 
+        <div class="row">
+            <div class="col-12">
+            <div class="navbar-brand--logo">
+                            <img src="https://anda.inec.gob.ec/anda5/themes/nada52/images/INEC.png" style="max-width:400px;max-width:400px;margin-top:15px;border:0px;" >
+                        </div>
+                <nav class="navbar navbar-expand-md navbar-light rounded navbar-toggleable-md wb-navbar">
+ 
+                                                            <div class="navbar-brand">
+                        
+                        <div class="navbar-brand--sitename" style="margin-left:0px;border-left:0px;padding-left:0px">
+                            <div><a class="nada-site-title" href="https://anda.inec.gob.ec/anda5/index.php">Catálogo de Metadatos Estadísticos</a></div>
+                            <div class="nada-site-subtitle">Archivo Nacional de Datos y Metadatos Estadísticos</div>
+                        </div>
+                    </div>
+                     
+ 
+                                                            
+ 
+                    <button class="navbar-toggler navbar-toggler-right collapsed wb-navbar-button-toggler" type="button" data-toggle="collapse" data-target="#containerNavbar" aria-controls="containerNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+ 
+                    <!-- Start menus -->
+                    <!-- Start menus -->
+<div class="navbar-collapse collapse" id="containerNavbar" aria-expanded="false">
+        <ul class="navbar-nav ml-auto">
+                                            <li class="nav-item">
+                <a   class="nav-link" href="https://anda.inec.gob.ec/anda5/index.php/catalog/?page=1&amp;ps=15">Encuestas-Censos-Registros</a>
+            </li>            
+                                            <li class="nav-item">
+                <a target="_blank"  class="nav-link" href="https://anda.inec.gob.ec/anda5/index.php/catalog/REGISTROS">Registros Administrativos</a>
+            </li>            
+                                            <li class="nav-item">
+                <a target="_blank"  class="nav-link" href="https://anda.inec.gob.ec/anda5/index.php/catalog/AMBIENTALES">Ambientales-Agropecuarias</a>
+            </li>            
+                                            <li class="nav-item">
+                <a target="_blank"  class="nav-link" href="https://anda.inec.gob.ec/anda5/index.php/catalog/ESTADECON">Económicas</a>
+            </li>            
+                                            <li class="nav-item">
+                <a target="_blank"  class="nav-link" href="https://anda.inec.gob.ec/anda5/index.php/catalog/SOCDEMO">Sociodemográficas</a>
+            </li>            
+                                            <li class="nav-item">
+                <a target="_blank"  class="nav-link" href="http://www.ecuadorencifras.gob.ec/">Web INEC</a>
+            </li>            
+        
+        
+<li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-user-circle fa-lg"></i>Ingresar            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="https://anda.inec.gob.ec/anda5/index.php/auth/login">Ingresar</a>
+            </div>
+                </li>
+<!-- /row -->
+    </ul>
+
+</div>
+<!-- Close Menus -->                    <!-- Close Menus -->
+ 
+                </nav>
+            </div>
+ 
+        </div>
+        <!-- /row -->
+ 
+    </div>
+ 
+</header>
+    <!-- page body -->
+    <div class="wp-page-body container-fluid page-catalog catalog">
+
+        <div class="body-content-wrap theme-nada-2">
+
+            <!--breadcrumbs -->
+            <div class="container">
+                                                    <ol class="breadcrumb wb-breadcrumb">
+                        	    <div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#">
+           <span typeof="v:Breadcrumb">
+                		         <a href="https://anda.inec.gob.ec/anda5/index.php/" rel="v:url" property="v:title">Página principal</a> /
+                        
+       </span>
+                  <span typeof="v:Breadcrumb">
+                		         <a href="https://anda.inec.gob.ec/anda5/index.php/catalog" rel="v:url" property="v:title">Catálogo Central de Datos</a> /
+                        
+       </span>
+                  <span typeof="v:Breadcrumb">
+                		         <a href="https://anda.inec.gob.ec/anda5/index.php/catalog/SOCDEMO" rel="v:url" property="v:title">SOCDEMO</a> /
+                        
+       </span>
+                  <span typeof="v:Breadcrumb">
+        	         	         <a class="active" href="https://anda.inec.gob.ec/anda5/index.php/catalog/673" rel="v:url" property="v:title">ECU-INEC-DIES-ENVIPI-2011-V1.6</a>
+                        
+       </span>
+               </div>
+                    </ol>
+                            </div>
+            <!-- /breadcrumbs -->
+
+            <style>
+.metadata-sidebar-container .nav .active{
+	background:#e9ecef;		
+}
+.study-metadata-page .page-header .nav-tabs .active a {
+	background: white;
+	font-weight: bold;
+	border-top: 2px solid #0071bc;
+	border-left:1px solid gainsboro;
+	border-right:1px solid gainsboro;
+}
+
+.study-info-content {
+    font-size: 14px;
+}
+
+.study-subtitle{
+	font-size:.7em;
+	margin-bottom:10px;
+}
+
+.badge-outline{
+	background:transparent;
+	color:#03a9f4;
+	border:1px solid #9e9e9e;
+}
+.study-header-right-bar span{
+	display:block;
+	margin-bottom:15px;
+}
+.study-header-right-bar{
+	font-size:14px;
+	color:gray;
+}
+.get-microdata-btn{
+	font-size:14px;
+}
+
+.link-col .badge{
+	font-size:14px;
+	font-weight:normal;
+	background:transparent;
+	border:1px solid #9E9E9E;
+	color:#03a9f4;
+}
+
+.link-col .badge:hover{
+	background:#03a9f4;
+	color:#ffffff;
+}
+
+.study-header-right-bar .stat{
+	margin-bottom:10px;
+	font-size:small;
+}
+
+.study-header-right-bar .stat .stat-label{
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+.field-metadata__table_description__ref_country .field-value,
+.field-metadata__study_desc__study_info__nation .field-value{
+	max-height:350px;
+	overflow:auto;
+}
+.field-metadata__table_description__ref_country .field-value  ::-webkit-scrollbar,
+.field-metadata__study_desc__study_info__nation .field-value ::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+.field-metadata__table_description__ref_country .field-value  ::-webkit-scrollbar-thumb,
+.field-metadata__study_desc__study_info__nation .field-value ::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+  box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+</style>
+
+
+<div class="page-body-full study-metadata-page">
+	<span 
+		id="dataset-metadata-info" 
+		data-repositoryid="SOCDEMO"
+		data-id="673"
+		data-idno="ECU-INEC-DIES-ENVIPI-2011-v1.6"
+	></span>
+
+<div class="container-fluid page-header">
+<div class="container">
+
+
+<div class="row study-info">
+					<div class="col-md-2">
+			<div class="collection-thumb-container">
+				<a href="https://anda.inec.gob.ec/anda5/index.php/catalog/SOCDEMO">
+				<img  src="https://anda.inec.gob.ec/anda5/files/images/INEC_V.png?v=1549973415" class="mr-3 img-fluid img-thumbnail" alt="SOCDEMO" title="ESTADISTICAS SOCIODEMOGRAFICAS"/>
+				</a>
+			</div>		
+		</div>
+	
+	<div class="col">
+		
+		<div>
+		    <h1 class="mt-0 mb-1" id="dataset-title">
+                <span>Encuesta de Victimización y Percepción de Inseguridad 2011</span>
+                            </h1>
+            <div class="clearfix">
+		        <h6 class="sub-title float-left" id="dataset-sub-title"><span id="dataset-country">Ecuador</span>, <span id="dataset-year">2011</span></h6>
+                                <a  
+                    href="https://anda.inec.gob.ec/anda5/index.php/catalog/673/get-microdata" 
+                    class="get-microdata-btn badge badge-primary wb-text-link-uppercase float-left ml-3" 
+                    title="Obtener microdatos">					
+                    <span class="fa fa-download"></span>
+                    Obtener microdatos                </a>
+                                
+            </div>
+		</div>
+
+		<div class="row study-info-content">
+		
+            <div class="col pr-5">
+
+                <div class="row mt-4 mb-2 pb-2  border-bottom">
+                    <div class="col-md-2">
+                        ID de Referencia                    </div>
+                    <div class="col">
+                        <div class="study-idno">
+                            ECU-INEC-DIES-ENVIPI-2011-v1.6                            
+                        </div>
+                    </div>
+                </div>
+
+                		
+                                <div class="row mb-2 pb-2  border-bottom">
+                    <div class="col-md-2">
+                        Productor(es)                    </div>
+                    <div class="col">
+                        <div class="producers">
+                            Instituto Nacional de Estadística y Censos (INEC)                        </div>
+                    </div>
+                </div>
+                                
+                
+                 
+                <div class="row  border-bottom mb-2 pb-2 mt-2">
+                    <div class="col-md-2">
+                        Colección(es)                    </div>
+                    <div class="col">
+                        <div class="collections link-col">           
+                                                            <span class="collection">
+                                    <a href="https://anda.inec.gob.ec/anda5/index.php/collections/SOCDEMO">
+                                        <span class="badge badge-primary">ESTADISTICAS SOCIODEMOGRAFICAS</span>
+                                    </a>                                    
+                                </span>
+                                                    </div>
+                    </div>
+                </div>
+                
+                <div class="row border-bottom mb-2 pb-2 mt-2">
+                    <div class="col-md-2">
+                        Metadatos                    </div>
+                    <div class="col">
+                        <div class="metadata">
+                            <!--metadata-->
+                            <span class="mr-2 link-col">
+                                                                                            
+                                                                    <a class="download" 
+                                       href="https://anda.inec.gob.ec/anda5/index.php/metadata/export/673/ddi" 
+                                       title="Libro de códigos DDI (2.5)"
+                                       data-filename="metadata-673.xml"
+                                       data-dctype="metadata"
+                                       data-isurl="0"
+                                       data-extension="xml"
+                                       data-sid="673">
+                                        <span class="badge badge-primary"> DDI / XML
+</span>
+                                    </a>
+                                
+                                <a class="download" 
+                                   href="https://anda.inec.gob.ec/anda5/index.php/metadata/export/673/json" 
+                                   title="Metadatos en JSON
+"
+                                   data-filename="metadata-673.json"
+                                   data-dctype="metadata"
+                                   data-isurl="0"
+                                   data-extension="json"
+                                   data-sid="673">
+                                    <span class="badge badge-info">JSON
+</span>
+                                </a>
+                            </span>	
+                            <!--end-metadata-->
+                        </div>
+                    </div>
+                </div>
+
+                
+                	    </div>
+	
+	</div>
+
+	</div>
+
+    <div class="col-md-2 border-left">
+		<!--right-->
+		<div class="study-header-right-bar">
+				<div class="stat">
+					<div class="stat-label">Creado el  </div>
+					<div class="stat-value">Feb 12, 2019</div>
+				</div>
+
+				<div class="stat">
+					<div class="stat-label">Última modificación </div>
+					<div class="stat-value">Feb 12, 2019</div>
+				</div>
+				
+									<div class="stat">
+						<div class="stat-label">Visitas a la página </div>
+						<div class="stat-value">1882032</div>
+					</div>
+				
+									<div class="stat">
+						<div class="stat-label">Descargas </div>
+						<div class="stat-value">3226218</div>
+					</div>				
+						</div>		
+		<!--end-right-->
+	</div>
+
+</div>
+
+
+
+
+<!-- Nav tabs -->
+<ul class="nav nav-tabs wb-nav-tab-space flex-wrap" role="tablist">
+								<li class="nav-item tab-description active"  >
+				<a href="https://anda.inec.gob.ec/anda5/index.php/catalog/673/study-description" class="nav-link wb-nav-link wb-text-link-uppercase active" role="tab"  data-id="related-materials" >Descripción del estudio</a>
+			</li>
+										<li class="nav-item tab-data_dictionary "  >
+				<a href="https://anda.inec.gob.ec/anda5/index.php/catalog/673/data-dictionary" class="nav-link wb-nav-link wb-text-link-uppercase " role="tab"  data-id="related-materials" >Descripción de los datos</a>
+			</li>
+										<li class="nav-item tab-related_materials "  >
+				<a href="https://anda.inec.gob.ec/anda5/index.php/catalog/673/related-materials" class="nav-link wb-nav-link wb-text-link-uppercase " role="tab"  data-id="related-materials" >Descargas</a>
+			</li>
+										<li class="nav-item nav-item-get-microdata tab-get_microdata " >
+				<a href="https://anda.inec.gob.ec/anda5/index.php/catalog/673/get-microdata" class="nav-link wb-nav-link wb-text-link-uppercase " role="tab" data-id="related-materials" >
+					<span class="get-microdata icon-da-direct"></span> Obtener microdatos				</a>
+			</li>                            
+										
+	<!--review-->
+	</ul>
+<!-- end nav tabs -->
+</div>
+</div>
+
+
+
+<div class="container study-metadata-body-content " >
+
+
+<!-- tabs -->
+<div id="tabs" class="study-metadata ui-tabs ui-widget ui-widget-content ui-corner-all study-tabs" >	
+  
+  <div id="tabs-1" aria-labelledby="ui-id-1" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" >
+  	
+        <div class="tab-body-no-sidebar-x"><div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="navbar-collapse sticky-top metadata-sidebar-container">
+            <div class="nav flex-column">
+                            <li class="nav-item">                    
+                    <a class="nav-link" href="#study_desc.title_statement">Identificación</a>
+                </li>
+                            <li class="nav-item">                    
+                    <a class="nav-link" href="#study_desc1674579453273">Alcance</a>
+                </li>
+                            <li class="nav-item">                    
+                    <a class="nav-link" href="#study_desc1684331110642">Cobertura</a>
+                </li>
+                            <li class="nav-item">                    
+                    <a class="nav-link" href="#study_desc1684331430702">Productores y Patrocinadores</a>
+                </li>
+                            <li class="nav-item">                    
+                    <a class="nav-link" href="#study_desc1674579234511">Muestreo</a>
+                </li>
+                            <li class="nav-item">                    
+                    <a class="nav-link" href="#study_desc1684332949622">Instrumento de la encuesta</a>
+                </li>
+                            <li class="nav-item">                    
+                    <a class="nav-link" href="#study_desc1684332928200">Recoleción de Datos</a>
+                </li>
+                            <li class="nav-item">                    
+                    <a class="nav-link" href="#study_desc1686767889862">Procesamiento de datos</a>
+                </li>
+                            <li class="nav-item">                    
+                    <a class="nav-link" href="#study_desc1684335103457">Política de Acceso a los microdatos</a>
+                </li>
+                            <li class="nav-item">                    
+                    <a class="nav-link" href="#study_desc1684335112393">Descargo de responsabilidad y Derechos de autor</a>
+                </li>
+                            <li class="nav-item">                    
+                    <a class="nav-link" href="#study_desc1684335140110">Contactos</a>
+                </li>
+                            <li class="nav-item">                    
+                    <a class="nav-link" href="#doc_desc.title_statement">Producción de Metadatos</a>
+                </li>
+                        </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div><div class="field-section-container pb-3"><h2 class="field-section" id="study_desc.title_statement">Identificación</h2><div class="mb-2 field field-study_desc.title_statement.idno">
+    <div class="font-weight-bold field-title">Número ID de la Encuesta</div>
+    <div class="field-value">
+                                    <span><p>ECU-INEC-DIES-ENVIPI-2011-v1.6</p></span>
+            
+            </div>
+</div>
+<div class="mb-2 field field-study_desc.title_statement.title">
+    <div class="font-weight-bold field-title">Título</div>
+    <div class="field-value">
+                                    <span><p>Encuesta de Victimización y Percepción de Inseguridad 2011</p></span>
+            
+            </div>
+</div>
+<div class="mb-2 field field-study_desc.title_statement.alternate_title">
+    <div class="font-weight-bold field-title">Abreviatura o Acrónimo</div>
+    <div class="field-value">
+                                    <span><p>ENVIPI 2011</p></span>
+            
+            </div>
+</div>
+<div class="mb-2 field field-study_desc.title_statement.translated_title">
+    <div class="font-weight-bold field-title">Título traducido</div>
+    <div class="field-value">
+                                    <span><p>Survey of Victimization and Perception of Insecurity</p></span>
+            
+            </div>
+</div>
+<div class="table-responsive field field-study_desc_study_info_nation">
+    <div class="field-title">País</div>
+<div class="">
+<table class="table table-sm table-bordered table-striped table-condensed xsl-table table-grid ">
+            <tr>
+                        <th>Nombre</th>
+                        <th>Código de país</th>
+                    </tr>
+            <tr>
+                            <td>            
+                                                    Ecuador                                    </td>
+                            <td>            
+                                                    ECU                                    </td>
+            </tr>
+        
+</table>
+</div>
+</div>
+
+<div class="mb-2 field field-study_desc.series_statement.series_name">
+    <div class="font-weight-bold field-title">Tipo de estudio</div>
+    <div class="field-value">
+                                    <span><p>Other Household Survey [hh/oth]</p></span>
+            
+            </div>
+</div>
+<div class="mb-2 field field-study_desc.series_statement.series_info">
+    <div class="font-weight-bold field-title">Antecedentes</div>
+    <div class="field-value">
+                                    <span><p>Las primeras encuestas de victimización, según referencias bibliográficas, se desarrollaron en los años sesenta del siglo pasado  con la finalidad de complementar  la información proveniente de  los registros administrativos de las instituciones policiales y judiciales, cuyos  registros dan cuenta únicamente de los delitos denunciados  quedando afuera los no  denunciados conocidos internacionalmente como “cifra negra u oculta del delito”. </p>
+<p>Durante los años setenta e inicios de los ochenta, se desarrollaron encuestas nacionales de victimización en países como Finlandia (en alianza con Gallup Finland en 1970), Holanda (1974), Australia (1975), Suecia (1978-79), Israel (1979) y Reino Unido (1981). En particular, Estados Unidos realizó un aporte sobresaliente en esta área con la Encuesta Nacional sobre Delito en Estados Unidos (1972).   A nivel internacional se implementa la Encuesta de las Naciones Unidas sobre tendencias delictivas y la operación de los sistemas de justicia penal, también conocida como Encuesta sobre Tendencias Delictivas (CTS por sus siglas en inglés), que recolecta datos sobre delito a nivel mundial. Posteriormente el Instituto Interregional de las Naciones Unidas para Investigaciones sobre la Delincuencia y la Justicia (UNICRI) junto con la Oficina de las Naciones Unidas contra la Droga y el Delito (ONUDD) desarrollaron la Encuesta Internacional a Víctimas del Delito (ICVS) en 1987, con el objetivo de maximizar la comparabilidad de los datos, dadas las diferencias en las definiciones de los tipos delictivos en cada uno de los países.   El desarrollo de distintos instrumentos de medición y registro de los hechos delictivos no solo representan una forma de retratar los procesos de victimización a nivel nacional e internacional, sino también una herramienta para la toma de decisiones políticas públicas  y jurídicas por parte de los Estados en su propósito de reducir los índices de criminalidad e inseguridad de sus ciudadanos. Así, la “cifra negra u oculta” resulta importante para la comprensión de las tendencias delictivas de cualquier sociedad contemporánea como complemento de las estadísticas emitidas por los órganos de policía y los sistemas de justicia que captan particularmente los hechos denunciados.</p>
+<p>En el Ecuador se inicia la investigación en encuestas de victimización en el  Municipio del Distrito Metropolitano de Quito (MDMQ),ejecutada por FLACSO en el año 2003,luego se realiza una segunda ronda en el 2004 (SPECTRUN) y una tercera en el 2008 (CIMACYT); finalmente, se realiza una encuesta nacional en el mismo año por encargo del Ministerio de Gobierno. Estas encuestas se realizaron con base metodológica en la ENICRIV, aunque no guarden estricta comparabilidad con ella en algunos de sus componentes.</p>
+<p>Dentro del  Plan Nacional de Seguridad Ciudadana, a través de la  Comisión Interinstitucional de Estadísticas de Seguridad y Justicia Ciudadana  creada el 10 de mayo del 2010, el Ministerio del Interior propone realizar la  primera encuesta  Nacional  de Victimización y Percepción de la Inseguridad 2011,  para  solventar la carencia básica que arrastraba el país en materia seguridad  y  con la finalidad de proporcionar información confiable, permanente,  oportuna y precisa de los hechos delictivos que permitan dar un paso cualitativo en la interpretación de los fenómenos  y que  además permitan respaldar la toma de decisiones de política pública  para la prevención y control de delitos y comportamientos que afecten la seguridad de los ciudadanos ecuatorianos;  el  Instituto Nacional de Estadística y Censos  INEC, ente Rector de las Estadísticas en el país en convenio con el Ministerio del Interior,  realiza la primera  Encuesta Nacional  de Victimización y Percepción  de Inseguridad en el territorio nacional (24 provincias,  177 ciudades de 2000 y más habitantes del sector urbano). La unidad de investigación fue  el hogar y dentro de éste las personas de 16 años y más,  seleccionadas aleatoriamente. </p>
+<p>La Encuesta de Victimización y Percepción de Inseguridad ENVIPI 2011, constituye un primer esfuerzo que busca irse perfeccionando y consolidando con el paso del tiempo, a efecto de contar con un instrumento que  permita obtener información   confiable y  oportuna  del fenómeno delictivo y estar en posibilidad de realizar análisis tanto cualitativos como cuantitativos,  que muestren su verdadera magnitud,  a fin de definir mecanismos y acciones que contribuyan al mejoramiento de la política pública  vinculada a esta problemática y su tratamiento,  lo cual permitirá mejorar los niveles de seguridad y convivencia.</p></span>
+            
+            </div>
+</div>
+<div class="mb-2 field field-study_desc.study_info.abstract">
+    <div class="font-weight-bold field-title">Resumen / Abstract</div>
+    <div class="field-value">
+                                    <span><p>El Instituto Nacional de Estadística y Censos  (INEC) , dentro del marco de la Comisión Interinstitucional de Estadística de Seguridad Ciudadana, realizó la Encuesta de Victimización y Percepción de Inseguridad 2011, como  respuesta a la necesidad imperante de contar con información e indicadores certeros de un sector tan sensible y prioritario para los intereses nacionales como es la seguridad ciudadana,  a partir de esta información se busca comprender lo que siente y piensa la ciudadanía con respecto a la inseguridad, el porcentaje de personas víctimas que no denuncian el delito, características y circunstancias del delito, las perspectivas sobre el desempeño  de las instituciones encargadas de velar por la seguridad de las personas  y el nivel de confianza en las mismas, con el propósito de contribuir a la toma de decisiones y la generación políticas públicas en éste ámbito.</p>
+<p>Objetivo General:</p>
+<p>Proveer información sobre  los niveles de victimización y percepción de la inseguridad que tiene las personas y los  hogares a nivel  nacional,  provincial y de ciudades capitales provinciales; y, establecer la percepción ciudadana sobre las instituciones  que se encargan de garantizar la seguridad de la población.</p>
+<p>Objetivos Específicos:</p>
+<ul>
+<li>Estimar cifras de delitos comunes a las personas y los hogares</li>
+<li>Estimar cifras y razones de no denuncia de hechos de violencia</li>
+<li>Determinar el grado de confianza que tiene la ciudadanía en las instituciones involucradas en el Sistema de Seguridad Ciudadana (Policía Nacional, Ministerio Público, Sistema Judicial y Gobierno Nacional).</li>
+<li>Conocer los factores que están incidiendo en la victimización y en la percepción de inseguridad  ciudadana</li>
+<li>Definir mecanismos y acciones que contribuyan al mejoramiento de la seguridad de  la población.</li>
+<li>Analizar expectativas respecto de planes y acciones a ser emprendidas por las instituciones y la  población   en seguridad ciudadana.</li>
+</ul>
+<p>Alcance:<br />
+La Encuesta de Victimización y Percepción de Inseguridad 2011, investigó delitos que fueron seleccionados de acuerdo  a los siguientes criterios:</p>
+<ul>
+<li>Delitos de mayor connotación comunes en la mayoría de provincias del Ecuador</li>
+<li>Delitos con mayor número de casos registrados en la Policía Nacional y la Fiscalía General del Estado.</li>
+<li>Delitos que por sus características propias, tienen un fuerte impacto negativo en el hogar.<br />
+Así como la percepción de las personas frente a los temas de convivencia ciudadana y confianza institucional.<br />
+La información recogida estaba dirigida a  personas de 16 años y más en cada una de las viviendas seleccionadas.</li>
+</ul></span>
+            
+            </div>
+</div>
+<div class="mb-2 field field-study_desc.study_info.data_kind">
+    <div class="font-weight-bold field-title">Tipo de datos</div>
+    <div class="field-value">
+                                    <span><p>Encuestapor muestreo (ssd)</p></span>
+            
+            </div>
+</div>
+<div class="mb-2 field field-study_desc.study_info.analysis_unit">
+    <div class="font-weight-bold field-title">Unidad de Análisis</div>
+    <div class="field-value">
+                                    <span><p>La Unidad de análisis: El hogar y la persona de 16 años y más que sea residente habitual del hogar seleccionado en las viviendas de la muestra, en el área urbana del Ecuador Continental e Insular,  para los indicadores a nivel de hogar el informante será el jefe de hogar y mientras que para los indicadores de personas el informante será la persona de 16 años y más  seleccionada aleatoriamente del hogar.  </p>
+<p>Residente habitual.-  Son todas las personas que habitan la vivienda la mayor parte del tiempo en forma permanente, por un período de seis meses o más.  Estas personas pueden encontrarse en el momento de la encuesta temporalmente ausentes por razones de enfermedad, trabajo o vacaciones; es decir, se deben incluir las personas residentes habituales si se encuentran ausentes, siempre que su ausencia no sea superior a seis meses y no tienen residencia permanente en otra parte. También se incluyen los huéspedes y personas sin parentesco con el jefe del hogar o familiares de éste, que residen o piensan residir habitualmente por un período de seis meses o más.</p>
+<p>Vivienda: recinto de alojamiento estructuralmente separado y con entrada independiente; construido, edificado, transformado o dispuesto para ser habitado por una persona o grupos de personas, siempre que al momento de la investigación no esté utilizada con finalidad distinta. También se consideran como viviendas, espacios móviles  (barcazas, coches, etc.)  y locales improvisados para vivir, que se hallen habitados en el momento de la entrevista.</p>
+<p>La vivienda puede ser una casa, un departamento, un cuarto, un grupo de cuartos, una choza, una cabaña o cualquier refugio ocupado o disponible, para ser utilizado como lugar de alojamiento.</p>
+<p>Hogar: Es la unidad social conformada por una persona o grupo de personas que se asocian para compartir básicamente el alojamiento y la alimentación. Es decir, que hogar es el conjunto de personas que residen habitualmente en la misma vivienda o en parte de ella  (viven bajo el mismo techo), que están unidas o no por lazos de parentesco, y que cocinan en común para todos sus miembros  (comen de la misma olla).</p></span>
+            
+            </div>
+</div>
+</div><div class="field-section-container pb-3"><h2 class="field-section" id="study_desc1674579453273">Alcance</h2><div class="mb-2 field field-study_desc.study_info.notes">
+    <div class="font-weight-bold field-title">Notas</div>
+    <div class="field-value">
+                                    <span><ol>
+<li>Los temas que se incluyeron en el formulario de  la Encuesta de Victimización y de Percepción de Inseguridad (ENVIPI 2011) son los que se detalla a continuación:</li>
+</ol>
+<p>CARÁTULA<br />
+A. Ubicación Geográfica y Muestral<br />
+B. Seguimiento a visitas<br />
+C. Resultado Final de la encuesta<br />
+D. Encuesta Efectiva<br />
+E. Identificación y ubicación de la vivienda<br />
+F. Número de Hogares<br />
+G. Datos del Informante<br />
+H. Personal Responsable.</p>
+<p>MÓDULOS DEL FORMULARIO</p>
+<p>A. MÓDULO DEL HOGAR </p>
+<ul>
+<li>Residentes en la vivienda</li>
+<li>Miembros del hogar y características sociodemográficas</li>
+<li>Víctimas del delito<br />
+Informante seleccionado</li>
+<li>Características Generales</li>
+<li>Percepción de la Inseguridad Pública</li>
+<li>Automotores del hogar</li>
+<li>Víctima de delitos<br />
+B. MÓDULO DE DELITOS</li>
+<li>Delitos de automotores (robo total)</li>
+<li>Delitos de automotores (robo parcial)</li>
+<li>Robo a la vivienda<br />
+Delitos</li>
+<li>Robo a personas</li>
+<li>Estafa/fraude</li>
+<li>Intimidación/amenaza</li>
+<li>Heridas/lesiones</li>
+<li>Secuestro</li>
+<li>Otros delitos<br />
+C. MÓDULO DEL ÚLTIMO DELITO</li>
+<li>Características generales</li>
+<li>Robo de objetos</li>
+<li>Estafa/fraude</li>
+<li>Intimidación/amenaza</li>
+<li>Lesiones/heridas</li>
+<li>Secuestro</li>
+</ul></span>
+            
+            </div>
+</div>
+</div><div class="field-section-container pb-3"><h2 class="field-section" id="study_desc1684331110642">Cobertura</h2><div class="mb-2 field field-study_desc.study_info.geog_coverage">
+    <div class="font-weight-bold field-title">Cobertura geográfica</div>
+    <div class="field-value">
+                                    <span><p>Los dominios de estudio lo componen<br />
+Provincial urbano: 24 provincias del Ecuador  (24 dominios)<br />
+Cantonal urbano ciudades de 2000 y más habitantes (177 ciudades)</p>
+<p>Se exceptúa de la investigación el área  rural,  por cuanto el fenómeno delictivo no se consideró representativo para este sector.</p></span>
+            
+            </div>
+</div>
+<div class="mb-2 field field-study_desc.study_info.geog_unit">
+    <div class="font-weight-bold field-title">Unidad Geográfica</div>
+    <div class="field-value">
+                                    <span><p>Se consideró que el nivel geográfico para el cual los datos tienen representatividad es:</p>
+<p>Provincial urbano (24 dominios)<br />
+Cantonal urbano, ciudades de 2000 y más habitantes (177 ciudades)<br />
+Niveles agregados de estimación como es nacional urbano y por regiones.</p></span>
+            
+            </div>
+</div>
+<div class="mb-2 field field-study_desc.study_info.universe">
+    <div class="font-weight-bold field-title">Universo</div>
+    <div class="field-value">
+                                    <span><p>Está compuesto por el hogar y la  persona de 16 años y más, residentes habituales de los hogares que habitan en los dominios de investigación.</p></span>
+            
+            </div>
+</div>
+</div><div class="field-section-container pb-3"><h2 class="field-section" id="study_desc1684331430702">Productores y Patrocinadores</h2><div class="table-responsive field field-study_desc_authoring_entity">
+    <div class="field-title">Investigadores primarios</div>
+<div class="">
+<table class="table table-sm table-bordered table-striped table-condensed xsl-table table-grid ">
+            <tr>
+                        <th>Nombre</th>
+                        <th>Afiliación</th>
+                    </tr>
+            <tr>
+                            <td>            
+                                                    Instituto Nacional de Estadística y Censos (INEC)                                    </td>
+                            <td>            
+                                                    Secretaría Nacional de Planificación y Desarrollo (SENPLADES)                                    </td>
+            </tr>
+        
+</table>
+</div>
+</div>
+
+<div class="table-responsive field field-study_desc_production_statement_funding_agencies">
+    <div class="field-title">Organización financiadora / Patrocinador</div>
+<div class="">
+<table class="table table-sm table-bordered table-striped table-condensed xsl-table table-grid ">
+            <tr>
+                        <th>Nombre</th>
+                        <th>Abreviatura / Sigla</th>
+                        <th>Rol</th>
+                    </tr>
+            <tr>
+                            <td>            
+                                                    Ministerio del Interior                                    </td>
+                            <td>            
+                                                    MDI                                    </td>
+                            <td>            
+                                                    Financiamiento total de la Operación Estadística                                    </td>
+            </tr>
+        
+</table>
+</div>
+</div>
+
+</div><div class="field-section-container pb-3"><h2 class="field-section" id="study_desc1674579234511">Muestreo</h2><div class="mb-2 field field-study_desc.method.data_collection.sampling_procedure">
+    <div class="font-weight-bold field-title">Procedimiento de muestreo</div>
+    <div class="field-value">
+                                    <span><p>El marco muestral que se utilizó es el construido a partir de la información cartográfica y demográfica que se obtuvo en el VII Censo de Población y VI de Vivienda del 2010.</p>
+<p>Tipo de diseño</p>
+<p>El diseño muestral utilizado se define como probabilístico, tri-etápico, seleccionando de manera aleatoria tanto las Unidades Primarias de Muestreo (UPM),  las viviendas como  la persona a ser encuestada.</p>
+<p>Primera etapa: Selección de sectores censales.</p>
+<p>Selección de las unidades primarias de muestreo (UPM). Las UPM fueron seleccionadas de forma aleatoria con afijación proporcional al tamaño de las ciudades. Para la ubicación de las UPM en el campo se debe hacer  uso de la cartografía del Censo Nacional de Población y Vivienda 2010.  Esta selección se hizo en oficina.</p>
+<p>Segunda etapa: Selección de viviendas, esta etapa correspondió  a la selección de 24 viviendas particulares ocupadas, dentro de los sectores seleccionados,  ésta selección se la realizó del marco de viviendas, esta selección también se la realizó en oficina, las viviendas seleccionadas constituyeron las Unidades Secundarias de Muestreo (USM).</p>
+<p>Selección de las unidades secundarias de muestreo (USM) viviendas. Se hizo una selección aleatoria de las unidades de las viviendas con probabilidad igual para todas las viviendas, dentro del respectivo sector. </p>
+<p>En las USM seleccionadas se tomaron todos los hogares y se enlistaron a todas las personas pertenecientes al grupo objetivo, de cada uno de los hogares.</p>
+<p>Tercera etapa: Selección de la persona a encuestar.</p>
+<p>El procedimiento comenzó con el registro de las personas en el cuestionario, se debió registrar todas las personas con 16 años de edad  o más, residentes habituales del hogar; en orden de parentesco y posteriormente hacer la selección.</p>
+<p>Selección de las unidades finales de muestreo (UFM), personas. Para contestar la encuesta se  seleccionó  aleatoriamente  una persona de 16 años de edad o más; entre los residentes habituales del hogar.  Esta selección se realizó con una distribución uniforme con el fin de dar la misma probabilidad de selección a cada una de las personas del hogar. Para tal fin se utilizaron tablas modificadas de Kish que combinan el último dígito del número de serie del cuestionario correspondiente al hogar y el número de residentes permanentes del hogar. </p>
+<p>Cabe mencionar, que al existir rechazo por parte de la persona seleccionada se procedió a seleccionar una nueva persona con la misma metodología de la  tabla de Kish.</p>
+<p>El tamaño total de la muestra es de 5.002 sectores censales en el área urbana, que agrupa 120.048 viviendas.</p>
+<p>Nivel de Confianza de la muestra: Se considera un nivel de confianza del 95%</p>
+<p>Margen de error de la muestra.- Se considera un error porcentual de entre el 10 y el 20%.</p></span>
+            
+            </div>
+</div>
+<div class="mb-2 field field-study_desc.method.data_collection.weight">
+    <div class="font-weight-bold field-title">Ponderación</div>
+    <div class="field-value">
+                                    <span><p>El factor de expansión es el multiplicador que se aplica a cada individuo en la muestra con el fin de expandir la muestra hacia la población. El factor de expansión básico para un hogar es igual a la inversa de su probabilidad de selección. Este factor de expansión se debe calcular por separado por cada sector muestral, además debe ser ajustado debido a la no respuesta, ya sea por rechazos, por ausencias, etc.</p></span>
+            
+            </div>
+</div>
+</div><div class="field-section-container pb-3"><h2 class="field-section" id="study_desc1684332949622">Instrumento de la encuesta</h2><div class="mb-2 field field-study_desc.method.data_collection.research_instrument">
+    <div class="font-weight-bold field-title">Cuestionarios</div>
+    <div class="field-value">
+                                    <span><p>En  la encuesta de victimización y percepción de la inseguridad (ENVIPI) 2011 se utilizó  un cuestionario impreso  elaborado según los requerimientos de las instituciones miembros de la Comisión Interinstitucional de Estadísticas de Seguridad Ciudadana, basado en las recomendaciones dadas en el Manual de encuestas de victimización de las Naciones Unidas lo que permite mayor comparabilidad internacional de los datos, así mismo se utilizó cuestionarios de experiencias nacionales como es  el formulario aplicado en la Encuesta Nacional de Victimización y Percepción de la inseguridad  realizada por la empresa CIMACYT en el 2008.</p>
+<p>Características del cuestionario:</p>
+<ul>
+<li>Impreso en papel: Contenía preguntas con espacios en blancos para ser llenados a mano las respuestas correspondientes.</li>
+<li>Tipo: de entrevista directa aplicado en  hogares</li>
+<li>Dirigido:   por cuanto el entrevistador guiaba al entrevistado en el diligenciamiento de las    preguntas.</li>
+<li>Semi- estructurado: Por cuanto contiene preguntas  abiertas y cerradas (respuestas  precodificadas).</li>
+</ul></span>
+            
+            </div>
+</div>
+<div class="mb-2 field field-study_desc.method.method_notes">
+    <div class="font-weight-bold field-title">Organización y preparación de la recolección</div>
+    <div class="field-value">
+                                    <span><p>El proceso de recolección de datos comprende 2 etapas: 1.- Etapa preparatoria o previa a la recolección, y 2.- Recolección de la información. </p>
+<p>1.- La organización preparatoria o previa a la recolección </p>
+<p>La fase de Pre levantamiento tuvo lugar desde el 25 de abril de 2011, misma que incluyó la preparación del Cronograma de Actividades, el cálculo de RR.HH y material necesario, la elaboración del Presupuesto, Firma del Convenio, Elaboración de Lineamientos Técnicos y la aprobación de los mismos.</p>
+<ol>
+<li>
+<ol start="2">
+<li>
+<pre><code>Diseño muestral</code></pre>
+</li>
+</ol>
+</li>
+</ol>
+<p>La determinación de la muestra y la selección de viviendas por parte de diseño muestral fue elaborado a partir del 25 de mayo de 2011.<br />
+Una vez seleccionados los sectores censales y viviendas de la muestra, la Administración Central del INEC genera y envía a cada una sus Direcciones Zonales los formularios de muestra y cobertura (MyC). Los formularios contienen información relativa a la ubicación geográfica de las viviendas seleccionadas para la respectiva investigación, incluyen información de la provincia, cantón, parroquia, zona, sector censal y manzana de la vivienda seleccionada. De manera subsiguiente, las Direcciones Zonales preparan el material cartográfico, eso es: los formularios Ca04 utilizado en el área urbana, el mismo que contiene el listado de viviendas, población en cabeceras cantonales, parroquiales y localidades amanzanadas. </p>
+<p>1.3.     Diseño de instrumentos de recolección de la información</p>
+<p>Este proceso  inició el 2 de mayo de 2011 con la elaboración y ajuste del cuestionario según los requerimientos de las instituciones miembros de la Comisión Interinstitucional de Estadísticas de Seguridad Ciudadana, a continuación se elaboraron los manuales para los encuestadores, crítico-codificadores y digitadores, para finalmente construir el Plan de Validación e Inconsistencias y el Sistema de Ingreso de Datos.</p>
+<p>1.4.     Adquisiciones</p>
+<p>Se realizó a partir del 8 de agosto de 2011,  en esta fase se adquirieron todos los bienes y servicios necesarios para el operativo de campo, tales como suministros de  vestimenta, suministro de oficina, suministros de impresión, servicios de imprenta  para la elaboración de los  manuales y formularios. </p>
+<p>1.5.     Prueba Experimental</p>
+<p>Se realizó una prueba piloto de la ENVIPI, la cual fue llevada a cabo el 27 de julio de 2011. Esta prueba tuvo como finalidad probar la redacción de las preguntas del cuestionario, conocer si no existen errores en  flujos y saltos, establecer tiempos de duración del diligenciamiento  para establecer las cargas de trabajo.</p>
+<p>1.6.     Selección, Capacitación y Contratación del Personal</p>
+<p>Los procesos  de convocatoria  del personal técnico y operativo necesario para el levantamiento de la información  encuestadores, supervisores de campo, críticos codificadores y digitadores. se realizó mediante convocatoria pública abierta y fueron seleccionados en dos fases: Una primera selección la realizó  el Departamento de Recursos Humanos del INEC  tomando en consideración el cumplimiento de los requerimientos exigidos dentro de la convocatoria. La selección definitiva de supervisores, encuestadores, críticos, codificadores y digitadores se realizó mediante evaluaciones de rendimiento en los cursos de capacitación que se dictaron antes del operativo de campo.</p>
+<p>Luego de la selección y  la capacitación al personal de campo sobre el manejo de los instrumentos para el levantamiento de la información  se procedió a la conformación de equipos de trabajo, para esto, el INEC cuenta con cuatro Regionales a Nivel Nacional, las mismas que tienen a su cargo cierto número de Provincias, las cuales se detallan a continuación:<br />
+Regional Norte, Pichincha, Esmeraldas, Carchi, Imbabura, Sucumbíos, Santo Domingo, Napo y Orellana.<br />
+Regional Litoral, Guayas, Manabí, Santa Elena, Los Ríos, El Oro y Galápagos.<br />
+Regional Centro, Tungurahua, Cotopaxi, Pastaza, Bolívar y Chimborazo.<br />
+Regional Sur, Azuay, Cañar, Loja, Morona Santiago, y Zamora Chinchipe.</p>
+<p>A cada  Dirección regional se asignó un número de sectores tomando en consideración la muestra realizada para el levantamiento  con la finalidad de que realicen su programación para el levantamiento de información y puedan cumplir  con el objetivo planteado.<br />
+DINOR: 1290<br />
+DILIT:    2501<br />
+DICEN.    600<br />
+DISUR:    611<br />
+TOTAL:  5002 Sectores.</p>
+<p>2.- Recolección de la información. </p>
+<p>El  levantamiento de información tuvo lugar del 22 de septiembre al 21 de diciembre de 2011, en el cual participó el siguiente personal: 318 encuestadores, y 106 supervisores técnicos de campo,  a nivel  nacional agrupados en 106 equipos, conformados de 3 encuestadores cada uno y liderados por un Supervisor Técnico de Campo, quienes respondían directamente al Responsable Regional o a su Asistente. Cada equipo disponía de un vehículo, además de los contratados para la supervisión regional.<br />
+La distribución de los equipos se hizo en base al número de viviendas seleccionadas en cada una de las Direcciones Regionales así: 81 encuestadores, con 27 supervisores en la DINOR; 159 encuestadores, con 53 supervisores en la DILIT; 39 encuestadores, con 13 supervisores en la DICEN; y, 39 encuestadores, con 13 supervisores en la DISUR.</p>
+<p>CARGAS DE TRABAJO<br />
+El operativo de campo fue programado por los Responsables Regionales y su asistente. La carga de trabajo diaria por Encuestador fue de 6 formularios por día, es decir que cada equipo realizó un sector, 24 viviendas por día, Con el propósito de garantizar el trabajo en equipo, la supervisión y la revisión insitu, se decidió que los dos equipos trabajen simultáneamente en un mismo sector. Esta metodología aplicada permitió levantar la información con mayor rapidez y sobre todo en los lugares de mayor peligrosidad en donde se fortaleció la cooperación y ayuda entre equipos y además  hubo el acompañamiento y protección de la Policía Nacional.</p>
+<p>En todas las Regionales, para la distribución de cargas de trabajo de los equipos en las distintas jornadas se tomó en cuenta los siguientes aspectos: distancia desde sede a las diferentes ciudades, sectores a visitar por estrato y por extensión en ciudades capitales de provincia y condiciones de ubicación de los informantes. La percepción de los compañeros de campo es que fue una carga adecuada que pudo cumplirse diariamente en los tiempos establecido.<br />
+La toma de la información de acuerdo a lo programado, tuvo  una duración de 3 meses; 6 jornadas de 15 días; 12 en campo y uno en oficina con 2 días de descanso.</p>
+<p>En cada una de las Regionales se cumplió el cronograma establecido, para cada una de las seis jornadas de campo sin inconvenientes, la permanencia de los grupos de trabajo durante 12 días en los sectores ayudó para la búsqueda de los informantes tanto calificados como los seleccionados para la recolección de la información.</p></span>
+            
+            </div>
+</div>
+</div><div class="field-section-container pb-3"><h2 class="field-section" id="study_desc1684332928200">Recoleción de Datos</h2><div class="table-responsive field field-study_desc_study_info_coll_dates">
+    <div class="field-title">Fechas de recolección de datos</div>
+<div class="">
+<table class="table table-sm table-bordered table-striped table-condensed xsl-table table-grid ">
+            <tr>
+                        <th>Inicio</th>
+                        <th>Fin</th>
+                        <th>Ciclo / Ronda</th>
+                    </tr>
+            <tr>
+                            <td>            
+                                                    2011-07-21                                    </td>
+                            <td>            
+                                                    2011-07-21                                    </td>
+                            <td>            
+                                                    Prueba Piloto                                    </td>
+            </tr>
+        <tr>
+                            <td>            
+                                                    2011-08-30                                    </td>
+                            <td>            
+                                                    2011-09-04                                    </td>
+                            <td>            
+                                                    Capacitación                                    </td>
+            </tr>
+        <tr>
+                            <td>            
+                                                    2011-09-22                                    </td>
+                            <td>            
+                                                    2011-12-21                                    </td>
+                            <td>            
+                                                    Recolección de la información                                    </td>
+            </tr>
+        
+</table>
+</div>
+</div>
+
+<div class="table-responsive field field-study_desc_study_info_time_periods">
+    <div class="field-title">Períodos de referencia</div>
+<div class="">
+<table class="table table-sm table-bordered table-striped table-condensed xsl-table table-grid ">
+            <tr>
+                        <th>Fecha de inicio</th>
+                        <th>Fecha final</th>
+                        <th>Ciclo</th>
+                    </tr>
+            <tr>
+                            <td>            
+                                                    2010-09-01                                    </td>
+                            <td>            
+                                                    2011-08-31                                    </td>
+                            <td>            
+                                                    Anual                                    </td>
+            </tr>
+        
+</table>
+</div>
+</div>
+
+<div class="field field-study_desc.method.data_collection.coll_mode">
+            <div class="field-title">Modo de recopilación de datos</div>
+        <div class="field-value">                        
+        <ul>
+                    <li>Face-to-face [f2f]</li>
+                </ul>        
+    </div>
+</div>
+
+<div class="table-responsive field field-study_desc_method_data_collection_data_collectors">
+    <div class="field-title">Recolectores de datos/Encuestadores</div>
+<div class="">
+<table class="table table-sm table-bordered table-striped table-condensed xsl-table table-grid ">
+            <tr>
+                        <th>Nombre</th>
+                        <th>Afiliación</th>
+                        <th>Abreviatura / Sigla</th>
+                    </tr>
+            <tr>
+                            <td>            
+                                                    Dirección Zonal Norte                                    </td>
+                            <td>            
+                                                    Instituto Nacional de Estadística y censos (INEC)                                    </td>
+                            <td>            
+                                                    DINOR                                    </td>
+            </tr>
+        <tr>
+                            <td>            
+                                                    Dirección Zonal Litoral                                    </td>
+                            <td>            
+                                                    Instituto Nacional de Estadística y censos (INEC)                                    </td>
+                            <td>            
+                                                    DILIT                                    </td>
+            </tr>
+        <tr>
+                            <td>            
+                                                    Dirección Zonal Centro                                    </td>
+                            <td>            
+                                                    Instituto Nacional de Estadística y censos (INEC)                                    </td>
+                            <td>            
+                                                    DICEN                                    </td>
+            </tr>
+        <tr>
+                            <td>            
+                                                    Dirección Zonal Sur                                    </td>
+                            <td>            
+                                                    Instituto Nacional de Estadística y censos (INEC)                                    </td>
+                            <td>            
+                                                    DISUR                                    </td>
+            </tr>
+        
+</table>
+</div>
+</div>
+
+<div class="mb-2 field field-study_desc.method.data_collection.act_min">
+    <div class="font-weight-bold field-title">Supervisión</div>
+    <div class="field-value">
+                                    <span><p>El proceso de supervisión tiene como finalidad coordinar el desarrollo de las actividades que se deben cumplir durante el operativo de campo para el logro de los  objetivos fijados. Para la realización de la presente investigación se plantearon tres tipos de supervisión: Nacional, Regional y de los equipos de campo.</p>
+<p>SUPERVISION NACIONAL:</p>
+<p>La tarea de los Supervisores Nacionales, se enmarcó básicamente en la optimización del desempeño de cada uno de los miembros de los equipos contratados en las Direcciones Regionales Norte, Litoral , Centro y Sur, cuidando que las personas cumplan estrictamente sus roles para que la investigación arroje resultados oportunos y de calidad. Las funciones de los responsables nacionales fueron las siguientes:</p>
+<ul>
+<li>Observar que se encuentren bien planificados y organizados los equipos, observar el llenado de los formularios y calidad de la información.</li>
+<li>Solucionar algunas  inquietudes de los encuestadores y supervisores durante la ejecución del trabajo.</li>
+<li>Coordinar con  la supervisión  Regional, a fin de que los equipos estén supervisados para garantizar la calidad de la información.</li>
+<li>Coordinar que la metodología planteada sea aplicada estrictamente y en su totalidad por parte de todos los responsables de las diferentes etapas de la investigación.<br />
+Se contrató 4 supervisores nacionales</li>
+</ul>
+<p>SUPERVISIÓN REGIONAL</p>
+<p>Los Supervisores Regionales, fueron los responsables de lograr que todos los integrantes de los Equipos de Trabajo que forman parte del proyecto en las Regionales, cumplan a cabalidad las tareas a ellos encomendadas. Para este cometido emplearon los mecanismos y herramientas de control definidos por el Equipo Técnico de la Administración Central.<br />
+La Supervisión Regional se efectuó en las etapas del Operativo de Campo;  Crítica-Codificación y Digitación de la información, a fin de garantizar la obtención de una base de datos los más depurada y real posible.<br />
+El número de supervisores Regionales del operativo de campo fue de 5 para la Dirección Regional del Litoral, 3 para la Norte y uno para cada una de las Direcciones Regionales  del Centro  y Sur. La Supervisión regional fue  de 38 días para cada supervisor, durante las seis jornadas de trabajo. Cada supervisor tenía  a su  cargo, en promedio 10 equipos, es decir a 30  encuestadores, esto fue  posible dado que se realizó  la Encuesta solo en el área urbana.<br />
+Además se programó la supervisión, de 15 días por parte de los Directores Regionales; y, por 38 días del Responsable Regional, cumpliendo con las siguientes funciones:</p>
+<ul>
+<li>Observar que los equipos estén trabajando de acuerdo a lo planificado dentro del período establecido y los sectores seleccionados.</li>
+<li>Observar el llenado de la información en los formularios, flujos y forma de realizar las preguntas.</li>
+<li>Verificación   de los reemplazos </li>
+<li>Ubicación correcta de las viviendas seleccionadas</li>
+<li>Revisión de los formularios diligenciados </li>
+<li>Reuniones con los equipos para aclarar en lo que se encuentra errores </li>
+<li>Dar disposiciones inmediatas  a  problemas encontrados en el campo.</li>
+</ul>
+<p>SUPERVISIÓN DE  EQUIPOS DE CAMPO</p>
+<p>El supervisor Técnico  del  Equipo de campo fue el encargado del control directo  del trabajo  que desarrollaron  los encuestadores durante el operativo de campo, para que se lleve a cabo con la metodología y los parámetros establecidos, con el fin de lograr información de alta calidad. El Supervisor fue  el responsable de entregar los materiales auxiliares, formularios y carpetas, asegurándose que éstas cuenten con todos los materiales necesarios para la ubicación y diligenciamiento de las viviendas seleccionadas, así como asignar las cargas de trabajo a cada encuestador. Dentro de sus funciones estaban:</p>
+<ul>
+<li>Realizar conjuntamente con el encuestador un reconocimiento del sector asignado y de la ubicación exacta de las viviendas seleccionadas en la muestra</li>
+<li>Observación permanente del trabajo de los Encuestadores.</li>
+<li>Recepción y revisión de formularios diligenciados por los Encuestadores con el fin de realizar una pre- crítica en el mismo,  verificando que exista información completa, coherente y sin omisiones  que garantizará la calidad de la información levantada.</li>
+<li>Re-entrevistas para control de calidad</li>
+<li>Verificación y control de los casos en que se realicen reemplazos.</li>
+<li>Verificación y control de cobertura.</li>
+</ul>
+<p>El número de personas que participaron, como encuestadores, en este Operativo decampo, fue de 318, agrupados en 106 equipos, conformados de 3 encuestadores cada uno y liderados por un Supervisor Técnico de Campo, quienes respondían directamente al Responsable Regional o a su Asistente. A ellos informaba sobre la problemática que se presentaba en el desempeño de los Encuestadores y en el avance del operativo de campo. Además, solicitaba al responsable Regional los recursos necesarios para el buen funcionamiento de los procesos de control y del trabajo.</p></span>
+            
+            </div>
+</div>
+<div class="mb-2 field field-study_desc.method.data_collection.coll_situation">
+    <div class="font-weight-bold field-title">Notas de Recolección de Datos</div>
+    <div class="field-value">
+                                    <span><p>Para contestar la encuesta se  seleccionó aleatoriamente  una persona de 16 años de edad o más; entre los residentes habituales del hogar.  Esta selección se realizó con una distribución uniforme con el fin de dar la misma probabilidad de selección a cada una de las personas del hogar. Para tal fin se utilizó las tablas modificadas de KISH que combinan el último dígito del número de serie del formulario correspondiente al hogar y el número de residentes permanentes del hogar.<br />
+Este procedimiento de selección consiste en identificar el número de personas elegibles en el hogar y el último digito del formulario;  ubicar en la tabla la casilla que corresponde a la intersección de la fila que contiene el número de personas elegibles del hogar, con la columna que corresponde al último dígito del formulario la misma que nos permitirá conocer al informante al que debemos realizar la encuesta.</p>
+<p>Entre las principales novedades encontradas en la recolección de la información, fue encontrar hogares con personas de edad avanzada que salieron seleccionados  que no entendían las preguntas, tenían deficiencias tanto visuales y auditivas por esta razón no estaban en capacidad de responder,  para fines investigativos se considera un informante no idóneo, razón por la que se tuvo que reemplazar a la vivienda y de esta manera cumplir con la cobertura de la muestra. </p>
+<p>Para obtener una información confiable de las personas de 16 años y más que salieron seleccionadas en la Encuesta de Victimización y Percepción de Inseguridad 2011; se programaron visitas antes de las 07H00  o pasadas las 19H00, debido a la dificultad de ubicar a los informantes, o a la falta de apertura o colaboración por parte de los mismos.</p>
+<p>Los informantes directos o seleccionados de KISH son personas que trabajan, por lo que algunos encuestadores tuvieron que hacer varias visitas a la vivienda o incluso ubicar a los informantes directos en sus lugares de trabajo siempre que lo permitían. Cuando se daban los rechazos del seleccionado KISH se ubicaba al reemplazo y generalmente este sí colaboraba. Las jornadas de trabajo tuvieron que extenderse en algunos sectores hasta las 22h00.  Por último el trabajar fines de semana en sectores de ciudades pequeñas es beneficioso porque se puede ubicar al informante y en otras ciudades más grandes  dificulta la ubicación de los informantes.</p>
+<p>El tiempo de duración de la entrevista era de aproximadamente 55 minutos,  tiempo que variaba en función del  nivel cultural, escolaridad, edad de las personas así como del número de miembros del hogar.</p></span>
+            
+            </div>
+</div>
+</div><div class="field-section-container pb-3"><h2 class="field-section" id="study_desc1686767889862">Procesamiento de datos</h2><div class="mb-2 field field-study_desc.method.data_collection.cleaning_operations">
+    <div class="font-weight-bold field-title">Procesamiento de datos</div>
+    <div class="field-value">
+                                    <span><p>En esta fase se consideraron las siguientes  operaciones que forman parte del procesamiento:</p>
+<ul>
+<li>Archivo de la información</li>
+</ul>
+<p>Una vez concluída cada una de las jornadas de trabajo se conformó un archivo físico con el fin de ordenar el material diligenciado. Este archivo se realiza respetando la división política administrativa del Ecuador, esto es  nivel de provincias urbanas y de ciudades seleccionadas, esta fase se constituye en el insumo indispensable para la realización de los controles de cobertura tanto en el levantamiento como en el procesamiento.</p>
+<ul>
+<li>Crítica-Codificación de la información:</li>
+</ul>
+<p>En esta fase se verifica la consistencia de los datos contenidos en cada uno de los capítulos del formulario para asegurar la calidad y confiabilidad. Los responsables zonales de la fase de crítica-codificación tienen la obligación de garantizar que se cumplan todas las actividades que se encuentran detalladas en el respectivo Manual de Crítica, en el que además está señalado el análisis que se deberá realizar, entre la carátula del formulario y el formulario de Muestra y Cobertura MyC, así como la asignación de los códigos para preguntas abiertas  de acuerdo con instrucciones establecidas utilizando instrumentos habilitantes  diseñados para el cumplimiento de esta actividad como: La División Política Administrativa y el  Listado de códigos de países,  antes de que el formulario diligenciado pase a la fase de digitación</p>
+<p>Esta actividad se realizó con 46 personas contratadas, 42 para crítico-codificadores, distribuidos de la siguiente manera: 21 en la DILIT, 11 en la DINOR, 5 en la DISUR y 5 en la DICEN; mientras que los 4 restantes desempeñaron las funciones de Supervisor de Equipo Técnico  ( crítico-codificador ) , uno por regional y fueron los encargados en primera instancia de armar el archivo del material que llegaba de campo, luego de lo cual y en base a las cargas de trabajo levantadas,  hacían  el análisis de cobertura, para posteriormente asignar la carga de trabajo a cada uno de los crítico-codificadores para que realicen su actividad y finalmente entregaban este material al encargado de la digitación.<br />
+La carga de trabajo  prevista para esta actividad fue de  3 sectores,  es decir 72 formularios diarios por persona.</p>
+<ul>
+<li>Digitación:</li>
+</ul>
+<p>La digitación de los datos se realizó en cada una de las direcciones Regionales y de forma casi paralela a la toma de información, la capacitación y las directrices estuvieron a cargo del responsable de la plataforma tecnológica de cada regional.<br />
+La digitación inició su trabajo el 10 de Octubre con 18 días de diferencia respecto al operativo de campo y 8 días con respecto a la crítica-codificación.  Nunca se dio la falta de material para la fase de digitación.<br />
+En cada Dirección Regional hubo un responsable de la Digitación quien fue el encargado de conformar el archivo físico del material entregado por el jefe de crítica, el mismo que entregó la carga de trabajo a cada uno de los/as digitadores/ras y posteriormente con el material digitado, realizaba el control de cobertura, y retornaba al archivo físico los formularios.</p>
+<p>La carga de trabajo para esta etapa, estaba en un promedio de 3 a 4 sectores diarios en un inicio,  después de la implementación del nuevo sistema de ingreso de datos y tomando en consideración que los digitadores se fueron familiarizando con el sistema se asignó una carga de  6 y 7 Sectores por día, a nivel nacional el número de digitadores fueron : Regional Norte 6, Regional del Litoral 11, Regional Centro 2 Regional del Sur2. En cada una de las Direcciones Regionales el responsable de la digitación debió coordinar sus actividades con el Responsable regional de digitación, con la finalidad de mantener los controles de calidad de la información emanadas por el responsable nacional de procesamiento y dar soluciones a nivel nacional</p>
+<ul>
+<li>Validación y depuración  de la información</li>
+</ul>
+<p>Una vez que la información ha sido digitalizada, las Direcciones Zonales envían sus archivos de datos (bases de datos) hacia la Administración Central, en donde se integran en una sola base de datos los archivos enviados. La base de datos integrada es sometida a procesos de validación automática (verificación de consistencia de la información). Si el sistema reporta novedades, se emiten informes a la Dirección Zonal responsable para que se realicen las correspondientes correcciones. Una vez realizadas las validaciones en todas las zonales, se procede a la fase de tabulación. Con la finalidad  de asegurar la cobertura, esto es que todos los formularios diligenciados en campo hayan sido digitados, se hará una confrontación  entre el archivo digital y los formularios físicos. Esta actividad será realizada tanto por el  Responsable  Regional de Crítica y Codificación y Digitación  en coordinación con el  Equipo Técnico  Nacional</p>
+<ul>
+<li>Tabulación de la información</li>
+</ul>
+<p>Consiste en la generación de resultados que responden a los objetivos de la operación estadística. Los tabulados se presentan en forma de cuadros, tablas y gráficos y se realizaran a través de un paquete estadístico denominado Statistical Package for Social Sciencies (SPSS).</p>
+<ul>
+<li>Generación de bases de datos</li>
+</ul>
+<p>Posterior al análisis de consistencia (garantizar la calidad de la información<br />
+recolectada, mediante la revisión sistemática de cada una de<br />
+las respuestas tanto de manera individual como en su relación<br />
+con otras. Para efectuarla se toman como base las pautas de<br />
+consistencia definidas por las mallas de validación. Las mismas se clasifican como<br />
+errores o como advertencias; los errores, que reflejan<br />
+relaciones incoherentes por definición, serán objeto de<br />
+corrección siempre; las advertencias, que reflejan<br />
+incoherencias aparentes en una relación, serán corregidas o<br />
+aceptadas dependiendo del resultado de la evaluación realizada<br />
+por el personal de campo); es decir concluida tanto el operativo de campo como el análisis de consistencia, se procedió  a la construcción de la Base de Datos Nacional, con la unificación de las Bases entregadas por las Direcciones Regionales al Responsable Nacional de Procesamiento.<br />
+En el departamento de Diseño Muestral, de la Dirección de Producción de Estadísticas Sociodemográficas, se construyeron  los Factores de Expansión,  basados en la información proporcionada por cada Dirección Regional.  A fin de reducir al máximo las posibles inconsistencias que se presentaron en el diligenciamiento del cuestionario de la Encuesta de Victimización y Percepción de Inseguridad, se elaboró y entregó al  área de Informática el Plan de Inconsistencias, el mismo que  controlará que la información receptada pase por un filtro que permita detectar  datos erróneos o inconsistentes, para controlar que la información sea depurada y tenga los parámetros de calidad que el INEC  garantiza  en sus Bases de datos.<br />
+Para el procesamiento de la información se utilizó el programa estadístico SPSS, con el cual a través de la programación de sintaxis se obtuvo los resultados de la ENVIPI 2011 tomando en consideración el plan de tabulados propuesto y aprobado inicialmente por la Comisión Interinstitucional de Seguridad Ciudadana.</p></span>
+            
+            </div>
+</div>
+</div><div class="field-section-container pb-3"><h2 class="field-section" id="study_desc1684335103457">Política de Acceso a los microdatos</h2><div class="table-responsive field field-study_desc_data_access_dataset_use_contact">
+    <div class="field-title">Personal autorizado para el acceso a datos</div>
+<div class="">
+<table class="table table-sm table-bordered table-striped table-condensed xsl-table table-grid ">
+            <tr>
+                        <th>Nombre</th>
+                        <th>Afiliación</th>
+                        <th>URL</th>
+                        <th>Correo electrónico</th>
+                    </tr>
+            <tr>
+                            <td>            
+                                                    Instituto Nacional de Estadística y Censos                                    </td>
+                            <td>            
+                                                    Secretaría Nacional de Planificación y Desarrollo                                    </td>
+                            <td>            
+                                                    http://www.ecuadorencifras.gob.ec                                    </td>
+                            <td>            
+                                                    planta_central@inec.gob.ec                                    </td>
+            </tr>
+        
+</table>
+</div>
+</div>
+
+<div class="table-responsive field field-study_desc_data_access_dataset_use_conf_dec">
+    <div class="field-title">Confidencialidad</div>
+<div class="">
+<table class="table table-sm table-bordered table-striped table-condensed xsl-table table-grid ">
+            <tr>
+                        <th>¿Se requiere firmar una declaración de confidencialidad?</th>
+                        <th>Texto de la Declaración de Confidencialidad</th>
+                    </tr>
+            <tr>
+                            <td>            
+                                                    yes                                    </td>
+                            <td>            
+                                                    Ley de Estadística<br />
+<br />
+Art. 21.- Los datos individuales que se obtengan para efecto de estadística y censos son de carácter reservado; en consecuencia, no podrán darse a conocer informaciones individuales de ninguna especie, ni podrán ser utilizados para otros fines como de tributación o conscripción, investigaciones judiciales y, en general, para cualquier objeto distinto del propiamente estadístico o censal.                                    </td>
+            </tr>
+        
+</table>
+</div>
+</div>
+
+<div class="mb-2 field field-study_desc.data_access.dataset_use.conditions">
+    <div class="font-weight-bold field-title">Condiciones de acceso</div>
+    <div class="field-value">
+                                    <span><p>El Instituto Nacional de Estadística y Censos considera a la información estadística producida con recursos del presupuesto nacional como un bien público y como tal debe estar al alcance de los usuarios de un modo amplio. El  Instituto Nacional de Estadística y Censos  establecerá los criterios específicos y los mecanismos para el acceso a la información de los usuarios, identificando claramente el criterio de bien público de los criterios de recuperación de costos por los servicios producidos, en apoyo al sostenimiento del financiamiento de sus actividades, para lo cual se emitirán los protocolos correspondientes de acceso a la información.</p>
+<p>Líneas de Acción:</p>
+<p>Protocolos de acceso a la información:</p>
+<ul>
+<li>
+<p>Será de libre acceso, la información generada con financiamiento de recursos del presupuesto nacional en su totalidad o parte, que esté procesada, revisada y que se encuentre disponible para su difusión, ya sea mediante indicadores de síntesis, tabulados o bases de datos primarias armonizadas y adecuadas para su difusión manteniendo en reserva la identificación de los informantes.</p>
+</li>
+<li>
+<p>Será de libre acceso la información generada con financiamiento de instituciones públicas, privadas o internacionales, si es que no existen indicaciones explícitas en sentido contrario.</p>
+</li>
+<li>
+<p>La información estadística será difundida de modo desagregado a nivel temático y geográfico, mediante valores relativos y absolutos, incluyendo la información histórica disponible.</p>
+</li>
+<li>
+<p>Será de libre acceso a los usuarios las metodologías e información complementaria que explique las potencialidades y limitaciones de los datos obtenidos, tales como memorias de procesos, evaluaciones de calidad de operaciones estadísticas, entre otros.</p>
+</li>
+<li>
+<p>Las publicaciones impresas de difusión rápida a través de folletos, afiches, trípticos, etc. serán gratuitos.</p>
+</li>
+<li>
+<p>El acceso a la consulta de publicaciones en la Biblioteca de la institución será gratuita.</p>
+</li>
+<li>
+<p>Todos los servicios estadísticos que impliquen consumo de horas-hombre, tales como procesamiento de datos para atender solicitudes específicas, elaboración de bases de datos a la medida del usuario, preparación de informes, gráficos y análisis, entre otros, tendrán un costo proporcional al tamaño del servicio.</p>
+</li>
+<li>
+<p>Todas las publicaciones impresas (libros, boletines, informes) o en medios electrónicos (CD Rom, diskette) que contengan resultados de investigaciones estadísticas tendrán un costo.</p>
+</li>
+<li>
+<p>Todos los servicios de fotocopiado o impresiones de computadora, tendrán un costo relativo al tamaño del servicio.</p>
+</li>
+<li>
+<p>Los servicios de preparación de diseños de muestra y base cartográfica tendrán un costo proporcional al tamaño del servicio.</p>
+</li>
+</ul>
+<p>A partir del año 2013 la información es gratuita.</p></span>
+            
+            </div>
+</div>
+<div class="mb-2 field field-study_desc.data_access.dataset_use.cit_req">
+    <div class="font-weight-bold field-title">Requisitos de Citas</div>
+    <div class="field-value">
+                                    <span><p>Instituto Nacional de Estadística y Censos, Victimización y Percepción 2011, del conjunto de datos de uso público, suministrado por el Instituto Nacional de Estadística y Censos del Ecuador. </p>
+<p><a href="http://www.ecuadorencifras.gob.ec/home/">http://www.ecuadorencifras.gob.ec/home/</a></p></span>
+            
+            </div>
+</div>
+</div><div class="field-section-container pb-3"><h2 class="field-section" id="study_desc1684335112393">Descargo de responsabilidad y Derechos de autor</h2><div class="mb-2 field field-study_desc.data_access.dataset_use.disclaimer">
+    <div class="font-weight-bold field-title">Descargo de responsabilidad</div>
+    <div class="field-value">
+                                    <span><p>El usuario de los datos reconoce que el colector original de los datos, el distribuidor autorizado de los datos, y la agencia de financiación pertinentes no tienen ninguna responsabilidad por el uso de los datos o de las interpretaciones o inferencias basadas en dichos usos.</p></span>
+            
+            </div>
+</div>
+<div class="mb-2 field field-study_desc.production_statement.copyright">
+    <div class="font-weight-bold field-title">Derechos de Autor</div>
+    <div class="field-value">
+                                    <span><p>(c) 2011 Instituto Nacional de Estadística y Censos INEC</p></span>
+            
+            </div>
+</div>
+</div><div class="field-section-container pb-3"><h2 class="field-section" id="study_desc1684335140110">Contactos</h2><div class="table-responsive field field-study_desc_distribution_statement_contact">
+    <div class="field-title">Contactos</div>
+<div class="">
+<table class="table table-sm table-bordered table-striped table-condensed xsl-table table-grid ">
+            <tr>
+                        <th>Nombre</th>
+                        <th>Afiliación</th>
+                        <th>Correo electrónico</th>
+                        <th>URL</th>
+                    </tr>
+            <tr>
+                            <td>            
+                                                    Instituto Nacional de Estadística y Censos                                    </td>
+                            <td>            
+                                                    Secretaría Nacional de Planificación y Desarrollo                                    </td>
+                            <td>            
+                                                    planta_central@inec.gob.ec inec@inec.gob.ec                                    </td>
+                            <td>            
+                                                    http://www.ecuadorencifras.gob.ec                                    </td>
+            </tr>
+        <tr>
+                            <td>            
+                                                    Cordinación General Técnica de Producción Estadística                                    </td>
+                            <td>            
+                                                    Instituto Nacional de Estadística y Censos                                    </td>
+                            <td>            
+                                                    planta_central@inec.gob.ec inec@inec.gob.ec                                    </td>
+                            <td>            
+                                                    http://www.ecuadorencifras.gob.ec                                    </td>
+            </tr>
+        <tr>
+                            <td>            
+                                                    Dirección de Estadísticas Sociodemográficas                                    </td>
+                            <td>            
+                                                    Instituto Nacional de Estadística y Censos                                    </td>
+                            <td>            
+                                                    planta_central@inec.gob.ec inec@inec.gob.ec                                    </td>
+                            <td>            
+                                                    http://www.ecuadorencifras.gob.ec                                    </td>
+            </tr>
+        
+</table>
+</div>
+</div>
+
+</div></div><div><div class="field-section-container pb-3"><h2 class="field-section" id="doc_desc.title_statement">Producción de Metadatos</h2><div class="mb-2 field field-doc_desc.idno">
+    <div class="font-weight-bold field-title">ID del documento DDI</div>
+    <div class="field-value">
+                                    <span><p>ECU-INEC-DIES-ENVIPI-2011-v1.6</p></span>
+            
+            </div>
+</div>
+<div class="table-responsive field field-doc_desc_producers">
+    <div class="field-title">Productores</div>
+<div class="">
+<table class="table table-sm table-bordered table-striped table-condensed xsl-table table-grid ">
+            <tr>
+                        <th>Nombre</th>
+                        <th>Abreviatura/Sigla</th>
+                        <th>Afiliación</th>
+                        <th>Rol</th>
+                    </tr>
+            <tr>
+                            <td>            
+                                                    Instituto Nacional de Estadística y Censos                                    </td>
+                            <td>            
+                                                    INEC                                    </td>
+                            <td>            
+                                                    Secretaría Nacional de Planificación y Desarrollo (SENPLADES)                                    </td>
+                            <td>            
+                                                    Documentación de la Operación Estadística                                    </td>
+            </tr>
+        <tr>
+                            <td>            
+                                                    Norma Hidalgo                                    </td>
+                            <td>            
+                                                    NH                                    </td>
+                            <td>            
+                                                    Instituto Nacional de Estadística y Censos                                    </td>
+                            <td>            
+                                                    Documentadores de la Operación Estadística                                    </td>
+            </tr>
+        <tr>
+                            <td>            
+                                                    Pilar Carrillo                                    </td>
+                            <td>            
+                                                    PC                                    </td>
+                            <td>            
+                                                    Instituto Nacional de Estadística y Censos                                    </td>
+                            <td>            
+                                                    Revisora de la documentación de la Operación Estadística                                    </td>
+            </tr>
+        <tr>
+                            <td>            
+                                                    Jenny CUshicóndor                                    </td>
+                            <td>            
+                                                    JC                                    </td>
+                            <td>            
+                                                    Instituto Nacional de Estadística y Censos                                    </td>
+                            <td>            
+                                                    Revisora de metadatos                                    </td>
+            </tr>
+        <tr>
+                            <td>            
+                                                    Andres Albán                                    </td>
+                            <td>            
+                                                    AA                                    </td>
+                            <td>            
+                                                    Instituto Nacional de Estadística y Censos                                    </td>
+                            <td>            
+                                                    Aprobación para publicación de metadatos.                                    </td>
+            </tr>
+        
+</table>
+</div>
+</div>
+
+<div class="mb-2 field field-doc_desc.prod_date">
+    <div class="font-weight-bold field-title">Fecha de Producción de Metadatos</div>
+    <div class="field-value">
+                                    <span><p>2017-01-17</p></span>
+            
+            </div>
+</div>
+</div></div>        </div>
+    </div>
+</div>
+
+<script>
+    $(function() {
+        $(".study-metadata").linkify();
+    });
+</script>    
+
+<style>
+
+.study-metadata h2{
+    border-bottom:1px solid #e8e8e8;
+    padding-bottom:5px;
+    margin-bottom:25px;
+    padding-top:20px;
+}
+.study-metadata .field-title{
+    text-transform: uppercase;
+    margin-top:15px;
+    font-weight:bold;
+}
+
+.study-metadata h4.field-title{
+    margin-top:0px;
+}
+
+.field-section-container .field-section-container h2{
+    font-size:22px;
+}
+
+.badge-tags{
+    font-size:14px!important;
+}
+</style></div>
+    
+	<div class="mt-5">                
+            <a class="btn btn-sm btn-secondary" href="https://anda.inec.gob.ec/anda5/index.php/catalog"><i class="fas fa-arrow-circle-left"></i> Volver al catálogo</a>
+        </div>
+  </div>
+</div>
+<!-- end-tabs-->    
+   </div> 
+</div>
+
+
+<!--survey summary resources-->
+<script type="text/javascript">
+	function toggle_resource(element_id){
+		$("#"+element_id).parent(".resource").toggleClass("active");
+		$("#"+element_id).toggle();
+	}
+	
+	$(document).ready(function () { 
+		bind_behaviours();
+		
+		$(".show-datafiles").click(function(){
+			$(".data-files .hidden").removeClass("hidden");
+			$(".show-datafiles").hide();
+			return false;
+		});
+
+		//setup bootstrap scrollspy
+		$("body").attr('data-spy', 'scroll');
+		$("body").attr('data-target', '#dataset-metadata-sidebar');
+		$("body").attr('data-offset', '0');
+		$("body").scrollspy('refresh');
+
+	});	
+	
+	function bind_behaviours() {
+		//show variable info by id
+		$(".resource-info").unbind('click');
+		$(".resource-info").click(function(){
+			if($(this).attr("id")!=''){
+				toggle_resource('info_'+$(this).attr("id"));
+			}
+			return false;
+		});			
+	}
+</script>        </div>
+    </div>
+
+    <!-- page footer -->
+    <footer>
+    <!-- footer top section -->
+        <!-- End footer top section -->
+
+    <!-- footer bottom section -->
+    <div class="full-row-footer-black-components">
+        <div class="container">
+            <div class="footer">
+                <div class="row">
+
+                    <!-- / footer logo -->
+                    <div class="col-12 col-md-6">
+
+                        <div class="text-center text-lg-left mt-2">
+                        
+                                                <a href="https://anda.inec.gob.ec/anda5/index.php" style="color:white;padding-top:20px;" >
+                            Catálogo de Metadatos Estadísticos                        </a>                        
+                                                </div>
+
+                    </div>
+                    <!-- / footer logo -->
+
+                    <!-- Copyrights-->
+                    <div class="col-12 col-md-6 footer-bottom-right">
+                        <div class="">
+                            <div class="footer-copy-right">
+
+                                <p class="text-center text-lg-right">
+
+                                    <small>
+                                        ©
+                                        <script language="JavaScript">
+                                            var time = new Date();
+                                            var year = time.getYear();
+                                            if (year < 2000)
+                                                year = year + 1900 + ", ";
+                                            document.write(year); // End -->
+                                        </script> Catálogo de Metadatos Estadísticos, All Rights Reserved.
+                                    </small>
+
+                                </p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- / Copyrights  -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer></body>
+
+</html>
