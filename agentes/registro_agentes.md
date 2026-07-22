@@ -46,6 +46,7 @@ Este registro contribuye a demostrar que el proyecto fue desarrollado de forma o
 | 2026-07-22 | Subagente Revisor Crítico con apoyo del Subagente Verificador de Fuentes | auditoría final de consistencia y trazabilidad de la síntesis integrada F01-F06 | revisión de dimensiones, hallazgos, estados de evidencia, niveles de confianza y consistencia entre Markdown, CSV y JSON | corregir contradicciones y evitar sobreinterpretaciones antes de utilizar la síntesis en el dashboard y el informe | Aceptada únicamente si la síntesis final conserva las limitaciones metodológicas | pendiente de revisión integral del estudiante |
 | 2026-07-22 | Agente de Programación y Visualización con revisión del Agente de Datos y de los subagentes verificador y crítico | actualización del dashboard con la síntesis integrada y auditada F01-F06 | dashboard dinámico, archivo de datos local, filtros, visualizaciones y configuración estática para Vercel | mantener advertencias metodológicas y no representar estados cualitativos como porcentajes | Aceptada | pendiente de prueba local y revisión visual del estudiante |
 | 2026-07-22 | Subagente Revisor Crítico con validación visual del estudiante | corrección de duplicación entre los hallazgos HI-08 y HI-09 del dashboard | hallazgos diferenciados y archivos JSON sincronizados | la duplicación fue detectada durante la prueba local del dashboard | Aceptada | el estudiante identificó visualmente la repetición en el dashboard |
+| 2026-07-22 | Agente de Programación y Visualización con validación del estudiante | despliegue y comprobación del dashboard en Vercel | dashboard publicado mediante un enlace público y conectado al repositorio de GitHub | el dashboard utiliza la síntesis integrada y auditada F01-F06 | Aceptada | el estudiante abrió el dashboard desplegado y copió el enlace público |
 
 **Aclaración:** Esta validación visual confirma cantidades y estructura planificada del Plan, pero no constituye evidencia de ejecución, cobertura, cumplimiento de metas o resultados alcanzados. El documento es un Plan de PLANIFICACIÓN ESTRATÉGICA, no un informe de implementación.
 
@@ -66,6 +67,8 @@ Este registro contribuye a demostrar que el proyecto fue desarrollado de forma o
 **Aclaración:** La consistencia interna de la síntesis no sustituye la comprobación humana de las cifras, páginas, definiciones y alcances territoriales en las fuentes originales.
 
 **Aclaración:** La comunicación visual debe simplificar la evidencia sin eliminar sus limitaciones, incertidumbres ni advertencias metodológicas.
+
+**Aclaración:** El enlace del dashboard deberá verificarse nuevamente antes de incorporarlo al informe, al video y al PDF final de entrega.
 
 ## Notas finales
 

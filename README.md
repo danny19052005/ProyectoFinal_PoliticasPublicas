@@ -116,15 +116,18 @@ Asegúrate de haber instalado las dependencias del proyecto antes de ejecutarlo.
 ## Estado actual
 
 - ✅ **Completado:** Estructura inicial del proyecto y módulos de agentes
-- 🔄 **En desarrollo:** Recopilación de datos, análisis integrado y dashboard interactivo
+- 🔄 **En desarrollo:** Recopilación de datos y análisis integrado
+- ✅ **Dashboard:** Dashboard funcional, probado localmente y desplegado en Vercel
 
 La arquitectura multiagéntica está implementada y operativa. Se encuentra en fase de integración de fuentes de información y generación de análisis preliminares.
 
 ## Enlaces del proyecto
 
-- **Dashboard interactivo:** [Próximamente en Vercel]
-- **Informe académico completo:** [Próximamente disponible]
-- **Video de demostración:** [Próximamente disponible]
+- **Repositorio:** [https://github.com/danny19052005/ProyectoFinal_PoliticasPublicas](https://github.com/danny19052005/ProyectoFinal_PoliticasPublicas)
+- **Dashboard:** [https://proyecto-final-politicas-publicas-gh42niquf.vercel.app/](https://proyecto-final-politicas-publicas-gh42niquf.vercel.app/)
+- **Informe académico completo:** pendiente
+- **Video de demostración:** pendiente
+- **PDF final de entrega:** pendiente
 
 ## Autoría y responsabilidad
 

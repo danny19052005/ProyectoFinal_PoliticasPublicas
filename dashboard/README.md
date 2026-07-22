@@ -53,6 +53,16 @@ Alternativamente, también puede seleccionarse `dashboard` como Root Directory e
 - no se requieren funciones;
 - no se usa Node, npm ni Python para el despliegue del frontend.
 
+## Despliegue público
+
+- Estado: desplegado correctamente.
+- Plataforma: Vercel.
+- Enlace público activo: https://proyecto-final-politicas-publicas-gh42niquf.vercel.app/
+- Repositorio conectado: https://github.com/danny19052005/ProyectoFinal_PoliticasPublicas
+- Fecha de registro: 2026-07-22.
+
+Los nuevos commits en la rama main pueden generar actualizaciones automáticas del despliegue.
+
 ## Sincronización del JSON
 
 Cuando cambie `resultados/resumen_dashboard_F01_F06.json`, debe sincronizarse la copia de `dashboard/data/resumen_dashboard_F01_F06.json` para mantener coherencia visual con la versión auditada.
