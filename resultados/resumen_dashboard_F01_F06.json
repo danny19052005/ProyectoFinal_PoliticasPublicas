@@ -1,0 +1,263 @@
+{
+  "proyecto": {
+    "titulo": "Síntesis integrada del análisis de implementación de la política de seguridad ciudadana y recuperación del espacio público",
+    "modalidad": "Análisis de implementación",
+    "territorio": "Distrito Metropolitano de Quito",
+    "periodo_principal": "2023-2025",
+    "pregunta_central": "¿Cómo se ha implementado la política de seguridad ciudadana y recuperación del espacio público en el Distrito Metropolitano de Quito, y cuáles han sido sus principales resultados y desafíos?"
+  },
+  "estructura_planificada": {
+    "ejes": 4,
+    "objetivos": 5,
+    "politicas": 8,
+    "programas": 15,
+    "proyectos": 27,
+    "interpretacion": "Estructura planificada; no representa avance ni cumplimiento",
+    "verificacion": [
+      "Página 17 del visor del PDF",
+      "Figura 74, página 140",
+      "Tabla 25, páginas 146-148"
+    ]
+  },
+  "fuentes": [
+    {
+      "codigo": "F01",
+      "tipo": "Planificación",
+      "decision": "Aceptada para revisión documental",
+      "utilidad": "Estructura formal del PMSCC 2023-2027",
+      "limitacion": "No demuestra ejecución ni resultados por sí sola"
+    },
+    {
+      "codigo": "F02",
+      "tipo": "Seguimiento institucional complementario",
+      "decision": "Aceptada como evidencia complementaria",
+      "utilidad": "Referencia de seguimiento institucional del PMSCC",
+      "limitacion": "Contenido parcial de navegación sin trazabilidad completa de ejecución"
+    },
+    {
+      "codigo": "F03",
+      "tipo": "Marco normativo principal",
+      "decision": "Aceptada como evidencia principal",
+      "utilidad": "Mandato formal de implementación y responsabilidades",
+      "limitacion": "La obligación normativa no prueba cumplimiento efectivo"
+    },
+    {
+      "codigo": "F04",
+      "tipo": "Contexto estadístico",
+      "decision": "Aceptada como evidencia complementaria",
+      "utilidad": "Localización de operaciones estadísticas y fuentes productoras",
+      "limitacion": "Sin cifras específicas verificadas para Quito en el texto revisado"
+    },
+    {
+      "codigo": "F05",
+      "tipo": "Antecedente histórico y metodológico",
+      "decision": "Aceptada únicamente como antecedente histórico o metodológico",
+      "utilidad": "Marco conceptual y metodológico de victimización y percepción",
+      "limitacion": "Corresponde a 2011 y no representa percepción actual"
+    },
+    {
+      "codigo": "F06",
+      "tipo": "Contexto operativo de emergencias",
+      "decision": "Aceptada como evidencia complementaria",
+      "utilidad": "Evidencia de coordinación y volumen operativo de emergencias",
+      "limitacion": "Emergencias no equivalen a delitos ni a resultados causales de política municipal"
+    }
+  ],
+  "dimensiones": [
+    {
+      "codigo": "DIM-01",
+      "nombre": "Diseño y planificación",
+      "estado_evidencia": "Evidencia suficiente",
+      "hallazgo": "Existe diseño formal documentado del plan 2023-2027",
+      "fuentes": ["F01"],
+      "limitacion": "La estructura planificada no demuestra ejecución"
+    },
+    {
+      "codigo": "DIM-02",
+      "nombre": "Marco institucional y normativo",
+      "estado_evidencia": "Evidencia suficiente",
+      "hallazgo": "Existe respaldo normativo y responsable formal de implementación",
+      "fuentes": ["F03"],
+      "limitacion": "La obligación normativa no equivale a cumplimiento"
+    },
+    {
+      "codigo": "DIM-03",
+      "nombre": "Recursos y presupuesto",
+      "estado_evidencia": "Evidencia limitada",
+      "hallazgo": "No se identificó evidencia presupuestaria suficientemente detallada",
+      "fuentes": ["F02", "F03", "F06"],
+      "limitacion": "Sin montos ni ejecución anual verificable"
+    },
+    {
+      "codigo": "DIM-04",
+      "nombre": "Actividades ejecutadas",
+      "estado_evidencia": "Evidencia parcial",
+      "hallazgo": "Hay evidencia operativa parcial y de seguimiento, sin trazabilidad integral al PMSCC",
+      "fuentes": ["F02", "F06"],
+      "limitacion": "No se vinculan todas las actividades a proyectos municipales"
+    },
+    {
+      "codigo": "DIM-05",
+      "nombre": "Coordinación interinstitucional",
+      "estado_evidencia": "Evidencia parcial",
+      "hallazgo": "Se observa coordinación normativa y operativa en planos distintos",
+      "fuentes": ["F03", "F06", "F02"],
+      "limitacion": "No hay trazabilidad completa de coordinación efectiva por proyecto"
+    },
+    {
+      "codigo": "DIM-06",
+      "nombre": "Cobertura territorial y poblacional",
+      "estado_evidencia": "Evidencia parcial",
+      "hallazgo": "Se confirma referencia al DMQ y dato asociado a localidad Quito en F06",
+      "fuentes": ["F01", "F02", "F03", "F06"],
+      "limitacion": "Alcance exacto Quito versus DMQ pendiente de contraste"
+    },
+    {
+      "codigo": "DIM-07",
+      "nombre": "Productos entregados",
+      "estado_evidencia": "Evidencia limitada",
+      "hallazgo": "Existen instrumentos y menciones documentales, sin inventario verificable completo",
+      "fuentes": ["F02", "F03", "F06"],
+      "limitacion": "No identificado inventario consolidado de productos entregados del PMSCC"
+    },
+    {
+      "codigo": "DIM-08",
+      "nombre": "Resultados inmediatos",
+      "estado_evidencia": "Evidencia parcial",
+      "hallazgo": "Hay cifras operativas de emergencias y rutas de estadísticas contextuales",
+      "fuentes": ["F04", "F06"],
+      "limitacion": "No hay evidencia consolidada de resultados específicos de Quito en F04"
+    },
+    {
+      "codigo": "DIM-09",
+      "nombre": "Participación ciudadana",
+      "estado_evidencia": "Evidencia parcial",
+      "hallazgo": "Se documenta participación en formulación y reconocimiento normativo de coproducción",
+      "fuentes": ["F01", "F03"],
+      "limitacion": "No hay trazabilidad completa de participación en implementación reciente"
+    },
+    {
+      "codigo": "DIM-10",
+      "nombre": "Equidad territorial",
+      "estado_evidencia": "Evidencia limitada",
+      "hallazgo": "No valorable con robustez la distribución territorial de intervenciones",
+      "fuentes": ["F01", "F02", "F06"],
+      "limitacion": "Falta desagregación territorial de ejecución"
+    },
+    {
+      "codigo": "DIM-11",
+      "nombre": "Transparencia, seguimiento y rendición de cuentas",
+      "estado_evidencia": "Evidencia parcial",
+      "hallazgo": "Existen mecanismos formales de seguimiento y obligación de informar",
+      "fuentes": ["F02", "F03"],
+      "limitacion": "No se observa reporte integral verificable de cumplimiento"
+    }
+  ],
+  "hallazgos_principales": [
+    {
+      "codigo": "HI-01",
+      "texto": "La estructura formal del PMSCC 2023-2027 está documentada con 4 ejes, 5 objetivos, 8 políticas, 15 programas y 27 proyectos",
+      "fuentes": ["F01"],
+      "nivel_confianza": "Alto",
+      "advertencia": "Corresponde a estructura planificada y no a ejecución"
+    },
+    {
+      "codigo": "HI-02",
+      "texto": "La Resolución ADMQ 008-2024 establece mandato formal de implementación y responsabilidad institucional",
+      "fuentes": ["F03"],
+      "nivel_confianza": "Alto",
+      "advertencia": "La obligación normativa no demuestra cumplimiento efectivo"
+    },
+    {
+      "codigo": "HI-03",
+      "texto": "El seguimiento institucional de F02 es útil pero parcial para verificar avances por componente",
+      "fuentes": ["F02"],
+      "nivel_confianza": "Medio",
+      "advertencia": "No identificado en las fuentes revisadas trazabilidad completa de ejecución"
+    },
+    {
+      "codigo": "HI-04",
+      "texto": "F04 permite localizar operaciones estadísticas relevantes pero no aporta en el texto revisado cifras específicas verificadas para Quito",
+      "fuentes": ["F04"],
+      "nivel_confianza": "Alto",
+      "advertencia": "No usar como evidencia directa de resultados municipales sin descarga y validación"
+    },
+    {
+      "codigo": "HI-05",
+      "texto": "F05 funciona como antecedente histórico y metodológico de victimización y percepción",
+      "fuentes": ["F05"],
+      "nivel_confianza": "Alto",
+      "advertencia": "No representa percepción actual ni resultados 2023-2025"
+    },
+    {
+      "codigo": "HI-06",
+      "texto": "F06 aporta evidencia operativa de emergencias coordinadas y coordinación interinstitucional en 2024",
+      "fuentes": ["F06"],
+      "nivel_confianza": "Alto",
+      "advertencia": "Emergencias no equivalen a delitos ni a impacto causal de política"
+    },
+    {
+      "codigo": "HI-07",
+      "texto": "901.664 emergencias coordinadas asociadas a la localidad Quito en 2024, según la clasificación utilizada por la fuente",
+      "fuentes": ["F06"],
+      "nivel_confianza": "Alto",
+      "advertencia": "Alcance territorial exacto Quito versus DMQ pendiente de contraste"
+    },
+    {
+      "codigo": "HI-08",
+      "texto": "No se identifica evidencia presupuestaria suficientemente detallada para evaluar ejecución de recursos",
+      "fuentes": ["F02", "F03", "F06"],
+      "nivel_confianza": "Medio",
+      "advertencia": "No inferir porcentaje de ejecución ni suficiencia financiera"
+    },
+    {
+      "codigo": "HI-09",
+      "texto": "No se identifica evidencia presupuestaria suficientemente detallada para evaluar ejecución de recursos",
+      "fuentes": ["F02", "F03", "F06"],
+      "nivel_confianza": "Medio",
+      "advertencia": "No inferir porcentaje de ejecución ni suficiencia financiera"
+    },
+    {
+      "codigo": "HI-10",
+      "texto": "Las fuentes revisadas no permiten demostrar impacto causal de la política",
+      "fuentes": ["F01", "F02", "F03", "F04", "F05", "F06"],
+      "nivel_confianza": "Alto",
+      "advertencia": "Mantener interpretación descriptiva y prudente"
+    },
+    {
+      "codigo": "HI-11",
+      "texto": "La triangulación mejora consistencia descriptiva pero mantiene vacíos de ejecución, cobertura y resultados",
+      "fuentes": ["F01", "F02", "F03", "F04", "F05", "F06"],
+      "nivel_confianza": "Medio",
+      "advertencia": "No concluye éxito o fracaso general"
+    }
+  ],
+  "indicadores_contextuales": [
+    {
+      "nombre": "Emergencias coordinadas asociadas a la localidad Quito",
+      "valor": 901664,
+      "periodo": "2024",
+      "fuente": "F06",
+      "estado_verificacion": "Alcance territorial exacto Quito versus DMQ pendiente de contraste",
+      "advertencia": "No equivale a delitos ni a resultados de la política municipal"
+    }
+  ],
+  "limitaciones": [
+    "No se identificó en las fuentes revisadas información presupuestaria suficientemente detallada para evaluar ejecución de recursos",
+    "No se identificó en las fuentes revisadas trazabilidad completa de actividades y productos por proyecto y territorio",
+    "No se identificó en F04 texto con cifras específicas verificadas para Quito",
+    "F05 corresponde a 2011 y no permite evaluar percepción actual",
+    "En F06 la equivalencia territorial exacta entre localidad Quito y perímetro DMQ requiere contraste adicional",
+    "Las emergencias coordinadas no equivalen automáticamente a delitos denunciados"
+  ],
+  "advertencias_metodologicas": [
+    "Diferenciar planificación, norma, actividad, producto, resultado e impacto",
+    "No presentar obligación normativa como cumplimiento efectivo",
+    "No presentar acción planificada como ejecutada",
+    "No presentar emergencias coordinadas como delitos",
+    "No presentar cifras nacionales como cifras específicas de Quito",
+    "No afirmar causalidad con la evidencia disponible",
+    "No interpretar ausencia de información como incumplimiento"
+  ],
+  "estado_general": "Síntesis documental integrada elaborada con fuentes F01-F06; evidencia formal y normativa verificada parcialmente, mientras que la ejecución, cobertura, presupuesto y resultados permanecen sujetos a limitaciones y verificación adicional"
+}
