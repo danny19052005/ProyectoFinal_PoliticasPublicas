@@ -1,0 +1,19 @@
+{
+  "archivo": "documentos/informe_academico_final_Faz_Danny.md",
+  "meta_paginas_minima": 20,
+  "meta_paginas_maxima": 25,
+  "meta_recomendada": 22,
+  "total_palabras_estimado": 8001,
+  "total_secciones": 26,
+  "tablas_incluidas": 13,
+  "figuras_o_diagramas_incluidos": 5,
+  "estado_extension": "Dentro del objetivo preliminar",
+  "formato_final_previsto": {
+    "papel": "A4",
+    "fuente": "Times New Roman",
+    "tamano_fuente": 12,
+    "interlineado": 1.5,
+    "margenes_cm": 2.5
+  },
+  "advertencia": "La cantidad definitiva de páginas deberá comprobarse después de convertir el documento a PDF"
+}

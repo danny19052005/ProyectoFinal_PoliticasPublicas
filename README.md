@@ -125,9 +125,9 @@ La arquitectura multiagéntica está implementada y operativa. Se encuentra en f
 
 - **Repositorio:** [https://github.com/danny19052005/ProyectoFinal_PoliticasPublicas](https://github.com/danny19052005/ProyectoFinal_PoliticasPublicas)
 - **Dashboard:** [https://proyecto-final-politicas-publicas-gh42niquf.vercel.app/](https://proyecto-final-politicas-publicas-gh42niquf.vercel.app/)
-- **Informe académico completo:** pendiente
-- **Video de demostración:** pendiente
-- **PDF final de entrega:** pendiente
+- **Video de demostración:** [https://drive.google.com/file/d/1EAy4rUCMaZ0CRVPiK985JjrEPzVcyZjH/view?usp=sharing](https://drive.google.com/file/d/1EAy4rUCMaZ0CRVPiK985JjrEPzVcyZjH/view?usp=sharing)
+- **Informe académico PDF:** documentos/ProyectoFinal_Faz_Danny.pdf
+- **Documento editable Word:** documentos/ProyectoFinal_Faz_Danny.docx
 
 ## Autoría y responsabilidad
 

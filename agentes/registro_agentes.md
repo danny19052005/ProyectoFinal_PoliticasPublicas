@@ -47,6 +47,8 @@ Este registro contribuye a demostrar que el proyecto fue desarrollado de forma o
 | 2026-07-22 | Agente de Programación y Visualización con revisión del Agente de Datos y de los subagentes verificador y crítico | actualización del dashboard con la síntesis integrada y auditada F01-F06 | dashboard dinámico, archivo de datos local, filtros, visualizaciones y configuración estática para Vercel | mantener advertencias metodológicas y no representar estados cualitativos como porcentajes | Aceptada | pendiente de prueba local y revisión visual del estudiante |
 | 2026-07-22 | Subagente Revisor Crítico con validación visual del estudiante | corrección de duplicación entre los hallazgos HI-08 y HI-09 del dashboard | hallazgos diferenciados y archivos JSON sincronizados | la duplicación fue detectada durante la prueba local del dashboard | Aceptada | el estudiante identificó visualmente la repetición en el dashboard |
 | 2026-07-22 | Agente de Programación y Visualización con validación del estudiante | despliegue y comprobación del dashboard en Vercel | dashboard publicado mediante un enlace público y conectado al repositorio de GitHub | el dashboard utiliza la síntesis integrada y auditada F01-F06 | Aceptada | el estudiante abrió el dashboard desplegado y copió el enlace público |
+| 2026-07-22 | Agente Coordinador con participación de los agentes especialistas y los subagentes verificador y crítico | elaboración del informe académico integral con formato institucional de referencia | borrador académico preparado para una extensión de 20 a 25 páginas y conversión posterior a PDF institucional | se incorporaron datos institucionales, docente, portada, enlaces y especificaciones visuales | Pendiente de auditoría final | pendiente de revisión del estudiante, comprobación de extensión y conversión a PDF |
+| 2026-07-22 | Agente Coordinador con validación final del estudiante | cierre de entregables y registro del video, informe PDF y documento editable | todos los entregables principales quedaron disponibles y registrados | se verificaron repositorio, dashboard, video e informe final | Aceptada | realizada por el estudiante antes de la entrega |
 
 **Aclaración:** Esta validación visual confirma cantidades y estructura planificada del Plan, pero no constituye evidencia de ejecución, cobertura, cumplimiento de metas o resultados alcanzados. El documento es un Plan de PLANIFICACIÓN ESTRATÉGICA, no un informe de implementación.
 
@@ -69,6 +71,10 @@ Este registro contribuye a demostrar que el proyecto fue desarrollado de forma o
 **Aclaración:** La comunicación visual debe simplificar la evidencia sin eliminar sus limitaciones, incertidumbres ni advertencias metodológicas.
 
 **Aclaración:** El enlace del dashboard deberá verificarse nuevamente antes de incorporarlo al informe, al video y al PDF final de entrega.
+
+**Aclaración:** La extensión y reproducción visual de la portada deberán comprobarse en el PDF final antes de la entrega.
+
+**Aclaración:** “El estudiante verificó los enlaces públicos y revisó el PDF definitivo antes de realizar la entrega”.
 
 ## Notas finales
 
