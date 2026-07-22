@@ -41,6 +41,7 @@ Este registro contribuye a demostrar que el proyecto fue desarrollado de forma o
 | 2026-07-22 | Agente Especialista en Políticas Públicas con revisión del Subagente Verificador y del Subagente Revisor Crítico | Análisis institucional y normativo de la Resolución ADMQ 008-2024 | Identificación de fundamentos jurídicos, responsabilidades, disposiciones de implementación, coordinación y mecanismos de seguimiento | Distinguir obligación normativa de evidencia de cumplimiento efectivo | Aceptada | Pendiente de contraste del estudiante con el PDF original |
 | 2026-07-22 | Agente de Datos y Metodología con revisión del Subagente Verificador de Fuentes y del Subagente Revisor Crítico | Análisis estadístico y contextual del portal Justicia y crimen del INEC | Identificación de productos estadísticos, periodos, niveles territoriales, conceptos y limitaciones para el análisis de Quito | Evitar presentar datos nacionales como datos del Distrito Metropolitano de Quito y diferenciar registros administrativos, encuestas y emergencias | Aceptada | Pendiente de revisión del estudiante y descarga de bases específicas cuando corresponda |
 | 2026-07-22 | Agente de Datos y Metodología con revisión del Subagente Verificador de Fuentes y del Subagente Revisor Crítico | Análisis histórico y metodológico de la Encuesta de Victimización y Percepción de Inseguridad 2011 | Identificación de conceptos, variables, diseño metodológico, alcance territorial, utilidad histórica y limitaciones | La fuente corresponde a 2011 y no representa la percepción actual de inseguridad en Quito | Aceptada únicamente como antecedente histórico o metodológico | Pendiente de revisión del estudiante y contraste con documentación y microdatos originales |
+| 2026-07-22 | Agente de Datos y Metodología con revisión del Agente Especialista en Políticas Públicas y de los subagentes verificador y crítico | análisis operativo y contextual de las emergencias coordinadas por el ECU 911 en 2024. | identificación de conceptos operativos, cifras, categorías, instituciones, coordinación, cobertura y limitaciones. | diferenciar emergencias, llamadas, incidentes y delitos; registrar Quito como localidad de la fuente y evitar equivalencia automática con el DMQ o con delitos. | Aceptada | pendiente de revisión del estudiante y contraste final con la publicación original. |
 
 **Aclaración:** Esta validación visual confirma cantidades y estructura planificada del Plan, pero no constituye evidencia de ejecución, cobertura, cumplimiento de metas o resultados alcanzados. El documento es un Plan de PLANIFICACIÓN ESTRATÉGICA, no un informe de implementación.
 
@@ -53,6 +54,8 @@ Este registro contribuye a demostrar que el proyecto fue desarrollado de forma o
 **Aclaración:** Las estadísticas de justicia y crimen pueden describir contexto o resultados observados, pero no demuestran por sí solas implementación municipal ni impacto causal de una política.
 
 **Aclaración:** Los resultados de una encuesta de 2011 no deben presentarse como evidencia actual ni atribuirse a una política implementada posteriormente.
+
+**Aclaración:** Las emergencias coordinadas por el ECU 911 representan eventos de atención operativa y no equivalen automáticamente a delitos denunciados, hechos delictivos confirmados ni resultados de la política municipal.
 
 ## Notas finales
 
