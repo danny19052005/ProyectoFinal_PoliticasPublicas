@@ -1,32 +1,74 @@
-# Dashboard Académico (HTML, CSS, JavaScript)
+# Dashboard académico de implementación (F01-F06)
 
 ## Propósito
 
-Este dashboard comunica de forma visual el problema público, la metodología, la estructura planificada del Plan Metropolitano, los actores, la arquitectura multiagéntica, las fuentes y el estado de la evidencia del proyecto.
+Este dashboard presenta de forma visual, académica y prudente la síntesis integrada y auditada del análisis de implementación de la política de seguridad ciudadana y recuperación del espacio público en Quito. Su objetivo es comunicar evidencia documental, estados cualitativos, hallazgos, limitaciones y advertencias metodológicas sin sobreinterpretar resultados.
 
-## Archivos incluidos
+## Datos utilizados
 
-- `index.html`: estructura completa del dashboard y secciones de contenido.
-- `styles.css`: diseño visual, layout responsivo y estilos de accesibilidad.
-- `script.js`: barras dinámicas de estructura, filtro de fuentes, navegación suave y año automático del pie de página.
-- `vercel.json`: configuración de despliegue estático con URLs limpias.
+Fuente principal de datos del dashboard:
 
-## Cómo probar localmente
+- `dashboard/data/resumen_dashboard_F01_F06.json`
 
-1. Abrir `dashboard/index.html` en el navegador.
-2. Verificar navegación superior, barras dinámicas y filtro de fuentes.
+Este archivo es una copia controlada del resumen auditado en:
 
-No se requieren dependencias, instalación ni build.
+- `resultados/resumen_dashboard_F01_F06.json`
+
+Respaldo documental:
+
+- `documentos/sintesis_integrada_implementacion_F01_F06.md`
+- `documentos/validacion_critica_sintesis_integrada_F01_F06.md`
+- `datos/matriz_integrada_implementacion_F01_F06.csv`
+
+## Archivos del dashboard
+
+- `dashboard/index.html`: estructura semántica y secciones del dashboard.
+- `dashboard/styles.css`: diseño visual responsive, etiquetas de estado, filtros y estilos de impresión.
+- `dashboard/script.js`: carga local del JSON, render dinámico y filtros.
+- `dashboard/vercel.json`: configuración estática para despliegue del subdirectorio dashboard.
+- `dashboard/data/resumen_dashboard_F01_F06.json`: dataset local auditado para visualización.
+
+## Ejecución local
+
+Comando:
+
+```powershell
+py -m http.server 8000 --directory dashboard
+```
+
+Abrir en navegador:
+
+```text
+http://localhost:8000
+```
 
 ## Despliegue en Vercel
 
-1. Importar el repositorio en Vercel.
-2. Seleccionar `dashboard` como **Root Directory**.
-3. Mantener configuración de sitio estático.
-4. Desplegar.
+Este repositorio incluye un archivo `vercel.json` en la raíz con `outputDirectory: "dashboard"` para publicar el sitio estático desde la raíz sin detectar `main.py` como aplicación Python.
 
-No se requiere instalar paquetes ni ejecutar comandos de compilación.
+Alternativamente, también puede seleccionarse `dashboard` como Root Directory en Vercel. En ambos casos:
 
-## Nota metodológica
+- no se requiere instalación;
+- no se requiere build;
+- no se requieren funciones;
+- no se usa Node, npm ni Python para el despliegue del frontend.
 
-Los datos pendientes deben mantenerse como "En revisión" o "Pendiente" y no deben presentarse como resultados confirmados de implementación.
+## Sincronización del JSON
+
+Cuando cambie `resultados/resumen_dashboard_F01_F06.json`, debe sincronizarse la copia de `dashboard/data/resumen_dashboard_F01_F06.json` para mantener coherencia visual con la versión auditada.
+
+## Limitaciones metodológicas
+
+El dashboard refleja un análisis de implementación, no una evaluación causal de impacto. Se mantienen explícitas las advertencias sobre:
+
+- diferencias de definición y periodo;
+- cobertura territorial incompleta;
+- evidencia presupuestaria parcial o limitada;
+- F04 sin cifras específicas verificadas de Quito en el texto analizado;
+- F05 como antecedente histórico de 2011;
+- F06 como registro operativo de emergencias y no de delitos;
+- imposibilidad de atribuir cambios a una sola institución sin diseño causal.
+
+## Advertencia de uso
+
+No deben presentarse datos pendientes o parciales como resultados confirmados de efectividad, cumplimiento total, éxito o fracaso general de la política.

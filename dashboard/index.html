@@ -4,273 +4,290 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Análisis de implementación de la política de seguridad ciudadana y recuperación del espacio público en Quito</title>
-  <meta name="description" content="Dashboard académico sobre implementación de política pública de seguridad ciudadana y recuperación del espacio público en Quito." />
+  <meta name="description" content="Dashboard académico sobre implementación de política pública en el Distrito Metropolitano de Quito." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <a class="skip-link" href="#inicio">Saltar al contenido principal</a>
+  <a class="skip-link" href="#inicio">Saltar al contenido</a>
 
   <header class="topbar" role="banner">
-    <div class="container topbar-inner">
-      <strong class="brand">Dashboard académico</strong>
-      <nav aria-label="Navegación principal">
-        <ul class="nav-links">
-          <li><a href="#resumen">Resumen</a></li>
-          <li><a href="#estructura">Estructura</a></li>
-          <li><a href="#estado">Estado</a></li>
-          <li><a href="#metodologia">Metodología</a></li>
-          <li><a href="#fuentes">Fuentes</a></li>
-          <li><a href="#conclusion">Conclusión</a></li>
-        </ul>
+    <div class="wrap topbar-inner">
+      <div class="brand">Dashboard académico</div>
+
+      <button id="menuToggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="mainNav">
+        Menú
+      </button>
+
+      <nav id="mainNav" class="main-nav" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#estructura-plan">Estructura del Plan</a>
+        <a href="#dimensiones">Dimensiones</a>
+        <a href="#hallazgos">Hallazgos</a>
+        <a href="#fuentes">Fuentes</a>
+        <a href="#metodologia">Metodología</a>
+        <a href="#limitaciones">Limitaciones</a>
       </nav>
+
+      <div class="top-links">
+        <a class="top-link" href="https://github.com/danny19052005/ProyectoFinal_PoliticasPublicas" target="_blank" rel="noopener noreferrer">Repositorio GitHub</a>
+        <a class="top-link" href="https://seguridad.quito.gob.ec/wp-content/uploads/2024/12/Plan-Metropolitano-de-Seguridad-Ciudadana-Version-Web.pdf" target="_blank" rel="noopener noreferrer">Fuente principal</a>
+      </div>
     </div>
   </header>
 
-  <main id="inicio" class="container" tabindex="-1">
-    <section class="hero card" aria-labelledby="titulo-principal">
-      <h1 id="titulo-principal">Análisis de implementación de la política de seguridad ciudadana y recuperación del espacio público en Quito</h1>
-      <p class="subtitle">Proyecto académico individual | Modalidad: análisis de implementación</p>
+  <main class="wrap">
+    <section id="inicio" class="section portada" aria-labelledby="titleMain">
+      <h1 id="titleMain">Análisis de implementación de la política de seguridad ciudadana y recuperación del espacio público en Quito</h1>
+      <p class="sub">Proyecto académico individual | Modalidad: análisis de implementación</p>
+
+      <div class="meta-grid">
+        <article class="card"><h2>Modalidad</h2><p id="metaModalidad">Análisis de implementación</p></article>
+        <article class="card"><h2>Territorio</h2><p id="metaTerritorio">Distrito Metropolitano de Quito</p></article>
+        <article class="card"><h2>Periodo principal</h2><p id="metaPeriodo">2023-2025</p></article>
+      </div>
+
+      <article class="card question-card">
+        <h2>Pregunta central</h2>
+        <p id="preguntaCentral">¿Cómo se ha implementado la política de seguridad ciudadana y recuperación del espacio público en el Distrito Metropolitano de Quito, y cuáles han sido sus principales resultados y desafíos?</p>
+      </article>
+
       <div class="hero-actions">
-        <a class="btn btn-primary" href="https://github.com/danny19052005/ProyectoFinal_PoliticasPublicas" target="_blank" rel="noopener noreferrer">Ver repositorio</a>
-        <a class="btn btn-secondary" href="https://seguridad.quito.gob.ec/wp-content/uploads/2024/12/Plan-Metropolitano-de-Seguridad-Ciudadana-Version-Web.pdf" target="_blank" rel="noopener noreferrer">Consultar fuente principal</a>
+        <a class="btn primary" href="https://github.com/danny19052005/ProyectoFinal_PoliticasPublicas" target="_blank" rel="noopener noreferrer">Ver repositorio</a>
+        <a class="btn secondary" href="https://seguridad.quito.gob.ec/wp-content/uploads/2024/12/Plan-Metropolitano-de-Seguridad-Ciudadana-Version-Web.pdf" target="_blank" rel="noopener noreferrer">Consultar fuente principal</a>
       </div>
     </section>
 
-    <section id="resumen" class="section" aria-labelledby="resumen-title">
-      <h2 id="resumen-title">Resumen del proyecto</h2>
-      <div class="cards-grid four">
-        <article class="card stat"><h3>Modalidad</h3><p>Análisis de implementación</p></article>
-        <article class="card stat"><h3>Unidad de análisis</h3><p>Plan Metropolitano de Seguridad y Convivencia Ciudadana 2023-2027</p></article>
-        <article class="card stat"><h3>Periodo principal</h3><p>2023-2025</p></article>
-        <article class="card stat"><h3>Territorio</h3><p>Distrito Metropolitano de Quito</p></article>
-      </div>
-      <article class="card question">
-        <h3>Pregunta central</h3>
-        <p>¿Cómo se ha implementado la política de seguridad ciudadana y recuperación del espacio público en el Distrito Metropolitano de Quito, y cuáles han sido sus principales resultados y desafíos?</p>
-      </article>
-    </section>
-
-    <section id="problema" class="section" aria-labelledby="problema-title">
-      <h2 id="problema-title">Problema público</h2>
+    <section id="resumen-ejecutivo" class="section" aria-labelledby="resumenTitle">
+      <h2 id="resumenTitle">Resumen ejecutivo</h2>
       <article class="card">
-        <p>El aumento de la percepción de inseguridad y de los delitos de oportunidad en zonas comerciales, parques y paradas de transporte público del Distrito Metropolitano de Quito afecta a ciudadanos, comerciantes y visitantes, limita el ejercicio de derechos y afecta la actividad económica local.</p>
+        <p>
+          La evidencia revisada confirma que existe una estructura formalmente planificada, respaldo normativo y mecanismos institucionales de seguimiento y coordinación. Sin embargo, la evidencia empírica sobre presupuesto, actividades, productos, cobertura y resultados es parcial o limitada. Por ello, no es posible demostrar impacto causal ni afirmar definitivamente éxito o fracaso general.
+        </p>
       </article>
     </section>
 
-    <section id="estructura" class="section" aria-labelledby="estructura-title">
-      <h2 id="estructura-title">Estructura planificada verificada</h2>
-      <div class="cards-grid five" id="structure-cards"></div>
+    <section id="estructura-plan" class="section" aria-labelledby="estructuraTitle">
+      <h2 id="estructuraTitle">Estructura planificada del Plan</h2>
+      <div id="estructuraCards" class="cards five"></div>
 
-      <article class="card chart-card" aria-labelledby="chart-title">
-        <h3 id="chart-title">Componentes de la estructura planificada del Plan</h3>
-        <div id="bars-chart" class="bars-chart" role="img" aria-label="Barras con ejes, objetivos, políticas, programas y proyectos"></div>
+      <article class="card">
+        <h3>Gráfico de barras de la estructura planificada</h3>
+        <div id="estructuraBars" class="bar-chart" role="img" aria-label="Gráfico de barras de ejes, objetivos, políticas, programas y proyectos"></div>
       </article>
 
-      <div class="alert warning" role="note">
-        Estas cantidades describen la estructura planificada del Plan. No demuestran ejecución, cumplimiento de metas, cobertura ni resultados alcanzados.
+      <div class="alert warning">
+        Estas cantidades representan la estructura planificada del Plan y no constituyen porcentajes de avance, ejecución, cobertura ni cumplimiento.
       </div>
 
-      <article class="card refs">
+      <article class="card">
         <h3>Referencias de verificación visual</h3>
-        <ul>
-          <li>Página 17 del visor del PDF: resumen de cantidades.</li>
-          <li>Figura 74, página 140 del visor del PDF: 4 ejes y 5 objetivos.</li>
-          <li>Tabla 25, páginas 146-148 del visor del PDF: 8 políticas, 15 programas y 27 proyectos.</li>
-        </ul>
+        <ul id="estructuraReferencias"></ul>
       </article>
     </section>
 
-    <section id="estado" class="section" aria-labelledby="estado-title">
-      <h2 id="estado-title">Estado del análisis de implementación</h2>
-      <div class="table-wrap card">
-        <table aria-describedby="estado-title">
-          <thead>
-            <tr>
-              <th>Dimensión</th>
-              <th>Estado</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><td>Diseño y planificación</td><td><span class="tag verified">Verificado</span> documento principal identificado y revisado.</td></tr>
-            <tr><td>Marco institucional</td><td><span class="tag review">En revisión</span> revisión documental en desarrollo.</td></tr>
-            <tr><td>Recursos y presupuesto</td><td><span class="tag pending">Pendiente</span> información pendiente de verificación.</td></tr>
-            <tr><td>Actividades ejecutadas</td><td><span class="tag pending">Pendiente</span> evidencia pendiente de recopilación.</td></tr>
-            <tr><td>Coordinación interinstitucional</td><td><span class="tag review">En revisión</span> análisis documental en desarrollo.</td></tr>
-            <tr><td>Cobertura territorial y poblacional</td><td><span class="tag pending">Pendiente</span> evidencia pendiente.</td></tr>
-            <tr><td>Productos entregados</td><td><span class="tag pending">Pendiente</span> evidencia pendiente.</td></tr>
-            <tr><td>Resultados inmediatos</td><td><span class="tag pending">Pendiente</span> evidencia pendiente.</td></tr>
-            <tr><td>Participación ciudadana</td><td><span class="tag review">En revisión</span> análisis documental en desarrollo.</td></tr>
-            <tr><td>Transparencia y seguimiento</td><td><span class="tag review">En revisión</span> fuentes identificadas.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <section id="actores" class="section" aria-labelledby="actores-title">
-      <h2 id="actores-title">Instituciones y actores</h2>
-      <div class="cards-grid four">
-        <article class="card"><h3>Municipio del Distrito Metropolitano de Quito</h3><p>Entidad local que formula y coordina el Plan Metropolitano en el marco de sus competencias municipales.</p></article>
-        <article class="card"><h3>Policía Nacional del Ecuador</h3><p>Actor de coordinación interinstitucional en seguridad ciudadana, mencionado en la estructura del Plan.</p></article>
-        <article class="card"><h3>ECU 911</h3><p>Fuente institucional relevante para reportes de emergencias atendidas y apoyo al análisis de contexto operativo.</p></article>
-        <article class="card"><h3>Ciudadanía y comerciantes</h3><p>Actores sociales afectados por la inseguridad y participantes clave en procesos de diagnóstico y seguimiento local.</p></article>
-      </div>
-    </section>
-
-    <section id="metodologia" class="section" aria-labelledby="metodologia-title">
-      <h2 id="metodologia-title">Metodología</h2>
-      <article class="card">
-        <ul class="list-check">
-          <li>Revisión documental.</li>
-          <li>Análisis descriptivo de indicadores.</li>
-          <li>Comparación temporal cuando existan datos comparables.</li>
-          <li>Triangulación de fuentes institucionales.</li>
-          <li>Análisis cualitativo de coordinación, gestión y dificultades.</li>
-          <li>Validación humana de cifras, citas y decisiones.</li>
-        </ul>
-        <div class="alert info">El proyecto analiza la implementación. No realiza una evaluación causal de impacto.</div>
-      </article>
-    </section>
-
-    <section id="indicadores" class="section" aria-labelledby="indicadores-title">
-      <h2 id="indicadores-title">Indicadores previstos</h2>
-      <div class="cards-grid three">
-        <article class="card">
-          <h3>Insumos</h3>
-          <ul>
-            <li>Presupuesto destinado a seguridad ciudadana.</li>
-          </ul>
-        </article>
-        <article class="card">
-          <h3>Productos</h3>
-          <ul>
-            <li>Cámaras de videovigilancia.</li>
-            <li>Luminarias.</li>
-            <li>Alarmas comunitarias.</li>
-            <li>Acciones documentadas de recuperación del espacio público.</li>
-          </ul>
-        </article>
-        <article class="card">
-          <h3>Resultados</h3>
-          <ul>
-            <li>Variación de delitos registrados.</li>
-            <li>Percepción de seguridad.</li>
-            <li>Cobertura territorial de las intervenciones.</li>
-          </ul>
-        </article>
-      </div>
-      <div class="alert warning">Los valores estadísticos todavía se encuentran en recopilación y verificación.</div>
-    </section>
-
-    <section id="arquitectura" class="section" aria-labelledby="arquitectura-title">
-      <h2 id="arquitectura-title">Arquitectura multiagéntica</h2>
-      <article class="card">
-        <div class="agent-flow" aria-label="Diagrama de flujo de arquitectura multiagéntica">
-          <div class="agent">Agente coordinador</div>
-          <div class="agent">Agente especialista en políticas públicas</div>
-          <div class="agent">Agente de datos y metodología</div>
-          <div class="agent">Agente de programación y visualización</div>
-          <div class="agent">Subagente verificador de fuentes</div>
-          <div class="agent">Subagente revisor crítico</div>
-          <div class="agent final">Validación final del estudiante</div>
-        </div>
-        <p class="note">Los agentes apoyan el proceso, pero el estudiante conserva la responsabilidad metodológica y académica.</p>
-      </article>
-    </section>
-
-    <section id="fuentes" class="section" aria-labelledby="fuentes-title">
-      <h2 id="fuentes-title">Fuentes oficiales</h2>
-      <div class="card filter-row">
-        <label for="state-filter">Filtrar por estado:</label>
-        <select id="state-filter" aria-controls="sources-table">
+    <section id="dimensiones" class="section" aria-labelledby="dimensionesTitle">
+      <h2 id="dimensionesTitle">Estado de las 11 dimensiones</h2>
+      <div class="card filter-box">
+        <label for="filterDimensionEstado">Filtrar por estado de evidencia:</label>
+        <select id="filterDimensionEstado">
           <option value="all">Todas</option>
-          <option value="verificado">Verificado</option>
-          <option value="en revisión">En revisión</option>
-          <option value="pendiente">Pendiente</option>
+          <option value="Evidencia suficiente">Evidencia suficiente</option>
+          <option value="Evidencia parcial">Evidencia parcial</option>
+          <option value="Evidencia limitada">Evidencia limitada</option>
+          <option value="Sin evidencia identificada en las fuentes revisadas">Sin evidencia identificada en las fuentes revisadas</option>
         </select>
       </div>
-      <div class="table-wrap card">
-        <table id="sources-table">
+      <div id="dimensionesList" class="cards"></div>
+      <p id="dimensionesEmpty" class="empty hidden">No hay dimensiones para el filtro seleccionado.</p>
+    </section>
+
+    <section id="hallazgos" class="section" aria-labelledby="hallazgosTitle">
+      <h2 id="hallazgosTitle">Hallazgos integrados</h2>
+      <div class="card filter-box">
+        <label for="filterHallazgoNivel">Filtrar por nivel de confianza:</label>
+        <select id="filterHallazgoNivel">
+          <option value="all">Todos</option>
+          <option value="Alto">Alto</option>
+          <option value="Medio">Medio</option>
+          <option value="Bajo">Bajo</option>
+        </select>
+      </div>
+      <div id="hallazgosList" class="cards"></div>
+      <p id="hallazgosEmpty" class="empty hidden">No hay hallazgos para el filtro seleccionado.</p>
+    </section>
+
+    <section id="indicador-contextual" class="section" aria-labelledby="indicadorTitle">
+      <h2 id="indicadorTitle">Indicador operativo contextual</h2>
+      <article class="card indicador-card">
+        <p class="big-number" id="indicadorValor">901.664</p>
+        <p id="indicadorDescripcion">Emergencias coordinadas asociadas a la localidad Quito en 2024, según la clasificación utilizada por la fuente.</p>
+        <p class="muted">Fuente: <span id="indicadorFuente">F06</span></p>
+      </article>
+      <div class="alert warning">
+        <ul>
+          <li>El alcance territorial exacto Quito versus Distrito Metropolitano de Quito está pendiente de contraste.</li>
+          <li>Las emergencias coordinadas no equivalen a delitos denunciados.</li>
+          <li>La cifra no representa resultados ni impacto de la política municipal.</li>
+          <li>No debe utilizarse como indicador de aumento o reducción del delito.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="fuentes" class="section" aria-labelledby="fuentesTitle">
+      <h2 id="fuentesTitle">Fuentes F01-F06</h2>
+      <div class="card filter-grid">
+        <div>
+          <label for="filterFuenteTipo">Filtrar por tipo:</label>
+          <select id="filterFuenteTipo">
+            <option value="all">Todos</option>
+          </select>
+        </div>
+        <div>
+          <label for="filterFuenteDecision">Filtrar por decisión metodológica:</label>
+          <select id="filterFuenteDecision">
+            <option value="all">Todas</option>
+          </select>
+        </div>
+      </div>
+      <div class="card table-wrap">
+        <table>
           <thead>
             <tr>
               <th>Código</th>
-              <th>Fuente</th>
-              <th>Estado</th>
-              <th>Enlace</th>
+              <th>Tipo</th>
+              <th>Decisión metodológica</th>
+              <th>Utilidad</th>
+              <th>Limitación</th>
             </tr>
           </thead>
-          <tbody>
-            <tr data-state="verificado">
-              <td>F01</td>
-              <td>Plan Metropolitano de Seguridad y Convivencia Ciudadana 2023-2027.</td>
-              <td><span class="tag verified">Verificado</span> texto extraído, estructura revisada y cantidades principales verificadas visualmente.</td>
-              <td><a href="https://seguridad.quito.gob.ec/wp-content/uploads/2024/12/Plan-Metropolitano-de-Seguridad-Ciudadana-Version-Web.pdf" target="_blank" rel="noopener noreferrer">Abrir fuente F01</a></td>
-            </tr>
-            <tr data-state="pendiente">
-              <td>F02</td>
-              <td>Seguimiento al Plan Metropolitano.</td>
-              <td><span class="tag pending">Pendiente</span> fuente identificada; revisión pendiente.</td>
-              <td>Sin enlace activo en este dashboard</td>
-            </tr>
-            <tr data-state="pendiente">
-              <td>F03</td>
-              <td>Resolución ADMQ 008-2024.</td>
-              <td><span class="tag pending">Pendiente</span> fuente identificada; revisión pendiente.</td>
-              <td>Sin enlace activo en este dashboard</td>
-            </tr>
-            <tr data-state="pendiente">
-              <td>F04</td>
-              <td>Portal de Justicia y Crimen del INEC.</td>
-              <td><span class="tag pending">Pendiente</span> fuente identificada; revisión pendiente.</td>
-              <td>Sin enlace activo en este dashboard</td>
-            </tr>
-            <tr data-state="en revisión">
-              <td>F05</td>
-              <td>Encuesta de Victimización y Percepción de Inseguridad 2011.</td>
-              <td><span class="tag review">En revisión</span> únicamente antecedente histórico o metodológico.</td>
-              <td>Sin enlace activo en este dashboard</td>
-            </tr>
-            <tr data-state="pendiente">
-              <td>F06</td>
-              <td>Estadísticas institucionales del ECU 911.</td>
-              <td><span class="tag pending">Pendiente</span> fuente identificada; revisión pendiente.</td>
-              <td>Sin enlace activo en este dashboard</td>
-            </tr>
-          </tbody>
+          <tbody id="fuentesBody"></tbody>
         </table>
       </div>
+      <p id="fuentesEmpty" class="empty hidden">No hay fuentes para los filtros seleccionados.</p>
     </section>
 
-    <section id="limitaciones" class="section" aria-labelledby="limitaciones-title">
-      <h2 id="limitaciones-title">Limitaciones</h2>
+    <section id="metodologia" class="section" aria-labelledby="metodologiaTitle">
+      <h2 id="metodologiaTitle">Metodología</h2>
       <article class="card">
         <ul>
-          <li>Posible subregistro de delitos.</li>
-          <li>Datos con diferentes definiciones y periodos.</li>
-          <li>Ausencia de datos desagregados.</li>
-          <li>Información presupuestaria posiblemente incompleta.</li>
-          <li>Diferencia entre delitos denunciados y emergencias atendidas.</li>
-          <li>Información de percepción posiblemente desactualizada.</li>
-          <li>Imposibilidad de atribuir cambios a una sola institución sin diseño causal.</li>
+          <li>Revisión documental.</li>
+          <li>Análisis descriptivo.</li>
+          <li>Triangulación de fuentes.</li>
+          <li>Comparación temporal únicamente cuando existan datos comparables.</li>
+          <li>Análisis cualitativo institucional.</li>
+          <li>Validación humana.</li>
+          <li>Revisión del subagente verificador.</li>
+          <li>Auditoría del subagente crítico.</li>
+        </ul>
+        <p class="strong-note">El proyecto corresponde a un análisis de implementación y no a una evaluación causal de impacto.</p>
+      </article>
+    </section>
+
+    <section id="cadena-logica" class="section" aria-labelledby="cadenaTitle">
+      <h2 id="cadenaTitle">Cadena lógica</h2>
+      <div class="logic-grid" aria-label="Diagrama de cadena lógica de implementación">
+        <article class="logic-card evidence-high"><h3>Problema público</h3><p>Evidencia parcial</p></article>
+        <article class="logic-card evidence-high"><h3>Insumos</h3><p>Evidencia parcial</p></article>
+        <article class="logic-card evidence-mid"><h3>Actividades</h3><p>Evidencia parcial</p></article>
+        <article class="logic-card evidence-low"><h3>Productos</h3><p>Evidencia limitada</p></article>
+        <article class="logic-card evidence-mid"><h3>Resultados inmediatos</h3><p>Evidencia parcial</p></article>
+        <article class="logic-card evidence-low"><h3>Resultados intermedios</h3><p>Evidencia limitada</p></article>
+        <article class="logic-card evidence-none"><h3>Impacto</h3><p>Sin evidencia identificada en las fuentes revisadas</p></article>
+      </div>
+      <p class="card">
+        La planificación y la norma tienen mayor evidencia documental. Presupuesto, ejecución, cobertura y resultados presentan evidencia parcial o limitada. El impacto causal no fue demostrado.
+      </p>
+    </section>
+
+    <section id="fortalezas" class="section" aria-labelledby="fortalezasTitle">
+      <h2 id="fortalezasTitle">Fortalezas</h2>
+      <article class="card">
+        <ul>
+          <li>Existencia de planificación formal.</li>
+          <li>Estructura definida.</li>
+          <li>Respaldo normativo.</li>
+          <li>Responsabilidades institucionales.</li>
+          <li>Mecanismos de seguimiento.</li>
+          <li>Disponibilidad de fuentes oficiales.</li>
+          <li>Coordinación operativa documentada como contexto.</li>
+        </ul>
+        <p class="muted">Estas fortalezas formales no demuestran por sí mismas efectividad.</p>
+      </article>
+    </section>
+
+    <section id="vacios-desafios" class="section" aria-labelledby="vaciosTitle">
+      <h2 id="vaciosTitle">Vacíos y desafíos</h2>
+      <article class="card">
+        <ul>
+          <li>Falta de presupuesto detallado.</li>
+          <li>Limitada trazabilidad de actividades.</li>
+          <li>Productos entregados insuficientemente documentados.</li>
+          <li>Falta de cobertura territorial fina.</li>
+          <li>Ausencia de percepción reciente comparable.</li>
+          <li>Dificultad para asociar resultados a zonas intervenidas.</li>
+          <li>Diferencias entre emergencias y delitos.</li>
+          <li>Falta de evidencia causal.</li>
         </ul>
       </article>
     </section>
 
-    <section id="conclusion" class="section" aria-labelledby="conclusion-title">
-      <h2 id="conclusion-title">Conclusión preliminar</h2>
+    <section id="limitaciones" class="section" aria-labelledby="limitacionesTitle">
+      <h2 id="limitacionesTitle">Limitaciones metodológicas</h2>
       <article class="card">
-        <p>Se ha verificado la estructura del Plan y se ha organizado la arquitectura multiagéntica del proyecto. Las evidencias de ejecución, cobertura y resultados todavía deben completarse. Con la evidencia disponible hasta este momento no es posible concluir éxito o fracaso de la política.</p>
+        <ul id="limitacionesList"></ul>
+      </article>
+      <article class="card">
+        <h3>Advertencias metodológicas</h3>
+        <ul id="advertenciasList"></ul>
       </article>
     </section>
+
+    <section id="respuesta-preliminar" class="section" aria-labelledby="respuestaTitle">
+      <h2 id="respuestaTitle">Respuesta preliminar</h2>
+      <article class="card">
+        <p>
+          La implementación cuenta con una estructura planificada y un respaldo normativo claramente identificables. También existen mecanismos formales de seguimiento y coordinación institucional. Sin embargo, la evidencia revisada sobre ejecución presupuestaria, actividades verificadas, productos entregados, cobertura territorial y resultados comparables sigue siendo parcial o limitada. Por ello, las fuentes disponibles no permiten demostrar impacto causal ni concluir definitivamente éxito o fracaso general de la política.
+        </p>
+      </article>
+    </section>
+
+    <section id="arquitectura" class="section" aria-labelledby="arquitecturaTitle">
+      <h2 id="arquitecturaTitle">Arquitectura multiagéntica</h2>
+      <div class="agent-diagram card" aria-label="Diagrama de arquitectura multiagéntica">
+        <div class="agent">Agente coordinador</div>
+        <div class="agent">Agente especialista en políticas públicas</div>
+        <div class="agent">Agente de datos y metodología</div>
+        <div class="agent">Agente de programación y visualización</div>
+        <div class="agent">Subagente verificador de fuentes</div>
+        <div class="agent">Subagente revisor crítico</div>
+        <div class="agent final">Validación final del estudiante</div>
+      </div>
+      <p class="card">El estudiante conserva la responsabilidad académica y metodológica.</p>
+    </section>
+
+    <section class="section" aria-labelledby="estadoGeneralTitle">
+      <h2 id="estadoGeneralTitle">Estado general de la síntesis</h2>
+      <article class="card">
+        <p id="estadoGeneral"></p>
+        <p class="muted">Advertencia: validación humana pendiente.</p>
+      </article>
+    </section>
+
+    <div id="statusBox" class="status-box" role="status" aria-live="polite">Cargando resumen auditado...</div>
   </main>
 
   <footer class="footer">
-    <div class="container footer-inner">
-      <p>Proyecto académico individual — Política Pública — Distrito Metropolitano de Quito</p>
+    <div class="wrap footer-grid">
+      <p>Proyecto académico individual — Políticas Públicas — Distrito Metropolitano de Quito</p>
       <p><a href="https://github.com/danny19052005/ProyectoFinal_PoliticasPublicas" target="_blank" rel="noopener noreferrer">Repositorio de GitHub</a></p>
-      <p>&copy; <span id="current-year"></span></p>
+      <p>Año: <span id="yearNow"></span></p>
+      <p id="footerEstado"></p>
+      <p class="muted">Validación humana pendiente.</p>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <button id="toTopBtn" class="to-top" type="button" aria-label="Volver arriba">↑</button>
+
+  <script src="script.js" defer></script>
 </body>
 </html>

@@ -101,3 +101,11 @@ Análisis de respaldo:
 ## 10. Resultado final
 
 Síntesis integrada corregida, pendiente de validación humana final.
+
+## 11. Nota de revisión visual del dashboard
+
+Durante la revisión visual del dashboard se detectó duplicación entre HI-08 y HI-09: ambos mostraban el hallazgo "No se identifica evidencia presupuestaria suficientemente detallada para evaluar ejecución de recursos".
+
+Corrección aplicada: se restauró HI-08 con el hallazgo correspondiente en la síntesis integrada (901.664 emergencias coordinadas asociadas a la localidad Quito en 2024), y HI-09 se mantuvo como hallazgo presupuestario.
+
+Se verificó nuevamente la correspondencia entre la síntesis integrada y los dos archivos JSON del dashboard.
