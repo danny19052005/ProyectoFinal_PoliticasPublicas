@@ -1,0 +1,24 @@
+{
+    "nombre_archivo": "Plan_Metropolitano_Seguridad_Convivencia_2023_2027.pdf",
+    "ruta_archivo": "C:\\Users\\monse\\OneDrive\\Desktop\\ProyectoFinal_PoliticasPublicas\\documentos\\Plan_Metropolitano_Seguridad_Convivencia_2023_2027.pdf",
+    "total_paginas": 176,
+    "paginas_con_texto": 163,
+    "paginas_sin_texto": [
+        2,
+        3,
+        6,
+        9,
+        16,
+        18,
+        19,
+        56,
+        128,
+        154,
+        160,
+        175,
+        176
+    ],
+    "fecha_procesamiento": "2026-07-21T22:39:01.868609",
+    "herramienta_utilizada": "pypdf (extracción de texto sin OCR)",
+    "advertencia_metodologica": "El texto extraído automáticamente debe contrastarse con el PDF original antes de citarlo o utilizarlo en análisis académico riguroso. La extracción automática puede omitir, alterar o malinterpretar contenido, especialmente en tablas, gráficos o formatos especiales."
+}

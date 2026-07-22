@@ -33,8 +33,36 @@ Este registro contribuye a demostrar que el proyecto fue desarrollado de forma o
 | 2026-07-21 | Agente de Datos y Metodología | Elaboración del diseño metodológico completo | Se creó documentos/diseno_metodologico.md con 14 secciones: modalidad, unidad de análisis, delimitaciones, objetivos, enfoque, dimensiones (11), matriz metodológica, criterios de interpretación, limitaciones y procedimiento de validación | Documento riguroso de 11 dimensiones de análisis; se clarificó la prohibición de atribuir causalidad; se documentaron limitaciones metodológicas previstas | Aceptada | Completada por el estudiante |
 | 2026-07-21 | Agente de Datos y Metodología | Creación de matriz de fuentes oficiales e inventario | Se crearon dos archivos: matriz_fuentes_oficiales.md (tabla + 5 secciones) e inventario_fuentes.csv (6 fuentes F01-F06) | Se documentaron 6 fuentes con URLs completas; F05 marcada como antecedente histórico 2011; ninguna fuente marcada como verificada | Aceptada | Completada por el estudiante |
 | 2026-07-21 | Subagente Revisor Crítico | Validación estructural de archivos de fuentes | Verificación de 7 criterios de calidad: estructura CSV, 6 registros, integridad de campos, URLs completas, advertencia F05, estado de verificación, consistencia entre archivos | Se confirmó estructura correcta, 11 columnas en orden, códigos F01-F06 consistentes, URLs íntegras, F05 con advertencia clara, ninguna fuente verificada completamente | Aceptada | Completada por el estudiante |
+| 2026-07-21 | Subagente Verificador de Fuentes | Extracción y revisión estructural preliminar de la fuente F01 | PDF procesado; texto y metadatos generados; índice de verificación elaborado con 8 secciones: identificación, resultado de extracción, índice estructural, mapa de páginas relevantes, fragmentos para revisión, hallazgos documentales, limitaciones y estado | 176 páginas procesadas: 163 con texto extraíble y 13 sin texto. Índice de verificación identifica estructura del Plan, temas relevantes, limitaciones de extracción automática. Esta actividad no constituye verificación completa del contenido ni de las cifras del documento. | Aceptada | El estudiante ejecutó el script de extracción y comprobó el resultado mostrado en terminal |
+| 2026-07-21 | Subagente Revisor Crítico | Auditoría de evidencia de los hallazgos preliminares de F01 | Validación de afirmaciones cuantitativas, índice estructural y mapa de páginas. Documento de validación creado: validacion_critica_hallazgos_F01.md. Índice preliminar corregido en 3 ubicaciones. Afirmaciones conservadas tienen respaldo en texto extraído. | Errores identificados y corregidos: página inicial Diagnóstico (56→57), página inicial Planeación (128→129), página inicial Bibliografía (154→155). Afirmaciones cuantitativas confirmadas parcialmente: literal en Página 17 pero no validables plenamente desde Tabla 25 y Figura 74 (extracción incompleta). Riesgos documentados: tablas complejas no completamente extraídas, figuras parcialmente capturadas. | Aceptada | Pendiente de contraste visual del estudiante con el PDF original |
+| 2026-07-21 | Estudiante con apoyo del Subagente Verificador de Fuentes | Contraste visual de afirmaciones estructurales de la fuente F01 con el PDF original | Se verificaron visualmente todas las afirmaciones cuantitativas principales: 4 ejes, 5 objetivos, 8 políticas, 15 programas, 27 proyectos. Documentos actualizados: validacion_critica_hallazgos_F01.md (nueva sección 9) e indice_verificacion_plan_F01.md (referencias a páginas del PDF verificadas). | Página 17 (visor del PDF): contiene el resumen de cantidades (4 ejes, 5 objetivos, 8 políticas, 15 programas, 27 proyectos). Figura 74 (página 140 del visor del PDF): confirma visualmente 4 ejes y 5 objetivos. Tabla 25 (páginas 146-148 del visor del PDF): confirma visualmente 8 políticas, 15 programas, 27 proyectos. Aclaración: página 140 en visor (anteriormente referida como 139 en marcador de extracción). | Aceptada | Realizada directamente por el estudiante mediante revisión del PDF original |
+
+**Aclaración:** Esta validación visual confirma cantidades y estructura planificada del Plan, pero no constituye evidencia de ejecución, cobertura, cumplimiento de metas o resultados alcanzados. El documento es un Plan de PLANIFICACIÓN ESTRATÉGICA, no un informe de implementación.
 
 ## Notas finales
+
+### Sobre la revisión documental de F01 (2026-07-21)
+
+El Subagente Verificador de Fuentes completó la extracción y revisión estructural preliminar de la fuente F01 (Plan Metropolitano de Seguridad y Convivencia Ciudadana 2023-2027):
+
+**Resultados de procesamiento:**
+- Archivo PDF: 176 páginas totales
+- Páginas procesadas con texto extraíble: 163
+- Páginas sin contenido de texto: 13 (páginas 2, 3, 6, 9, 16, 18, 19, 56, 128, 154, 160, 175, 176)
+- Herramienta utilizada: pypdf (extracción sin OCR)
+
+**Productos generados:**
+1. `resultados/plan_metropolitano_texto.txt` - Texto completo extraído con marcadores de página
+2. `resultados/plan_metropolitano_metadatos.json` - Metadatos técnicos de la extracción
+3. `documentos/indice_verificacion_plan_F01.md` - Índice de verificación con 8 secciones
+
+**Limitaciones documentadas:**
+- Extracción automática sin OCR puede omitir gráficos, tablas complejas y contenido visual
+- 13 páginas sin contenido de texto requieren revisión directa en PDF original
+- Toda cifra, cita o dato debe contrastarse con el PDF original antes de usarse académicamente
+- Diferencia crítica: el documento presenta lo **planificado** (2023-2027), no evidencia de lo **ejecutado**
+
+**Aclaración importante:** Esta actividad de revisión estructural **no constituye una verificación completa del contenido ni de las cifras del documento**. Es una identificación preliminar de la estructura documental. La verificación sustantiva de datos, cifras específicas y contenido detallado requiere revisión visual en el PDF original.
 
 ### Sobre la validación del Subagente Revisor Crítico (2026-07-21)
 
@@ -49,6 +77,32 @@ La revisión estructural realizada por el Subagente Revisor Crítico sobre los a
 - Consistencia de códigos entre matriz y inventario
 
 **Aclaración importante:** La revisión realizada confirmó la estructura, consistencia de campos, códigos y enlaces registrados, pero no constituye todavía una verificación sustantiva del contenido completo de cada fuente oficial. La verificación de accesibilidad, autenticidad y contenido de fuentes será realizada durante el proceso de recopilación de datos.
+
+### Sobre la auditoría crítica de F01 (2026-07-21)
+
+El Subagente Revisor Crítico completó una auditoría exhaustiva de los hallazgos preliminares contenidos en `indice_verificacion_plan_F01.md`:
+
+**Errores comprobados y corregidos:**
+
+1. **Página inicial de Diagnóstico situacional:** Se corrigió de página 56 a página 57 (página 56 no contiene texto extraíble según metadatos)
+2. **Página inicial de Planeación estratégica:** Se corrigió de página 128 a página 129 (página 128 no contiene texto extraíble)
+3. **Página inicial de Bibliografía y Glosario:** Se corrigió de página 154 a página 155 (página 154 no contiene texto extraíble)
+
+**Validación de afirmaciones cuantitativas:**
+
+- **4 ejes, 5 objetivos, 8 políticas, 15 programas, 27 proyectos:** Confirmadas parcialmente. Aparecen literalmente en la Presentación del Alcalde (Página 17) pero las tablas de soporte (Tabla 25, Figura 74) no fueron completamente extraídas en formato utilizable para validación numérica completa.
+
+**Riesgos documentados:**
+
+- Las tablas complejas (especialmente Tabla 25) fueron extraídas de forma incompleta/desorganizada
+- Las figuras y esquemas (Figura 74, mapas de densidad espacial) no están completamente disponibles en el texto extraído
+- **Distinción crítica:** El Plan es documento de PLANIFICACIÓN para 2023-2027, no evidencia de IMPLEMENTACIÓN completada
+
+**Documento de validación:**
+
+Se creó archivo `documentos/validacion_critica_hallazgos_F01.md` con análisis exhaustivo incluyendo tablas de validación, verificación sección por sección, y documentación de riesgos metodológicos.
+
+**Conclusión de auditoría:** La revisión preliminar es ÚTIL COMO GUÍA ESTRUCTURAL pero INSUFICIENTE COMO VALIDACIÓN CUANTITATIVA. Toda cifra específica debe contrastarse directamente con el PDF original antes de incorporarla a análisis académico.
 
 ### Sobre la recopilación de datos
 
